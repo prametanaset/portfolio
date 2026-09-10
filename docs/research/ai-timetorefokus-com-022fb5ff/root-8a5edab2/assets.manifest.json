@@ -1,0 +1,15 @@
+[
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/6453e6f8cf5996ee24c21f67_644803b5990d6976563fca58_satoshi-variable.woff2","path":"../shared/fonts/satoshi-variable.woff2","kind":"font"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/646df004050417fdc1f19f23_logo_lottie.json","path":"lottie/logo_lottie.json","kind":"lottie"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/646df25163dae48be1b6503c_sound_lottie.json","path":"lottie/sound_lottie.json","kind":"lottie"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/646e2fe0bd097343969118f5_liquid_bar_8k.json","path":"lottie/liquid_bar_8k.json","kind":"lottie"},
+ {"url":"https://cdn.refokus.com/ttr/final-bg.mp4","path":"video/final-bg.mp4","kind":"video"},
+ {"url":"https://cdn.refokus.com/ttr/speaking-ball.mp4","path":"video/speaking-ball.mp4","kind":"video"},
+ {"url":"https://carousel-sigma.vercel.app/carousel_fixed.gltf","path":"model/carousel_fixed.gltf","kind":"model"},
+ {"url":"https://carousel-sigma.vercel.app/bg.mp3","path":"audio/bg.mp3","kind":"audio"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/647748953308d393b12c011f_video-poster.png","path":"images/video-poster.png","kind":"image"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/6453bf14e270824d606525c3_favicon.png","path":"../shared/favicon.png","kind":"image"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/6453bf14e270822ed46525c4_webclip.png","path":"../shared/webclip.png","kind":"image"},
+ {"url":"https://cdn.prod.website-files.com/6453bf13e270828d8465254c/649020e73a0f2e2edc6fba4a_TTR%20OpenGrapg.jpg","path":"images/og.jpg","kind":"image"},
+ {"url":"https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/VffmkIuRlY/IQTWzTFV6_","path":"video/hype-video.mp4","kind":"video"}
+]

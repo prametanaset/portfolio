@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# let-him-cook
+.claude/worktrees/
+.playwright-mcp/
+
+# clone reference bundles (large minified sources, reference only)
+docs/research/**/js/

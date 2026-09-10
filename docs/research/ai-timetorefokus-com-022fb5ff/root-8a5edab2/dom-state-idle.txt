@@ -1,0 +1,40 @@
+div#main.c-main [1440x900@0] disp=block op=1 pos=fixed z=1000
+  div#main-window.c-main_window [1408x868@16] disp=block op=1 pos=relative z=auto
+    div#loading.c-loading-screen [1408x868@16] disp=flex op=1 pos=relative z=50
+      div#loading-bar.c-loading_load-bar [247x4@448] disp=flex op=1 pos=static z=auto
+        div#loading-fill.c-loading_load-bar-fill [247x4@448] disp=block op=1 pos=relative z=auto
+        div#loading-video-wrapper.c-loading_video-embed w-embed [1440x900@0] disp=block op=1 pos=absolute z=auto
+        div#video-overlay.c-loading_video-overlay [1408x868@16] disp=block op=1 pos=absolute z=10
+      div#loading-number.c-loading_number [0x0@0] disp=none op=0 pos=absolute z=auto
+        span#loading-percentage.c-loading_percentage [0x0@0] disp=inline op=1 pos=static z=auto
+    div#intro-section.c-intro [1408x868@16] disp=block op=1 pos=fixed z=100
+      div.c-container cc-full cc-large [1408x868@16] disp=block op=1 pos=static z=auto
+        div.c-intro_wrapper [1360x868@16] disp=flex op=1 pos=relative z=auto
+    div#chat.c-app_section [1408x868@16] disp=block op=0 pos=absolute z=-1
+      div.c-app_section-wrapper [1408x868@16] disp=block op=1 pos=static z=auto
+        div.c-chat_overall [1408x868@16] disp=flex op=1 pos=static z=auto
+    div#bar.c-action-bar [1408x100@784] disp=flex op=1 pos=absolute z=300
+      div.c-action-bar_lottie w-embed [1408x100@784] disp=block op=1 pos=absolute z=auto
+        lottie-player#bottom-bar-lottie. [1408x100@784] disp=block op=1 pos=static z=auto
+      div.c-action-bar_container [1408x48@810] disp=flex op=1 pos=relative z=2000
+        a#bar-logo.c-refokus-logo-link w-inline-block [144x30@819] disp=block op=1 pos=static z=auto
+        div#push-to-start.c-text-push [97x16@854] disp=block op=1 pos=absolute z=auto
+        section#hype-btn.c-button-hype [264x48@810] disp=flex op=1 pos=relative z=auto
+        div#speaking-ball.c-ia-ball w-embed [80x80@746] disp=block op=1 pos=absolute z=auto
+      div.c-action-bar_border w-embed [20x20@764] disp=block op=1 pos=absolute z=auto
+        svg.[object SVGAnimatedString] [20x20@764] disp=inline op=1 pos=static z=auto
+      div.c-action-bar_border cc-right w-embed [20x20@764] disp=block op=1 pos=absolute z=auto
+        svg.[object SVGAnimatedString] [20x20@764] disp=inline op=1 pos=static z=auto
+    div#sound-btn.c-audio-lottie [23x16@66] disp=block op=0.5 pos=fixed z=500
+      div.c-sound-lottie_embed w-embed [23x16@66] disp=flex op=1 pos=static z=auto
+        lottie-player#sound-lottie. [23x16@66] disp=block op=1 pos=static z=auto
+      div.c-audio-lottie_text [43x19@64] disp=block op=0 pos=absolute z=auto
+      div.c-custom-code w-embed [0x0@0] disp=none op=1 pos=static z=auto
+    div#lottie-trigger-on.c-audio-lottie-trigger [0x0@66] disp=block op=0.5 pos=fixed z=500
+    div#lottie-trigger-off.c-audio-lottie-off [0x0@66] disp=block op=0.5 pos=fixed z=500
+    div#full-video.c-full-video [0x0@0] disp=none op=1 pos=absolute z=9999999
+      div#full-video-back.c-full-video_back-btn [0x0@0] disp=flex op=1 pos=absolute z=500
+        div.c-cta_arrow w-embed [0x0@0] disp=flex op=1 pos=static z=auto
+        div. [0x0@0] disp=block op=1 pos=static z=auto
+      div.c-full-video_embed w-embed [0x0@0] disp=block op=1 pos=static z=auto
+        video#hype-video. [0x0@0] disp=inline-block op=1 pos=static z=auto

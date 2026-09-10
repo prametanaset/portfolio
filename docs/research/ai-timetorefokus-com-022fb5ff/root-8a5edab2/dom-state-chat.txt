@@ -1,0 +1,49 @@
+div#chat.c-app_section [1408x868@16,16] op=1 S=pointer-events: all; opacity: 1; filter: blur(0px); z-index: 200;
+  div.c-app_section-wrapper [1408x868@16,16] op=1
+    div.c-chat_overall [1408x868@16,16] op=1
+      div.c-mobile-top-bar [0x0@0,0] op=1 T=
+      div.c-intro-btn cc-mobile [120x48@56,59] op=1
+        div#home-btn.c-text-1 cc-lh-1 cc-500 [120x48@56,59] op=1 T=TIME TO REFOKUS
+      div#slider-back.c-slider_back-btn [68x19@40,440] op=0
+        div.c-slider_back-arrow w-embed [16x13@40,444] op=1
+          svg.[object SVGAnimatedString] [14x13@41,444] op=1
+            path.[object SVGAnimatedString] [12x10@42,445] op=1 T=
+        div. [42x19@66,440] op=1 T=BACK
+      div.c-chat_slider [619x868@56,16] op=1
+        div#slider-aside.c-chat_slider-left [170x868@56,16] op=1 S=opacity: 1;
+          div#slider-text.c-chat_slider-text [170x79@56,565] op=1
+            p.c-text-5 [170x79@56,565] op=1
+        div#root.c-chat_slider-wrapper [915x868@16,16] op=1 S=filter: blur(0px); opacity: 1;
+          div.App [915x868@16,16] op=1
+            div. [915x868@16,16] op=1 S=position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto;
+        div.c-collection-hidden w-dyn-list [0x0@0,0] op=1
+          div.w-dyn-items [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+            div.w-dyn-item [0x0@0,0] op=1
+      div#chat-main.c-chat_main [709x868@675,16] op=1
+        div#chat-top.c-chat_top [709x508@675,16] op=1
+          div#chat-messages.c-chat_messages [709x508@675,16] op=1
+            div.c-chat_messages-wrapper [709x125@675,353] op=1
+          div.c-audio w-embed [0x0@0,0] op=1
+            audio#chat-audio. [0x0@0,0] op=1 T= S=data:audio/mpeg;base64, //twxAAADIGLA0YYYQmDGSM0ww09AAR8EEEpQDZwEEMu7sgQIDP7uiImESn1zru7on7xEru7n/+iIiFXd3d3dEREL9xbu/u6
+        div#chat-sender.c-chat_sender [709x360@675,524] op=1
+          div.c-chat_sender-input-wrapper [709x360@675,524] op=1
+            div.c-chat_form-block w-form [709x360@675,524] op=1
+        div#chat-article.c-article-wrapper [0x0@0,0] op=1
+          div.c-article_info [0x0@0,0] op=1
+            div.c-text-4 [0x0@0,0] op=1 T=October 26, 2022
+            div.c-text-4 [0x0@0,0] op=1
+          div.c-title-wrapper cc-40 [0x0@0,0] op=1
+            h2.c-title-2 [0x0@0,0] op=1 T=Heading
+          div.c-article-ctas [0x0@0,0] op=1
+            a.c-article_cta w-inline-block [0x0@0,0] op=1
+            a.c-article_cta cc-large w-inline-block [0x0@0,0] op=1
+      div.c-fake-center [0x0@0,0] op=1 T=
