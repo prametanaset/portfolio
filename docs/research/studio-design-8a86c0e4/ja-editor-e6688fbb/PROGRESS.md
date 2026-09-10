@@ -27,10 +27,10 @@
 ## Sections (status: pending | extracted | validated | dispatched | merged | reviewed | qa-pass)
 | # | selector | component | status | notes |
 |---|---|---|---|---|
-| 1 | header#header.symbol-1 | SiteHeader | dispatched | spec PASS (149 ln); click-driven dropdowns, one-open coordinator; slice prefix `symbol-1` |
-| 2 | main > .sd-3 | HeroDesignEditor | extracting | no video/appear inside after all — static hypothesis |
-| 3 | .sd-13 | NextCreationSection | pending | |
-| 4 | .sd-45 | FreeLayoutSection | pending | carousel sd-20 (6) |
+| 1 | header#header.symbol-1 | SiteHeader | reviewed | merged 3901c02, review fixes 2c18215 (per-panel close timers); mounted on route |
+| 2 | main > .sd-3 | HeroDesignEditor | reviewed | merged 4eef40e, fixes 8604be2; mounted; smoke diff vs origin 0.017% @1440 first viewport |
+| 3 | .sd-13 | NextCreationSection | dispatched | spec PASS; local carousel (shared SdCarousel does not fit); 7 extra images downloaded |
+| 4 | .sd-45 | FreeLayoutSection | extracting | sticky rail .sd-47 top 104 + 2 autoplay videos |
 | 5 | .sd-79 | EditorAiSection | pending | |
 | 6 | .sd-133 | VisualDesignSection | pending | |
 | 7 | .sd-216 | CreativeAssetsSection | pending | |
@@ -65,3 +65,13 @@
 Font Awesome IS rendered: the header's ＋/− toggle icons are `.fa-solid.fa-plus` / `.fa-minus` `::before`
 glyphs. `fa-solid-900.woff2`, `fa-brands-400.woff2` and `MaterialIcons-Regular.woff2` are now self-hosted
 under `public/sites/studio-design-8a86c0e4/shared/fonts/` and declared in `app/studio-base.css` (commit 2cafbe8).
+
+## Lessons that changed the tooling
+- Studio's responsive CSS lives in `<style media=...>` tags, not `@media` — `css/main.css` re-wraps them.
+- `tools/css-lib.mjs` now owns selector scoping and RECURSES through nested at-rules; an `@container`
+  nested in `@media` was previously scoped as if it were a selector, which made `next dev` return 500
+  (`Invalid dangling combinator`) while `next build` stayed silent. Always smoke the dev server, not just build.
+- The shared `SdCarousel`/`SdToggle` ports are starting points only: per-section extraction has twice shown
+  the origin behaves differently (header toggles, sd-20 carousel). Builders re-implement locally when told.
+- Do not drive the shared Playwright browser while an extractor agent is running — it navigated the tab
+  out from under one and cost a re-measure.
