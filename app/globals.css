@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "./studio-base.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -170,4 +171,25 @@ html:has(.ttr-root),
 body:has(.ttr-root) {
   overflow: hidden;
   overscroll-behavior: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Site clone: studio.design/ja/editor  (site-key studio-design-8a86c0e4,
+   page-key ja-editor-e6688fbb). The origin's base layer lives in
+   ./studio-base.css (generated, scoped to .sd-root); this block holds the
+   page-level wiring the generator cannot express.
+   --------------------------------------------------------------------------- */
+.sd-root {
+  /* the origin's own page ground (--s-color-56baa902) */
+  background: #f7f7f7;
+  font-family: var(--s-font-5489e031), sans-serif;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+}
+
+/* The origin hides icon glyphs until its runtime sets
+   body[data-material-symbols-loaded]; we load the face up front instead. */
+.sd-root [class*="material-symbols-"] {
+  visibility: visible;
 }
