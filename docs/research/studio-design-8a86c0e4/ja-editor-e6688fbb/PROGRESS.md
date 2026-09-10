@@ -35,8 +35,8 @@
 | 6 | .sd-133 | VisualDesignSection | reviewed | merged+mounted fe94596, fix ec4d5cf; 4 files (section + MOTION card + video player + slice), 173 rules, 19 reveals, 34 hover rules all pure CSS |
 | 7 | .sd-216 | CreativeAssetsSection | reviewed | merged+mounted 6373d48; review MATCH — 0 mismatches |
 | 8 | .sd-236 | FeaturedCreatorsSection | reviewed | merged+mounted 3e96a70; review MATCH — 0 mismatches. Needed a `list-1*` slice token (those rules are in no other file) |
-| 9 | .sd-271 | CollaborationSection | extracting | sticky rail .sd-273, same shape as FreeLayout |
-| 10 | .sd-303 | DataSection | pending | toggles |
+| 9 | .sd-271 | CollaborationSection | reviewed | merged+mounted 7d64199; review: 1 informational only — the .sd-282 srcSet picks _middle on HiDPI where the origin still serves _small (identical at the dpr-1 QA tiles) |
+| 10 | .sd-303 | DataSection | extracting | sticky rail .sd-305; verifying whether it really has toggles |
 | 11 | .symbol-2 | StartCtaSection | pending | |
 | 12 | .sd-331 | StockBandSection | pending | |
 | 13 | footer.symbol-3 | SiteFooter | pending | appear reveals |
