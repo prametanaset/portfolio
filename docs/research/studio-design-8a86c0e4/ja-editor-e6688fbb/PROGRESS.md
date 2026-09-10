@@ -20,15 +20,15 @@
 - [x] pre-flight 0: docs/ restored (git checkout), namespace dirs created, baseline `pnpm run build` PASS
 - [x] phase 1 recon — RECON.json, css/main.css (+media-wrapped), css/parsed.json, BEHAVIORS.md, PAGE_TOPOLOGY.md, network.txt, page.html, full-page shots @1440/768/390
 - [x] phase 2 foundation — fonts via origin Google link, app/studio-base.css (generated, scoped), globals block, 74 assets downloaded, shared components (icons/appear/toggle/carousel/video), placeholder route
-- [ ] phase 3 loop
+- [~] phase 3 loop — 1 spec PASS + builder dispatched, extractor 2 running
 - [ ] phase 4 assembly
 - [ ] phase 5 QA
 
 ## Sections (status: pending | extracted | validated | dispatched | merged | reviewed | qa-pass)
 | # | selector | component | status | notes |
 |---|---|---|---|---|
-| 1 | header#header.symbol-1 | SiteHeader | pending | + MenuModals (modal-ja_menu__sd-1 / sd-7) |
-| 2 | main > .sd-3 | HeroDesignEditor | pending | mp4 + appear |
+| 1 | header#header.symbol-1 | SiteHeader | dispatched | spec PASS (149 ln); click-driven dropdowns, one-open coordinator; slice prefix `symbol-1` |
+| 2 | main > .sd-3 | HeroDesignEditor | extracting | no video/appear inside after all — static hypothesis |
 | 3 | .sd-13 | NextCreationSection | pending | |
 | 4 | .sd-45 | FreeLayoutSection | pending | carousel sd-20 (6) |
 | 5 | .sd-79 | EditorAiSection | pending | |
@@ -56,3 +56,12 @@
   `toggle.tsx` (`<SdToggle>`), `carousel.tsx` (`<SdCarousel>`), `video.tsx` (`<SdVideo>`),
   `studio-elements.d.ts` (JSX types for the sd-* custom elements).
 - `.sd-354` dropped from the queue: `display:none` at every viewport.
+
+## Reusable agent prompts (scratchpad, this session)
+- extractor: `/private/tmp/claude-501/-Users-wanjan-Documents-Woxa-WoxaLabs-portfolio/82f498f9-a7e7-4876-b2ec-a981b11b1b57/scratchpad/extractor-preamble.md`
+- builder:   `.../scratchpad/builder-preamble.md`
+
+## Correction to BEHAVIORS.md
+Font Awesome IS rendered: the header's ＋/− toggle icons are `.fa-solid.fa-plus` / `.fa-minus` `::before`
+glyphs. `fa-solid-900.woff2`, `fa-brands-400.woff2` and `MaterialIcons-Regular.woff2` are now self-hosted
+under `public/sites/studio-design-8a86c0e4/shared/fonts/` and declared in `app/studio-base.css` (commit 2cafbe8).
