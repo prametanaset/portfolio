@@ -1,0 +1,425 @@
+{
+ "selector": "main > .sd-13",
+ "carouselRuntime": {
+  "element": "sd-carousel.box.sd-20",
+  "authoredAttributes": [
+   "data-type=carousel",
+   "data-animate-duration=600",
+   "data-interval-duration=3000",
+   "data-hover-stop",
+   "data-autoplay",
+   "data-max-length=7",
+   "data-sd-carousel-runtime-id=sd-20"
+  ],
+  "attributesAddedByRuntime": [
+   "aria-live=off",
+   "is-playing",
+   "data-inited-carousel"
+  ],
+  "authoredSlides": 6,
+  "renderedSlides": 7,
+  "renderedRule": "slides live in <template class=\"sd-carousel__template\"> in page.html (6 nodes). The runtime clones them into the light DOM as direct children of <sd-carousel> and appends ONE extra node that duplicates the current head, giving data-max-length=7 nodes from 6 unique items.",
+  "controlsPosition": "the .sd-35 controls bar is the LAST light-DOM child of <sd-carousel> in the live DOM (authored FIRST in page.html) and is position:absolute, so DOM order does not matter",
+  "step": {
+   "trigger": "setInterval every 3000ms while is-playing, plus click on .sd-36 (prev) / .sd-43 (next)",
+   "phase1": "runtime stamps data-animatingNext (next) or data-animatingPrev (prev) on EVERY .sd-carousel__slide and writes transition-duration: 0.6s inline (data-sd-carousel-duration hook). Start frame sampled at t=808ms: transform matrix(1, 0, 0, 1, 0, 0) on all 7 slides.",
+   "phase2": "the sliced rule .sd-root [data-animatingNext].sd-20__content { transform: translateX(-100%) } drives all 7 slides left by exactly one slide width over 600ms with cubic-bezier(0.58, 0.21, 0.41, 0.96). Sampled transforms across one step @1440 (100ms polling): -46.6618 -> -139.263 -> -304.167 -> -452.38 -> -515.476 -> -534.922 (= translateX(-100%) of the 534.922px slide).",
+   "phase3": "on completion the runtime rotates the light DOM one position (head node removed, a fresh clone of the new head appended), removes data-animatingNext and resets transition-duration to 0s. Rest state: transform none on every slide, transition-duration 0s.",
+   "prevIsMirror": "data-animatingPrev -> transform: translateX(100%), DOM rotates the other way. Verified: one .sd-43 click moved head recruit->huuuu, one .sd-36 click restored it."
+  },
+  "domOrderSamples1440": [
+   [
+    "portport.jp",
+    "design.toyota-finance.co.jp",
+    "recruit.coalition-group.jp",
+    "huuuu.jp",
+    "www.ryden.co.jp",
+    "hlt.pref.ibaraki.jp",
+    "portport.jp"
+   ],
+   [
+    "design.toyota-finance.co.jp",
+    "recruit.coalition-group.jp",
+    "huuuu.jp",
+    "www.ryden.co.jp",
+    "hlt.pref.ibaraki.jp",
+    "portport.jp",
+    "design.toyota-finance.co.jp"
+   ]
+  ],
+  "restXPositions1440": [
+   24,
+   559,
+   1094,
+   1629,
+   2164,
+   2699,
+   3234
+  ],
+  "slideStep1440": 534.922,
+  "hoverStop": {
+   "verified": true,
+   "evidence": "hover over slide 2's <img> for 7000ms (>2 intervals) -> DOM order string identical before and after. Releasing the hover restarts the 3000ms interval."
+  },
+  "playToggle": {
+   "verified": true,
+   "before": "is-playing present; aria-label \"Stop automatic slide show\"; .sd-39 (pause wrapper) display flex; .sd-41 (play wrapper) display none",
+   "after": "is-playing removed; aria-label \"Play automatic slide show\"; .sd-39 display none; .sd-41 display flex (background #222222, glyph #f7f7f7). No advance during 4000ms while paused."
+  }
+ },
+ "appear": {
+  "targets": 7,
+  "finding": "the 7 [data-appear-manual] nodes in this section are exactly the 7 .sd-carousel__slide nodes. They carry NO `appear` class, computed opacity 1, translate none, transition-property transform only. NO element in main > .sd-13 has an `appear` class in page.html. There is NO reveal animation in this section."
+ },
+ "hoverRules": {
+  "source": "__cloneSnap.rules('main > .sd-13') -> 22 hits, all from the inline origin sheet; identical text to the sliced CSS.",
+  ".sd-36:hover / .sd-38:hover / .sd-43:hover": "background: #222222 (was #ffffff)",
+  ".sd-36:hover .sd-37 / .sd-38:hover .sd-40 / .sd-38:hover .sd-42 / .sd-43:hover .sd-44": "color: #f7f7f7 (was #222222)",
+  "measuredControlHover": {
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "icon": "rgb(34, 34, 34)"
+   },
+   "after": {
+    "bg": "rgb(34, 34, 34)",
+    "icon": "rgb(247, 247, 247)"
+   },
+   "transition": "0.3s cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  ".sd-20__content__sd-1:hover .sd-20__content__sd-2": "filter: brightness(90%); scale: 1.03; transition-duration: 500ms; transition-timing-function: cubic-bezier(0.07, 0.83, 0.41, 1.04)",
+  "measuredImageHover": {
+   "filter": "brightness(0.9)",
+   "scale": "1.03",
+   "transitionDuration": "0.5s",
+   "transitionTimingFunction": "cubic-bezier(0.07, 0.83, 0.41, 1.04)"
+  },
+  ".sd-20__content__sd-4:hover .sd-20__content__sd-5": "color: #222222 (was #707070)",
+  ".sd-20__content__sd-4:hover .sd-20__content__sd-7": "rotate: -45deg; translate: 16px 0px (rest: rotate -45deg; translate 0px 16px)",
+  ".sd-20__content__sd-4:hover .sd-20__content__sd-8": "color: #f7f7f7; rotate: -45deg; translate: 16px -16px (rest: rotate -45deg; translate none)",
+  ".sd-20__content__sd-11:hover .sd-20__content__sd-12": "scale: 1.05",
+  ".sd-20__content__sd-11:hover .sd-20__content__sd-13": "color: #222222 (was #707070)",
+  ".sd-20__content:focus-visible": "outline: 2px solid black (outline-offset: -4px)"
+ },
+ "cssVariables": {
+  "--s-color-06b63738": "rgb(255, 255, 255)",
+  "--s-color-99a91143": "#222222ff",
+  "--s-color-56baa902": "#f7f7f7",
+  "--s-color-f0be55c6": "#707070ff",
+  "--s-color-39850792": "#eaeaeaff",
+  "--s-color-36ba82f0": "#555555ff",
+  "--s-color-a99509da": "#e0e0e0ff",
+  "--s-font-5489e031": "Inter, 'Noto Sans JP'"
+ },
+ "themeClasses": {
+  "note": "the three text nodes and the slide labels carry theme-* classes whose rules live in app/studio-base.css at specificity 0,3,0 (.sd-root .text.theme-XXXX) and therefore BEAT the section rules (.sd-root .sd-NN = 0,2,0) for font-size / line-height. Do NOT drop the theme classes from the markup.",
+  "theme-b6b0338f": "0.81rem/1.1, -0.04em, weight 500 -> 12.96px @1440+@768, 12px @390 (0.75rem)",
+  "theme-57a9da79": "2.25rem/1.25, weight 600, palt -> 36px/45px @1440+@768, 28px/35px @390 (1.75rem)",
+  "theme-a3931427": "1rem/1.60, weight 400, palt -> 16px/25.6px @1440, 14px/22.4px @768 and @390 (0.875rem)"
+ },
+ "measurements": {
+  "390": {
+   "root": [
+    0,
+    642,
+    390,
+    680.55
+   ],
+   "sd14": [
+    24,
+    64.23,
+    342,
+    233.39
+   ],
+   "sd20": [
+    24,
+    329.62,
+    342,
+    287.16
+   ],
+   "slideW": 324.898,
+   "slideMaxWidth": "95%",
+   "slidePadding": "0px 12px",
+   "imgRendered": [
+    300.9,
+    164.99
+   ],
+   "controls": [
+    24,
+    566.77,
+    342,
+    50
+   ],
+   "controlsJustify": "center",
+   "controlsGap": "12px",
+   "logoWidth": "72px",
+   "visibleSlides": "1 centered + slivers of its neighbours; the track is justify-content:center so the 7-node flex line overflows 966.15px on each side and node index 3 (0-based) lands at x 32.6",
+   "slideX": [
+    -942.1,
+    -617.2,
+    -292.3,
+    32.6,
+    357.5,
+    682.4,
+    1007.3
+   ]
+  },
+  "768": {
+   "root": [
+    0,
+    850,
+    768,
+    743.7
+   ],
+   "sd14": [
+    24,
+    96,
+    720,
+    197.05
+   ],
+   "sd20": [
+    24,
+    357.02,
+    720,
+    290.65
+   ],
+   "slideW": 333.117,
+   "slideMaxWidth": "48%",
+   "slidePadding": "0px 26px 0px 0px",
+   "imgRendered": [
+    307.12,
+    168.4
+   ],
+   "controls": [
+    24,
+    597.66,
+    720,
+    50
+   ],
+   "controlsJustify": "flex-end",
+   "controlsGap": "16px",
+   "logoWidth": "72px",
+   "visibleSlides": "2 full + 8% of the third (694px content box / 333.117px step)"
+  },
+  "1440": {
+   "root": [
+    0,
+    1300.49,
+    1440,
+    747.3
+   ],
+   "sd14": [
+    24,
+    1396,
+    1392,
+    114
+   ],
+   "sd20": [
+    24,
+    1574,
+    1392,
+    377.3
+   ],
+   "slideW": 534.922,
+   "slideMaxWidth": "39.16%",
+   "slidePadding": "0px 26px 0px 0px",
+   "imgRendered": [
+    508.92,
+    279.055
+   ],
+   "controls": [
+    24,
+    1901,
+    1392,
+    50
+   ],
+   "controlsJustify": "flex-end",
+   "controlsGap": "16px",
+   "controlsTopWithinCarousel": "327.297px",
+   "buttons": "58x26, radius 24px, padding 4px 20px, border 1px solid #222222, bg #ffffff, glyph 16px Material Icons #222222",
+   "visibleSlides": "2 full + 61% of the third (1366px content box / 534.922px step)"
+  }
+ },
+ "scroll": {
+  "finding": "no scroll-driven state; .sd-13 has no sticky/fixed descendant. .sd-35 is position:absolute inside .sd-20 and scrolls with the section."
+ },
+ "styleTable": {
+  "H1": {
+   "selector": ".sd-36 / .sd-38 / .sd-43 (rest)",
+   "backgroundColor": "rgb(255, 255, 255)",
+   "borderColor": "rgb(34, 34, 34)",
+   "borderRadius": "24px",
+   "width": "58px",
+   "height": "26px",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H2": {
+   "selector": ".sd-36 / .sd-38 / .sd-43 (:hover)",
+   "backgroundColor": "rgb(34, 34, 34)",
+   "glyphColor": "rgb(247, 247, 247)",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H3": {
+   "selector": ".sd-20__content__sd-2 (rest)",
+   "filter": "none",
+   "scale": "none",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H4": {
+   "selector": ".sd-20__content__sd-2 (.sd-20__content__sd-1:hover)",
+   "filter": "brightness(0.9)",
+   "scale": "1.03",
+   "transitionDuration": "0.5s",
+   "transitionTimingFunction": "cubic-bezier(0.07, 0.83, 0.41, 1.04)"
+  },
+  "H5": {
+   "selector": ".sd-20__content__sd-7 / __sd-8 arrow window",
+   "rotate": "-45deg",
+   "translateRest7": "0px 16px",
+   "translateHover7": "16px 0px",
+   "translateRest8": "none",
+   "translateHover8": "16px -16px",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "C1": {
+   "selector": ".sd-carousel__slide (rest)",
+   "transform": "none",
+   "transitionDuration": "0s",
+   "transitionProperty": "transform",
+   "transitionTimingFunction": "cubic-bezier(0.58, 0.21, 0.41, 0.96)",
+   "willChange": "transform"
+  },
+  "C2": {
+   "selector": ".sd-carousel__slide[data-animatingNext] (stepping)",
+   "transform": "matrix(1, 0, 0, 1, -534.922, 0)",
+   "transitionDuration": "0.6s",
+   "transitionProperty": "transform",
+   "transitionTimingFunction": "cubic-bezier(0.58, 0.21, 0.41, 0.96)"
+  },
+  "P1": {
+   "selector": ".sd-39 [slot=pause] while is-playing",
+   "display": "flex",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "4px 20px"
+  },
+  "P2": {
+   "selector": ".sd-41 [slot=play] while is-playing",
+   "display": "none",
+   "backgroundColor": "rgb(34, 34, 34)",
+   "padding": "4px 20px"
+  }
+ },
+ "nodes": [
+  {
+   "i": 0,
+   "cls": "sd-carousel__slide box sd-20__content",
+   "s": "C1",
+   "rect": [
+    24,
+    274,
+    534.92,
+    332.3
+   ],
+   "note": "head slide at rest @1440"
+  },
+  {
+   "i": 1,
+   "cls": "sd-carousel__slide box sd-20__content",
+   "s": "C2",
+   "rect": [
+    -510.92,
+    274,
+    534.92,
+    332.3
+   ],
+   "note": "same node mid-step, translateX(-100%)"
+  },
+  {
+   "i": 2,
+   "cls": "box sd-36",
+   "s": "H1",
+   "rect": [
+    1210,
+    625,
+    58,
+    26
+   ],
+   "note": "prev button, rest"
+  },
+  {
+   "i": 3,
+   "cls": "box sd-36",
+   "s": "H2",
+   "rect": [
+    1210,
+    625,
+    58,
+    26
+   ],
+   "note": "prev button, hovered 600ms"
+  },
+  {
+   "i": 4,
+   "cls": "img sd-20__content__sd-2",
+   "s": "H3",
+   "rect": [
+    24,
+    274,
+    508.92,
+    279.06
+   ],
+   "note": "cover image, rest"
+  },
+  {
+   "i": 5,
+   "cls": "img sd-20__content__sd-2",
+   "s": "H4",
+   "rect": [
+    24,
+    274,
+    508.92,
+    279.06
+   ],
+   "note": "cover image, parent anchor hovered 700ms"
+  },
+  {
+   "i": 6,
+   "cls": "box sd-39",
+   "s": "P1",
+   "rect": [
+    1285,
+    626,
+    56,
+    24
+   ],
+   "note": "pause wrapper while is-playing"
+  },
+  {
+   "i": 7,
+   "cls": "box sd-41",
+   "s": "P2",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": "play wrapper while is-playing (display none)"
+  },
+  {
+   "i": 8,
+   "cls": "icon sd-20__content__sd-7 material-symbols-outlined",
+   "s": "H5",
+   "rect": [
+    -401,
+    573,
+    16,
+    16
+   ],
+   "note": "arrow pair inside the 16x16 overflow-hidden window"
+  }
+ ]
+}

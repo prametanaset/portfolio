@@ -368,5 +368,40 @@
     "url": "https://storage.googleapis.com/production-os-assets/assets/dfd263e5-049b-4c84-9607-3d634c91c1ea",
     "path": "images/dfd263e5-049b-4c84-9607-3d634c91c1ea.png",
     "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-2160x1185_v-frms_webp_517b4553-7517-43e4-af28-4665974f4952_small.webp",
+    "path": "images/s-2160x1185_v-frms_webp_517b4553-7517-43e4-af28-4665974f4952_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-2160x1185_v-frms_webp_07257143-79e6-498b-b446-068ca6b688a9_small.webp",
+    "path": "images/s-2160x1185_v-frms_webp_07257143-79e6-498b-b446-068ca6b688a9_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-2160x1185_v-frms_webp_ca321b68-f854-4fd0-9d93-2d9b1c7c2ad4_small.webp",
+    "path": "images/s-2160x1185_v-frms_webp_ca321b68-f854-4fd0-9d93-2d9b1c7c2ad4_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-848x320_v-fs_webp_6b04161c-f78f-4182-a719-99c86befbadc_small.webp",
+    "path": "images/s-848x320_v-fs_webp_6b04161c-f78f-4182-a719-99c86befbadc_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-848x320_v-fs_webp_e7f74aca-074d-4b9b-861a-f4157a59f054_small.webp",
+    "path": "images/s-848x320_v-fs_webp_e7f74aca-074d-4b9b-861a-f4157a59f054_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-848x320_v-fs_webp_e62d5284-53c7-4c98-982c-636d5acf45d1_small.webp",
+    "path": "images/s-848x320_v-fs_webp_e62d5284-53c7-4c98-982c-636d5acf45d1_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-848x320_v-fs_webp_ad6a68bc-bc19-4baa-9ffb-93a5f6574964_small.webp",
+    "path": "images/s-848x320_v-fs_webp_ad6a68bc-bc19-4baa-9ffb-93a5f6574964_small.webp",
+    "kind": "image"
   }
 ]
