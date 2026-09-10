@@ -117,7 +117,6 @@ export function VisualDesignSection() {
                 <p className="text sd-197 theme-a3931427">
                   動画・画像・PDFなど、幅広いファイル形式をアップロードして利用できます。
                   <br />
-                  {"\n"}
                 </p>
               </div>
               {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -36,7 +36,6 @@ export function VisualDesignMotionCard() {
               </Appear>
               <Appear as="span" className="text sd-166" rootMargin="0px" threshold={0} activeClass={false}>
                 O<br />
-                {"\n"}
               </Appear>
               <Appear as="span" className="text sd-167" rootMargin="0px" threshold={0} activeClass={false}>
                 T
@@ -69,7 +68,6 @@ export function VisualDesignMotionCard() {
               </Appear>
               <Appear as="span" className="text sd-182" rootMargin="0px" threshold={0} activeClass={false}>
                 O<br />
-                {"\n"}
               </Appear>
               <Appear as="span" className="text sd-183" rootMargin="0px" threshold={0} activeClass={false}>
                 T
