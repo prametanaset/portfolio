@@ -29,7 +29,7 @@
 |---|---|---|---|---|
 | 1 | header#header.symbol-1 | SiteHeader | reviewed | merged 3901c02, review fixes 2c18215 (per-panel close timers); mounted on route |
 | 2 | main > .sd-3 | HeroDesignEditor | reviewed | merged 4eef40e, fixes 8604be2; mounted; smoke diff vs origin 0.017% @1440 first viewport |
-| 3 | .sd-13 | NextCreationSection | dispatched | spec PASS; local carousel (shared SdCarousel does not fit); 7 extra images downloaded |
+| 3 | .sd-13 | NextCreationSection | reviewed | merged 891230d, mounted 25f7f60. Review: 2 minor, both accepted — prev step runs as prevArmed/prevRunning (geometrically identical, avoids an empty head slot; leaves the origin's `[data-animatingPrev]` rule unused), and the three controls carry `type="button"` the origin omits (no form on the page, zero visual effect) |
 | 4 | .sd-45 | FreeLayoutSection | extracting | sticky rail .sd-47 top 104 + 2 autoplay videos |
 | 5 | .sd-79 | EditorAiSection | pending | |
 | 6 | .sd-133 | VisualDesignSection | pending | |
