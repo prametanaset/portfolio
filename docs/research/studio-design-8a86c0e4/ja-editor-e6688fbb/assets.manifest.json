@@ -438,5 +438,20 @@
     "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_small.webp",
     "path": "images/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_small.webp",
     "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_small.webp",
+    "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_small.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_middle.webp",
+    "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_middle.webp",
+    "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6.webp",
+    "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6.webp",
+    "kind": "image"
   }
 ]

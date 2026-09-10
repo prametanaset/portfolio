@@ -1,0 +1,29 @@
+{
+  "note": "Origin URLs used by main > .sd-133 that are NOT in assets.manifest.json. Paths are relative to public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/.",
+  "missing": [
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_small.webp",
+      "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_small.webp",
+      "kind": "image",
+      "usedBy": ".sd-199 --img-small (painted at dpr 1 at 1440/768/390 via .image__bg-container::before)"
+    },
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_middle.webp",
+      "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6_middle.webp",
+      "kind": "image",
+      "usedBy": ".sd-199 --img-middle (dpr 1-1.5 rule in app/studio-base.css)"
+    },
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6.webp",
+      "path": "images/s-1480x1600_v-fms_webp_4f1aaa92-4838-4893-9e98-0a0cf5568af6.webp",
+      "kind": "image",
+      "usedBy": ".sd-199 --img-origin and --img-regular"
+    }
+  ],
+  "notNeeded": [
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-708x112_v-fs_webp_d607752e-7159-4c90-8d9d-9067b57f4793_small.webp",
+      "reason": "img.sd-154 (alt \"FontPlus\") is display:none at 1440, 1280, 768, 480 and 360 — .sd-154 { display:none } in the base rule and repeated in every media block. The origin never fetched it; keep the inline data: URI SVG placeholder src the origin ships."
+    }
+  ]
+}
