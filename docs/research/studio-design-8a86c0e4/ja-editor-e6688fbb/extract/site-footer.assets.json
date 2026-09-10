@@ -1,0 +1,6 @@
+{
+  "section": "SiteFooter",
+  "selector": "footer.symbol-3",
+  "missing": [],
+  "note": "All 13 distinct image URLs the footer renders (12 marquee thumbnails + 1 wordmark) are already present in public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images and mapped in assets.manifest.json. Nothing to fetch."
+}
