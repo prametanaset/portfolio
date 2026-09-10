@@ -118,7 +118,7 @@ N/A — single state.
 ## Text Content (verbatim)
 - `span.sd-82`: `Editor AI` · `span.sd-83`: `AIが伴走する、<br>最速の制作体験。`
 - `div.richText.sd-85` (one `<p>`): `Editor AIは、クリエイターに全く新しい制作体験を提供します。<br>ドラフト文章の作成はもちろん、直感的な画像編集、<strong>面倒だった作業も自動で代行。</strong>すべての作業が、これまでにない速さに。`
-- `p.sd-90`: `01` · `span.sd-93`: `Image AI` · `span.sd-94`: `画像を「探す」から 「編集する」へ` (single U+0020 between `から` and `「編集`) · `p.sd-95`: `指示を出すだけで、<br>画像素材を自在に編集可能に。<br>素材探しのストレスから、自由になろう。`
+- `p.sd-90`: `01` · `span.sd-93`: `Image AI` · `span.sd-94`: `画像を「探す」から 「編集する」へ` (U+2028 LINE SEPARATOR (corrected after review: it is not a space) between `から` and `「編集`) · `p.sd-95`: `指示を出すだけで、<br>画像素材を自在に編集可能に。<br>素材探しのストレスから、自由になろう。`
 - `p.sd-102`: `02` · `span.sd-105`: `Text&nbsp;AI` (**U+00A0 no-break space** between `Text` and `AI` — write it as `{'Text AI'}`) · `span.sd-106`: `あなた専属のコピーライター` · `p.sd-107`: `プロンプトひとつで、<br>あなたの意図に沿った文章を自動生成。<br>他言語翻訳なども、もっと簡単に。`
 - `p.sd-114`: `03` · `span.sd-117`: `Auto Layer Rename` · `span.sd-118`: `自動でリネーム、自動で整理` · `div.richText.sd-119` (one `<p>`): `煩雑なレイヤーの整理もStudioにお任せ。<br>各レイヤーを自動で命名、サイト構造がよりわかりやすく。`
 - `p.sd-125`: `04` · `span.sd-128`: `Auto Responsive` · `span.sd-129`: `あっという間に、レスポンシブ対応` · `div.richText.sd-130` (one `<p>`): `1つのデザインで、すべてのデバイスに対応。<br>制作したレイアウトを、自動でレスポンシブ対応します。`

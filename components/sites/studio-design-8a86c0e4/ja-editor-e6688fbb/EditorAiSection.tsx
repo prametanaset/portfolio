@@ -64,7 +64,7 @@ export function EditorAiSection() {
             <div className="box sd-91">
               <h3 className="box sd-92">
                 <span className="text sd-93">Image AI</span>
-                <span className="text sd-94">{"画像を「探す」から 「編集する」へ"}</span>
+                <span className="text sd-94">{"画像を「探す」から\u2028「編集する」へ"}</span>
               </h3>
               <p className="text sd-95">
                 指示を出すだけで、
