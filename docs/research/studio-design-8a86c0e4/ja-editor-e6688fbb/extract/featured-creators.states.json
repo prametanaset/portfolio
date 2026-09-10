@@ -1,0 +1,2187 @@
+{
+ "selector": "main > .sd-236",
+ "capturedAt": "2026-09-11, Playwright MCP, dpr 1, viewport 1440x900 unless noted",
+ "carouselRuntime": {
+  "element": "sd-carousel.box.sd-244",
+  "datasetAtLoad": {
+   "type": "carousel",
+   "animateDuration": 1000,
+   "intervalDuration": 4500,
+   "autoplay": true,
+   "maxLength": 7,
+   "sdCarouselRuntimeId": "sd-244"
+  },
+  "attributesAddedByRuntime": [
+   "aria-live=off",
+   "is-playing",
+   "data-inited-carousel"
+  ],
+  "hoverStop": false,
+  "authoredSlides": 5,
+  "renderedSlideNodes": 7,
+  "renderModel": "a rotated view of the 5 authored items, index i..i+6 modulo 5 (so 2 of the 5 appear twice)",
+  "slideStepPx": {
+   "390": 300,
+   "768": 320,
+   "1440": 380
+  },
+  "trackRestFirstSlideX": {
+   "390": -855,
+   "768": -736,
+   "1440": -610
+  },
+  "mechanism": "runtime stamps data-animatingNext (or data-animatingPrev) on ALL 7 slides and writes transition-duration:1000ms inline; the sliced rule .sd-root [data-animatingNext].sd-244__content{transform:translateX(-100%)} (and translateX(100%) for Prev) supplies the motion. On completion the attribute and the inline duration are removed (duration returns to 0s), the transform snaps back to none, and the light DOM rotates one position (head removed, fresh clone of the new tail appended for Next; tail removed, clone prepended for Prev).",
+  "transition": {
+   "property": "transform",
+   "durationMs": 1000,
+   "timingFunction": "cubic-bezier(0.25, 0.1, 0.1, 1)",
+   "delay": "0s"
+  },
+  "intervalMs": 4500,
+  "measuredStepStarts_ms": [
+   1801,
+   6301,
+   10801
+  ],
+  "measuredStepSettles_ms": [
+   2802,
+   7301
+  ],
+  "measuredIntervalBetweenSettles_ms": 4499,
+  "nextSample": [
+   {
+    "t": 51,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 151,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 252,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 951,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1052,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1151,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1352,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1450,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1751,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1851,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -23.556,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 1951,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -114.915,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2050,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -216.197,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2151,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -281.939,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2250,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -317.36,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2351,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -345.112,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2451,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -360.458,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2551,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -371.979,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2651,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -377.437,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2751,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -379.934,
+    "order": "感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、",
+    "playing": true
+   },
+   {
+    "t": 2851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 2952,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3052,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3151,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3552,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 3950,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4052,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4152,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4350,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4652,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 4952,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5051,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5151,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5252,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5650,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5751,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5850,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 5951,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6050,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6152,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6351,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -35.741,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6450,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -139.153,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6550,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -230.514,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6651,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -291.14,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6750,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -323.601,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6850,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -347.415,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 6950,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -364.096,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 7051,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -372.87,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 7151,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -378.472,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 7250,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -380,
+    "order": "安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と",
+    "playing": true
+   },
+   {
+    "t": 7351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7452,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 7952,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8051,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8152,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8452,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8851,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 8952,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9051,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9151,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9552,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9652,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9751,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9852,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 9952,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10051,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10150,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10252,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10451,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10551,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10651,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10751,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10851,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -25.308,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   },
+   {
+    "t": 10951,
+    "attr": "NNNNNNN",
+    "dur": "1000ms",
+    "tx": -120.178,
+    "order": "家族と仲間と|LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン",
+    "playing": true
+   }
+  ],
+  "prevSample": [
+   {
+    "t": 50,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 1.623,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 151,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 50.382,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 251,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 159.351,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 351,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 243.772,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 450,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 291.482,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 551,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 326.026,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 650,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 349.326,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 750,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 364.35,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 850,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 374.056,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 951,
+    "attr": "PPPPPPP",
+    "dur": "1000ms",
+    "tx": 378.53,
+    "order": "デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本|感受性が導く",
+    "playing": false
+   },
+   {
+    "t": 1053,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1153,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1250,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1450,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1553,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1652,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1752,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1852,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 1951,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 2052,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 2153,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 2251,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 2351,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   },
+   {
+    "t": 2452,
+    "attr": "-------",
+    "dur": "0ms",
+    "tx": 0,
+    "order": "LA発「ラン|デザインの本|感受性が導く|安く、早く、|家族と仲間と|LA発「ラン|デザインの本",
+    "playing": false
+   }
+  ]
+ },
+ "hoverStopProbe": {
+  "method": "mouse.move to the centre card (720,420 @1440, elementFromPoint = box sd-244__content__sd-4) held 11000 ms with the section fully in view, DOM-order string sampled before and after",
+  "before": "デザイ|感受性|安く、|家族と|LA発|デザイ|感受性",
+  "after": "安く、|家族と|LA発|デザイ|感受性|安く、|家族と",
+  "advancedWhileHovered": 2,
+  "conclusion": "hover does NOT stop autoplay — consistent with the missing data-hover-stop attribute"
+ },
+ "playToggle": {
+  "playing": {
+   "isPlayingAttr": true,
+   "ariaLabel": "Stop automatic slide show",
+   ".sd-260 display": "flex",
+   ".sd-262 display": "none"
+  },
+  "paused": {
+   "isPlayingAttr": false,
+   "ariaLabel": "Play automatic slide show",
+   ".sd-260 display": "none",
+   ".sd-262 display": "flex",
+   ".sd-262 backgroundColor": "rgb(34, 34, 34)",
+   ".sd-263 color": "rgb(247, 247, 247)"
+  },
+  "pausedHoldProbe": {
+   "waitMs": 7000,
+   "orderBefore": "デザイ|感受性|安く、|家族と|LA発|デザイ|感受性",
+   "orderAfter": "デザイ|感受性|安く、|家族と|LA発|デザイ|感受性",
+   "advanced": 0
+  }
+ },
+ "prevNextClicks": {
+  "fromPaused": {
+   "start": "デザイ|感受性|安く、|家族と|LA発|デザイ|感受性",
+   "afterPrev": "LA発|デザイ|感受性|安く、|家族と|LA発|デザイ",
+   "afterNext": "デザイ|感受性|安く、|家族と|LA発|デザイ|感受性"
+  },
+  "resumesAutoplay": false
+ },
+ "appear": {
+  "targetsAtLoad": 21,
+  "breakdown": "7 .sd-carousel__slide[data-appear-manual] (inert, revealed by the carousel runtime) + 7 a.sd-244__content__sd-1.appear + 7 div.sd-244__content__sd-7.appear",
+  "visualEffect": "none",
+  "evidence": "the only .appear declarations for these classes are .sd-root .sd-244__content__sd-1.appear{transition-delay:600ms;transition-duration:600ms;transition-timing-function:cubic-bezier(0.4,0.4,0,1)} and, inside @media (max-width:768px), .sd-root .sd-244__content__sd-7.appear{transition-delay:600ms}. No opacity / translate / scale / rotate is declared. Live check with the class present and with it removed: opacity 1, translate none, scale none in both cases."
+ },
+ "hoverRules": [
+  {
+   "selector": ".sd-257:hover",
+   "media": null,
+   "css": "background: rgb(34, 34, 34); --ha: 1;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-257:hover .sd-258",
+   "media": null,
+   "css": "color: rgb(247, 247, 247);",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-259:hover",
+   "media": null,
+   "css": "background: rgb(34, 34, 34); --ha: 1;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-259:hover .sd-261",
+   "media": null,
+   "css": "color: rgb(247, 247, 247);",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-259:hover .sd-263",
+   "media": null,
+   "css": "color: rgb(247, 247, 247);",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-264:hover",
+   "media": null,
+   "css": "background: rgb(34, 34, 34); --ha: 1;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-264:hover .sd-265",
+   "media": null,
+   "css": "color: rgb(247, 247, 247);",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content:focus-visible",
+   "media": null,
+   "css": "outline: black solid 2px;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content:focus-visible > *",
+   "media": null,
+   "css": "--gap-h: 0px; --gap-v: 0px;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content__sd-1:hover",
+   "media": null,
+   "css": "opacity: 1; --ha: 1;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content__sd-1:hover > *",
+   "media": null,
+   "css": "--gap-h: 0px; --gap-v: 16px;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content__sd-1:hover .sd-244__content__sd-3",
+   "media": null,
+   "css": "scale: 1.05;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content:focus-visible > *",
+   "media": null,
+   "css": "--gap-h: 0px; --gap-v: 0px;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content__sd-1:hover > *",
+   "media": null,
+   "css": "--gap-h: 0px; --gap-v: 16px;",
+   "sheet": "(inline)"
+  },
+  {
+   "selector": ".sd-244__content:focus-visible > *",
+   "media": null,
+   "css": "--gap-h: 0px; --gap-v: 0px;",
+   "sheet": "(inline)"
+  }
+ ],
+ "hoverMeasured": {
+  "base": {
+   "card": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0.6s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "img": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "h4": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "tag": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(112, 112, 112)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(112, 112, 112) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseBox": {
+    "display": "flex",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   },
+   "playBox": {
+    "display": "none",
+    "backgroundColor": "rgb(34, 34, 34)"
+   },
+   "nextBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "nextIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "isPlaying": true,
+   "playAria": "Stop automatic slide show"
+  },
+  "hoverCard": {
+   "card": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "img": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "1.05",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "h4": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "tag": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(112, 112, 112)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(112, 112, 112) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseBox": {
+    "display": "flex",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   },
+   "playBox": {
+    "display": "none",
+    "backgroundColor": "rgb(34, 34, 34)"
+   },
+   "nextBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "nextIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "isPlaying": true,
+   "playAria": "Stop automatic slide show"
+  },
+  "hoverPrev": {
+   "card": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0.6s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "img": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "h4": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "tag": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(112, 112, 112)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(112, 112, 112) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevBtn": {
+    "backgroundColor": "rgb(34, 34, 34)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseBox": {
+    "display": "flex",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   },
+   "playBox": {
+    "display": "none",
+    "backgroundColor": "rgb(34, 34, 34)"
+   },
+   "nextBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "nextIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "isPlaying": true,
+   "playAria": "Stop automatic slide show"
+  },
+  "hoverPlay": {
+   "card": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0.6s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "img": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "h4": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "tag": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(112, 112, 112)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(112, 112, 112) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playBtn": {
+    "backgroundColor": "rgb(34, 34, 34)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseBox": {
+    "display": "flex",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   },
+   "playBox": {
+    "display": "none",
+    "backgroundColor": "rgb(34, 34, 34)"
+   },
+   "nextBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "nextIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "isPlaying": true,
+   "playAria": "Stop automatic slide show"
+  },
+  "hoverNext": {
+   "card": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0.6s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "img": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.6s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(51, 51, 51) none 3px",
+    "outlineOffset": "0px"
+   },
+   "h4": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "tag": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(112, 112, 112)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(112, 112, 112) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "prevIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playBtn": {
+    "backgroundColor": "rgb(247, 247, 247)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(34, 34, 34) none 3px",
+    "outlineOffset": "0px"
+   },
+   "playIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "pauseBox": {
+    "display": "flex",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   },
+   "playBox": {
+    "display": "none",
+    "backgroundColor": "rgb(34, 34, 34)"
+   },
+   "nextBtn": {
+    "backgroundColor": "rgb(34, 34, 34)",
+    "color": "rgb(0, 0, 0)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(0, 0, 0) none 3px",
+    "outlineOffset": "0px"
+   },
+   "nextIcon": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 247, 247)",
+    "scale": "none",
+    "opacity": "1",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+    "transitionDelay": "0s",
+    "outline": "rgb(247, 247, 247) none 3px",
+    "outlineOffset": "0px"
+   },
+   "isPlaying": true,
+   "playAria": "Stop automatic slide show"
+  }
+ },
+ "geometry": {
+  "390": {
+   "top": 9205.84375,
+   "height": 947.5859375,
+   "trackRect": [
+    0,
+    370,
+    390,
+    513
+   ],
+   "controlsRect": [
+    0,
+    860,
+    390,
+    24
+   ],
+   "slideW": 300,
+   "cardW": 276
+  },
+  "768": {
+   "top": 8876.8125,
+   "height": 1005.984375,
+   "trackRect": [
+    0,
+    382,
+    768,
+    528
+   ],
+   "controlsRect": [
+    0,
+    886,
+    768,
+    24
+   ],
+   "slideW": 320,
+   "cardW": 296
+  },
+  "1440": {
+   "top": 7936.109375,
+   "height": 1012.0625,
+   "trackRect": [
+    0,
+    307,
+    1440,
+    609
+   ],
+   "controlsRect": [
+    0,
+    892,
+    1440,
+    24
+   ],
+   "slideW": 380,
+   "cardW": 332
+  }
+ },
+ "styleTable": {
+  "C1": {
+   "selector": ".sd-244__content (rest)",
+   "transform": "none",
+   "transitionProperty": "transform",
+   "transitionDuration": "0s",
+   "transitionTimingFunction": "cubic-bezier(0.25, 0.1, 0.1, 1)",
+   "width": "380px",
+   "padding": "0px 24px"
+  },
+  "C2": {
+   "selector": ".sd-244__content[data-animatingNext] (stepping)",
+   "transform": "matrix(1, 0, 0, 1, -380, 0)",
+   "transitionDuration": "1000ms (inline)",
+   "transitionTimingFunction": "cubic-bezier(0.25, 0.1, 0.1, 1)"
+  },
+  "C3": {
+   "selector": ".sd-244__content[data-animatingPrev] (stepping)",
+   "transform": "matrix(1, 0, 0, 1, 380, 0)",
+   "transitionDuration": "1000ms (inline)",
+   "transitionTimingFunction": "cubic-bezier(0.25, 0.1, 0.1, 1)"
+  },
+  "H1": {
+   "selector": ".sd-257 / .sd-259 / .sd-264 (rest)",
+   "backgroundColor": "rgb(247, 247, 247)",
+   "borderColor": "rgb(34, 34, 34)",
+   "borderRadius": "500px",
+   "width": "56px",
+   "height": "24px",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H2": {
+   "selector": ".sd-257 / .sd-259 / .sd-264 (:hover)",
+   "backgroundColor": "rgb(34, 34, 34)",
+   "glyphColor": "rgb(247, 247, 247)",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H3": {
+   "selector": ".sd-244__content__sd-3 (rest)",
+   "scale": "none",
+   "transitionDuration": "0.6s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "H4": {
+   "selector": ".sd-244__content__sd-1:hover .sd-244__content__sd-3",
+   "scale": "1.05",
+   "transitionDuration": "0.6s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+  },
+  "P1": {
+   "selector": ".sd-260[slot=pause] / .sd-262[slot=play] while sd-carousel[is-playing]",
+   "pauseDisplay": "flex",
+   "playDisplay": "none"
+  },
+  "P2": {
+   "selector": ".sd-260 / .sd-262 while paused",
+   "pauseDisplay": "none",
+   "playDisplay": "flex",
+   "playBackgroundColor": "rgb(34, 34, 34)",
+   "playGlyphColor": "rgb(247, 247, 247)"
+  },
+  "A1": {
+   "selector": ".sd-244__content__sd-1.appear and .sd-244__content__sd-7.appear",
+   "opacity": "1",
+   "translate": "none",
+   "scale": "none",
+   "note": "inert - .appear declares only transition timing for these classes"
+  }
+ },
+ "nodes": [
+  {
+   "i": 0,
+   "cls": "sd-carousel__slide box sd-244__content",
+   "s": "C1",
+   "rect": [
+    -610,
+    307,
+    380,
+    529.06
+   ],
+   "note": "head slide at rest @1440"
+  },
+  {
+   "i": 1,
+   "cls": "sd-carousel__slide box sd-244__content",
+   "s": "C2",
+   "rect": [
+    -990,
+    307,
+    380,
+    529.06
+   ],
+   "note": "same node at the end of a Next step, translateX(-100%)"
+  },
+  {
+   "i": 2,
+   "cls": "sd-carousel__slide box sd-244__content",
+   "s": "C3",
+   "rect": [
+    -230,
+    307,
+    380,
+    529.06
+   ],
+   "note": "same node at the end of a Prev step, translateX(100%)"
+  },
+  {
+   "i": 3,
+   "cls": "box sd-257",
+   "s": "H1",
+   "rect": [
+    632,
+    892,
+    56,
+    24
+   ],
+   "note": "prev button, rest"
+  },
+  {
+   "i": 4,
+   "cls": "box sd-257",
+   "s": "H2",
+   "rect": [
+    632,
+    892,
+    56,
+    24
+   ],
+   "note": "prev button, hovered 700ms"
+  },
+  {
+   "i": 5,
+   "cls": "img sd-244__content__sd-3",
+   "s": "H3",
+   "rect": [
+    174,
+    307,
+    332,
+    442.66
+   ],
+   "note": "cover image, rest"
+  },
+  {
+   "i": 6,
+   "cls": "img sd-244__content__sd-3",
+   "s": "H4",
+   "rect": [
+    165.7,
+    296.9,
+    348.6,
+    464.8
+   ],
+   "note": "cover image, card hovered 900ms (scale 1.05)"
+  },
+  {
+   "i": 7,
+   "cls": "box sd-260",
+   "s": "P1",
+   "rect": [
+    705,
+    893,
+    54,
+    22
+   ],
+   "note": "pause pill visible while is-playing"
+  },
+  {
+   "i": 8,
+   "cls": "box sd-262",
+   "s": "P2",
+   "rect": [
+    705,
+    893,
+    54,
+    22
+   ],
+   "note": "play pill visible while paused"
+  },
+  {
+   "i": 9,
+   "cls": "box sd-244__content__sd-1 appear",
+   "s": "A1",
+   "rect": [
+    174,
+    307,
+    332,
+    529.06
+   ],
+   "note": "appear target - no painted difference"
+  }
+ ]
+}

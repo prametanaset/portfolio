@@ -463,5 +463,10 @@
     "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_small.webp",
     "path": "images/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_small.webp",
     "kind": "image"
+  },
+  {
+    "url": "https://storage.googleapis.com/studio-cms-assets/projects/V5a74Ny3WR/s-1800x2400_v-frms_webp_763a3d0a-a1bb-4777-9374-bb8cfded6c18_small.webp",
+    "path": "images/s-1800x2400_v-frms_webp_763a3d0a-a1bb-4777-9374-bb8cfded6c18_small.webp",
+    "kind": "image"
   }
 ]

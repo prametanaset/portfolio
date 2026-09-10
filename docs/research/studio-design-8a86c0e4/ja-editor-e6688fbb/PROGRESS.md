@@ -34,7 +34,7 @@
 | 5 | .sd-79 | EditorAiSection | reviewed | merged+mounted 9fa3f66; review fix 41916bc (U+2028 in .sd-94, spec was wrong); srcSet resolves to the origin's variant at all three widths |
 | 6 | .sd-133 | VisualDesignSection | reviewed | merged+mounted fe94596, fix ec4d5cf; 4 files (section + MOTION card + video player + slice), 173 rules, 19 reveals, 34 hover rules all pure CSS |
 | 7 | .sd-216 | CreativeAssetsSection | reviewed | merged+mounted 6373d48; review MATCH — 0 mismatches |
-| 8 | .sd-236 | FeaturedCreatorsSection | extracting | carousel sd-244 (1000/4500 ms, no hover-stop) + play-toggle .sd-259 |
+| 8 | .sd-236 | FeaturedCreatorsSection | validated | spec PASS (148 lines). Carousel sd-244: 5 authored -> 7 nodes, 1000 ms step / 4500 ms interval / easing cubic-bezier(.25,.1,.1,1); no hover-stop (probe: 2 steps in 11 s while hovered). 21 appear targets are visually inert. Slice tokens `sd-236..270` + `sd-244__content*` + `list-1*` (list-1 is NOT in studio-base.css). 1 missing asset (cover 763a3d0a) |
 | 9 | .sd-271 | CollaborationSection | pending | |
 | 10 | .sd-303 | DataSection | pending | toggles |
 | 11 | .symbol-2 | StartCtaSection | pending | |
