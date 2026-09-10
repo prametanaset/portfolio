@@ -535,265 +535,265 @@ p > code {
 .sd-root .image--horizontal .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 1) and (width < 300px) {
-    .image--horizontal .image__bg-container::before {
+@container (aspect-ratio < 1) and (width < 300px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.5) and (width < 300px) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (aspect-ratio < 0.5) and (width < 300px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (300px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (300px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (300px <= width < 500px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (300px <= width < 500px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (300px <= width < 500px) and (aspect-ratio < 0.5) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (300px <= width < 500px) and (aspect-ratio < 0.5) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (500px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (500px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (500px <= width < 901px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (500px <= width < 901px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (901px <= width) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (901px <= width) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 .sd-root .image--vertical .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 0.5) and (width < 300px) {
-    .image--vertical .image__bg-container::before {
+@container (aspect-ratio < 0.5) and (width < 300px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.25) and (width < 300px) {
-    .image--vertical .image__bg-container::before {
+}
+@container (aspect-ratio < 0.25) and (width < 300px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (300px <= width < 500px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (300px <= width < 500px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (300px <= width < 500px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (300px <= width < 500px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (300px <= width < 500px) and (aspect-ratio < 0.25) {
-    .image--vertical .image__bg-container::before {
+}
+@container (300px <= width < 500px) and (aspect-ratio < 0.25) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (500px <= width < 901px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (500px <= width < 901px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (500px <= width < 901px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (500px <= width < 901px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (901px <= width) {
-    .image--vertical .image__bg-container::before {
+}
+@container (901px <= width) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 }
 @media (min-resolution: 1dppx) and (max-resolution: 1.5dppx) {
 .sd-root .image--horizontal .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 1) and (width < 400px) {
-    .image--horizontal .image__bg-container::before {
+@container (aspect-ratio < 1) and (width < 400px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.5) and (width < 400px) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (aspect-ratio < 0.5) and (width < 400px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (400px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (400px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (400px <= width < 667px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (400px <= width < 667px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (400px <= width < 667px) and (aspect-ratio < 0.5) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (400px <= width < 667px) and (aspect-ratio < 0.5) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (667px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (667px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (667px <= width < 1201px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (667px <= width < 1201px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1201px <= width) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (1201px <= width) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 .sd-root .image--vertical .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 0.5) and (width < 400px) {
-    .image--vertical .image__bg-container::before {
+@container (aspect-ratio < 0.5) and (width < 400px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.25) and (width < 400px) {
-    .image--vertical .image__bg-container::before {
+}
+@container (aspect-ratio < 0.25) and (width < 400px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (400px <= width < 667px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (400px <= width < 667px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (400px <= width < 667px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (400px <= width < 667px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (400px <= width < 667px) and (aspect-ratio < 0.25) {
-    .image--vertical .image__bg-container::before {
+}
+@container (400px <= width < 667px) and (aspect-ratio < 0.25) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (667px <= width < 1201px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (667px <= width < 1201px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (667px <= width < 1201px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (667px <= width < 1201px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1201px <= width) {
-    .image--vertical .image__bg-container::before {
+}
+@container (1201px <= width) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 }
 @media (max-resolution: 1dppx) {
 .sd-root .image--horizontal .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 1) and (width < 600px) {
-    .image--horizontal .image__bg-container::before {
+@container (aspect-ratio < 1) and (width < 600px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.5) and (width < 600px) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (aspect-ratio < 0.5) and (width < 600px) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (600px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (600px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (600px <= width < 1000px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (600px <= width < 1000px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (600px <= width < 1000px) and (aspect-ratio < 0.5) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (600px <= width < 1000px) and (aspect-ratio < 0.5) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1000px <= width) and (aspect-ratio >= 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (1000px <= width) and (aspect-ratio >= 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (1000px <= width < 1801px) and (aspect-ratio < 1) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (1000px <= width < 1801px) and (aspect-ratio < 1) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1801px <= width) {
-    .image--horizontal .image__bg-container::before {
+}
+@container (1801px <= width) {
+.sd-root .image--horizontal .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 .sd-root .image--vertical .image__bg-container::before {
     --img-current: var(--img-small);
   }
-.sd-root @container (aspect-ratio < 0.5) and (width < 600px) {
-    .image--vertical .image__bg-container::before {
+@container (aspect-ratio < 0.5) and (width < 600px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (aspect-ratio < 0.25) and (width < 600px) {
-    .image--vertical .image__bg-container::before {
+}
+@container (aspect-ratio < 0.25) and (width < 600px) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (600px <= width < 1000px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (600px <= width < 1000px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-middle);
     }
-  }
-.sd-root @container (600px <= width < 1000px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (600px <= width < 1000px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (600px <= width < 1000px) and (aspect-ratio < 0.25) {
-    .image--vertical .image__bg-container::before {
+}
+@container (600px <= width < 1000px) and (aspect-ratio < 0.25) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1000px <= width < 1801px) and (aspect-ratio >= 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (1000px <= width < 1801px) and (aspect-ratio >= 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-regular);
     }
-  }
-.sd-root @container (1000px <= width < 1801px) and (aspect-ratio < 0.5) {
-    .image--vertical .image__bg-container::before {
+}
+@container (1000px <= width < 1801px) and (aspect-ratio < 0.5) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
-.sd-root @container (1801px <= width) {
-    .image--vertical .image__bg-container::before {
+}
+@container (1801px <= width) {
+.sd-root .image--vertical .image__bg-container::before {
       --img-current: var(--img-origin);
     }
-  }
+}
 }
 .sd-root .image--shift-1 .image__bg-container::before {
   --img-current: var(--img-middle);
