@@ -13,6 +13,7 @@ import { FeaturedCreatorsSection } from "@/components/sites/studio-design-8a86c0
 import { CollaborationSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/CollaborationSection";
 import { DataSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/DataSection";
 import { StartCtaSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/StartCtaSection";
+import { StockBandSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/StockBandSection";
 
 export default function Page() {
   return (
@@ -29,6 +30,7 @@ export default function Page() {
         <CollaborationSection />
         <DataSection />
         <StartCtaSection />
+        <StockBandSection />
       </main>
     </div>
   );
