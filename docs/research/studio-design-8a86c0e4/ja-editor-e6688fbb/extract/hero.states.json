@@ -1,0 +1,301 @@
+{
+  "selector": "main > .sd-3",
+  "interactionModel": "static + one-shot appear reveal on load",
+  "pseudoClassRules": {
+    "source": "__cloneSnap.rules('main > .sd-3')",
+    "hits": [],
+    "total": 0,
+    "note": "zero :hover / :focus / :active rules match any node in this section"
+  },
+  "animations": {
+    "source": "__cloneSnap.animations('main > .sd-3')",
+    "count": 0,
+    "items": []
+  },
+  "interactiveElements": {
+    "query": "a, button, [role], sd-toggle, video, canvas, [data-toggle-trigger], [data-sd-carousel-runtime-id]",
+    "found": []
+  },
+  "hoverDiff": {
+    "method": "full computed snapshot (opacity,color,backgroundColor,transform,borderRadius,filter) of .sd-3 + all descendants, 700ms settle after each hover",
+    "main > .sd-3 img": "no change",
+    "main > .sd-3 h1": "no change",
+    "main > .sd-3 p": "no change",
+    "main > .sd-3 .sd-12": "no change"
+  },
+  "scrollDiff": {
+    "method": "page-coordinate rect + opacity/translate/transform/backgroundImage/position snapshot at scrollY 0 vs 200/650/1300, 600ms settle",
+    "y200": "0 changed nodes",
+    "y650": "0 changed nodes",
+    "y1300": "0 changed nodes",
+    "note": "the only key that differs is the zero-size <br> at index 11 whose getBoundingClientRect is 0,0,0,0; adding scrollY to it is a measurement artifact, not a style change"
+  },
+  "appearReveal": {
+    "targets": [
+      "h1.sd-6.appear",
+      "p.sd-9.appear",
+      "img.sd-11.appear"
+    ],
+    "mechanism": "Studio runtime sets data-appear + data-inited-appear on the element, then removes the `appear` class when the element enters the viewport. Post-reveal DOM: class=\"box sd-6\" / \"text sd-9\" / \"img sd-11\" with data-appear=\"\" data-inited-appear=\"\".",
+    "stateA": {
+      "opacity": "0",
+      "translate": "0px 16px"
+    },
+    "stateB": {
+      "opacity": "1",
+      "translate": "none"
+    },
+    "declaredCss": {
+      ".sd-6.appear": "opacity:0; translate:0px 16px; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1)",
+      ".sd-9.appear": "opacity:0; translate:0px 16px; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1)",
+      ".sd-11.appear": "opacity:0; translate:0px 16px; transition-delay:500ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1)"
+    },
+    "measuredTransitionEvents": [
+      "599 start box sd-6 appear visibility 0.8s 0.4s cubic-bezier(0.2,1,1,1)",
+      "604 start text sd-9 appear visibility 0.8s 0.4s cubic-bezier(0.2,1,1,1)",
+      "699 start img sd-11 appear visibility 0.8s 0.5s cubic-bezier(0.2,1,1,1)",
+      "1310 start box sd-6 opacity",
+      "1311 start box sd-6 translate",
+      "1311 start text sd-9 opacity",
+      "1311 start text sd-9 translate",
+      "1400 start img sd-11 opacity",
+      "1401 start img sd-11 translate",
+      "2132 end box sd-6 opacity elapsedTime 800ms",
+      "2132 end box sd-6 translate elapsedTime 800ms",
+      "2132 end text sd-9 opacity elapsedTime 800ms",
+      "2132 end text sd-9 translate elapsedTime 800ms",
+      "2232 end img sd-11 opacity elapsedTime 800ms",
+      "2232 end img sd-11 translate elapsedTime 800ms"
+    ],
+    "measuredDurationMs": 800,
+    "imageStaggerMs": 90,
+    "oneShot": true,
+    "note": "reveal fires once on load because the section is already in the viewport at scrollY 0; scrolling away and back does not re-trigger it (scrollDiff = 0 changed nodes)"
+  },
+  "breakpointRules": {
+    "(max-width: 768px)": [
+      ".sd-root .sd-7 { font-size:1rem; }",
+      ".sd-root .sd-8 { font-size:3.25rem; width:632px; max-width:100%; }",
+      ".sd-root .sd-9 { font-size:0.94rem; }",
+      ".sd-root .sd-12 { background:linear-gradient(0deg, #ffffffff, rgba(255, 255, 255, 0.95) 21%, #ffffff00); height:200px; }"
+    ],
+    "(max-width: 480px)": [
+      ".sd-root .sd-4 { gap:48px; padding:136px 0px 0px; }",
+      ".sd-root .sd-4 > * { --gap-h:0px; --gap-v:48px; }",
+      ".sd-root .sd-7 { font-size:0.88rem; }",
+      ".sd-root .sd-8 { font-size:2rem; width:394px; max-width:100%; }",
+      ".sd-root .sd-9 { font-size:0.88rem; }",
+      ".sd-root .sd-10 { gap:48px; }",
+      ".sd-root .sd-10 > * { --gap-h:0px; --gap-v:48px; }",
+      ".sd-root .sd-12 { background:linear-gradient(0deg, #ffffffff, rgba(255, 255, 255, 0.95) 11%, #ffffff00); height:48px; }"
+    ],
+    "(max-width: 360px)": [
+      ".sd-root .sd-12 { height:64px; }"
+    ],
+    "(max-width: 1280px)": [
+      "no rule in this section"
+    ]
+  },
+  "image": {
+    "markupSrc": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='3568' height='2223' viewBox='0 0 3568 2223'></svg>",
+    "dataSdImgSrc": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-3568x2223_v-frms_webp_c52ed059-0e43-4dc5-9f76-93f0d8aa2bb6.jpg",
+    "runtimeResolvedSrc": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-3568x2223_v-frms_webp_c52ed059-0e43-4dc5-9f76-93f0d8aa2bb6_regular.webp",
+    "currentSrc": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-3568x2223_v-frms_webp_c52ed059-0e43-4dc5-9f76-93f0d8aa2bb6_regular.webp",
+    "naturalWidth": 1800,
+    "naturalHeight": 1121,
+    "fetchpriority": "high",
+    "srcset": null,
+    "sizes": null,
+    "loading": null,
+    "alt": "",
+    "noscriptFallbackSrc": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-3568x2223_v-frms_webp_c52ed059-0e43-4dc5-9f76-93f0d8aa2bb6_small.webp",
+    "localPath": "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-3568x2223_v-frms_webp_c52ed059-0e43-4dc5-9f76-93f0d8aa2bb6_regular.webp",
+    "singleImage": true,
+    "layered": false
+  },
+  "headerReservation": {
+    "headerRect@1440": "top 32, height 64 (bottom 96)",
+    "reservedBy": ".sd-4 { padding-top: 152px } @1440/@768 and 136px @<=480",
+    "note": "the hero does not offset itself for the fixed header; the header floats over the top 96px of .sd-3 which is empty #f7f7f7 background"
+  },
+  "styleTable": {
+    "A_appear_pre_reveal": {
+      "opacity": "0",
+      "translate": "0px 16px",
+      "visibility": "visible",
+      "transitionDuration": "0.8s",
+      "transitionTimingFunction": "cubic-bezier(0.2, 1, 1, 1)"
+    },
+    "A_appear_pre_reveal_img": {
+      "opacity": "0",
+      "translate": "0px 16px",
+      "visibility": "visible",
+      "transitionDuration": "0.8s",
+      "transitionDelay": "0.5s",
+      "transitionTimingFunction": "cubic-bezier(0.2, 1, 1, 1)"
+    },
+    "A_appear_pre_reveal_text": {
+      "opacity": "0",
+      "translate": "0px 16px",
+      "visibility": "visible",
+      "transitionDuration": "0.8s",
+      "transitionDelay": "0.4s",
+      "transitionTimingFunction": "cubic-bezier(0.2, 1, 1, 1)"
+    },
+    "B_settled": {
+      "opacity": "1",
+      "translate": "none",
+      "visibility": "visible",
+      "transitionDuration": "0.3s",
+      "transitionDelay": "0s",
+      "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+    }
+  },
+  "nodes": [
+    {
+      "cls": "box sd-3",
+      "state": "A",
+      "rect": [
+        0,
+        0,
+        1440,
+        1300.4921875
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "box sd-4",
+      "state": "A",
+      "rect": [
+        24,
+        0,
+        1392,
+        1300.4921875
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "box sd-5",
+      "state": "A",
+      "rect": [
+        260,
+        152,
+        920,
+        285.5859375
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "box sd-6 appear",
+      "state": "A",
+      "rect": [
+        349,
+        168,
+        742,
+        180
+      ],
+      "style": "A_appear_pre_reveal_text"
+    },
+    {
+      "cls": "text sd-7",
+      "state": "A",
+      "rect": [
+        660.8828125,
+        168,
+        118.234375,
+        24
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "text sd-8",
+      "state": "A",
+      "rect": [
+        349,
+        216,
+        742,
+        132
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "text sd-9 appear",
+      "state": "A",
+      "rect": [
+        429.65625,
+        372,
+        580.6875,
+        81.5859375
+      ],
+      "style": "A_appear_pre_reveal_text"
+    },
+    {
+      "cls": "box sd-10",
+      "state": "A",
+      "rect": [
+        24,
+        493.5859375,
+        1392,
+        866.90625
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "img sd-11 appear",
+      "state": "A",
+      "rect": [
+        24,
+        509.5859375,
+        1392,
+        866.90625
+      ],
+      "style": "A_appear_pre_reveal_img"
+    },
+    {
+      "cls": "box sd-12",
+      "state": "A",
+      "rect": [
+        0,
+        900.4921875,
+        1440,
+        400
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "box sd-6",
+      "state": "B",
+      "rect": [
+        349,
+        152,
+        742,
+        180
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "text sd-9",
+      "state": "B",
+      "rect": [
+        429.65625,
+        356,
+        580.6875,
+        81.5859375
+      ],
+      "style": "B_settled"
+    },
+    {
+      "cls": "img sd-11",
+      "state": "B",
+      "rect": [
+        24,
+        493.5859375,
+        1392,
+        866.90625
+      ],
+      "style": "B_settled"
+    }
+  ],
+  "totalNodes": 13,
+  "nodesNote": "state A = measured at 1440x900 immediately after load while the `appear` class is still present (pre-reveal); state B = the same nodes after the reveal settles. The 16px y delta on sd-6/sd-9/sd-11 is the translate:0px 16px offset. Full settled computed styles for all 12 DOM nodes live in hero.1440.json."
+}
