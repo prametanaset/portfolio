@@ -14,6 +14,7 @@ import { CollaborationSection } from "@/components/sites/studio-design-8a86c0e4/
 import { DataSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/DataSection";
 import { StartCtaSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/StartCtaSection";
 import { StockBandSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/StockBandSection";
+import { SiteFooter } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/SiteFooter";
 
 export default function Page() {
   return (
@@ -32,6 +33,7 @@ export default function Page() {
         <StartCtaSection />
         <StockBandSection />
       </main>
+      <SiteFooter />
     </div>
   );
 }
