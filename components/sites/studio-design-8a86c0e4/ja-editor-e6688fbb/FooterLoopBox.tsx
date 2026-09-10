@@ -25,51 +25,51 @@ type MarqueeItem = { src: string; alt: string };
 /** The 12 authored `<li class="box list-2__item">`, in origin DOM order. */
 const ITEMS: readonly MarqueeItem[] = [
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4e2b3a41-40d5-42b3-8905-327b8d2e54af_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4e2b3a41-40d5-42b3-8905-327b8d2e54af.webp",
     alt: "poporpop | ｢想像を超えるポップ｣をつくるコンテンツ制作会社",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_773373a5-098d-4561-9bd2-89da8bca7092_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_773373a5-098d-4561-9bd2-89da8bca7092.webp",
     alt: "PROS(プロス) | BtoB特化のUXデザイン・UIデザイン会社",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4d1f7529-b8e8-41cf-afc0-94c8c9c4b761_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4d1f7529-b8e8-41cf-afc0-94c8c9c4b761.webp",
     alt: "ANATOMICA｜アナトミカ公式サイト",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_9c778003-1574-4fc7-a9a1-029f8dee95af_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_9c778003-1574-4fc7-a9a1-029f8dee95af.webp",
     alt: "doda PRESENTS: パ・リーグ球団 仕事図鑑2025",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_e5539cec-bede-4b8b-b1c6-01ff4475524e_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_e5539cec-bede-4b8b-b1c6-01ff4475524e.webp",
     alt: "Wedding invitation | 2025.10.12",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_94bb0a25-e722-46bb-94ac-a60d74becbb3_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_94bb0a25-e722-46bb-94ac-a60d74becbb3.webp",
     alt: "スペースマーケットのテクノロジーページ",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_057d7f8b-9721-49fd-b8c4-b8f63454cb5c_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_057d7f8b-9721-49fd-b8c4-b8f63454cb5c.webp",
     alt: "Next 10 Chairs",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_84785f8a-3ea7-477d-bdef-7e303ec884a9_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_84785f8a-3ea7-477d-bdef-7e303ec884a9.webp",
     alt: "ランディーズドーナツ | LA発の大人気ドーナツ店が日本初上陸！",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_19349c0a-e2df-422c-9d8a-5e3389a11701_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_19349c0a-e2df-422c-9d8a-5e3389a11701.webp",
     alt: "早苗饗レモン（さなぶりれもん） ",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_034943b5-1a91-41dc-a6cc-c0e3aa344283_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_034943b5-1a91-41dc-a6cc-c0e3aa344283.webp",
     alt: "Coalition Group Recruit Site",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_291f6395-5ba1-44b1-ae07-e43ec6a1cb6b_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_291f6395-5ba1-44b1-ae07-e43ec6a1cb6b.webp",
     alt: "KURATECA | 倉敷化工株式会社",
   },
   {
-    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_b054ee16-f3e6-4cb9-855e-148eb61ab0e8_small.webp",
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_b054ee16-f3e6-4cb9-855e-148eb61ab0e8.webp",
     alt: "WoodSpirits",
   },];
 
@@ -117,20 +117,22 @@ const TRACK_STYLE = {
 export function FooterLoopBox() {
   const sizerRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
-  // The sizer is laid out by the origin CSS alone (its automatic minimum size is the list's
-  // min-content width), so its box is exactly the track width the origin measures: 4456 @1440,
-  // 2816 @390. Never hard-coded — the ≤768 rule `width: calc(32% - var(--gap-h) * 0.68)` makes it
-  // resolve against the list's own intrinsic width, which only the browser can settle.
+  // The track width is the authored list's own width — 4456 @1440, 17632 @768, 2816 @390 — not the
+  // sizer's box, which `min-width: 100%` collapses to the viewport. Never hard-coded: the ≤768 rule
+  // `width: calc(32% - var(--gap-h) * 0.68)` is cyclic inside an intrinsically-sized parent and falls
+  // back to each thumbnail's intrinsic width, which only the browser can settle.
   const [trackWidth, setTrackWidth] = useState<number | null>(null);
 
   useEffect(() => {
     const sizer = sizerRef.current;
-    if (!sizer) return;
-    const measure = () => setTrackWidth(sizer.getBoundingClientRect().width);
+    const list = sizer?.firstElementChild;
+    if (!sizer || !list) return;
+    const measure = () => setTrackWidth(list.getBoundingClientRect().width);
     measure();
     // Fires on viewport changes and again once the 12 thumbnails have decoded.
     const observer = new ResizeObserver(measure);
     observer.observe(sizer);
+    observer.observe(list);
     return () => observer.disconnect();
   }, []);
 
