@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1932x1020_v-frms_webp_c0281a1c-b889-4aca-b73b-ccf52f491bac_small.webp",
+    "path": "images/s-1932x1020_v-frms_webp_c0281a1c-b889-4aca-b73b-ccf52f491bac_small.webp",
+    "usedBy": "img.sd-314 (CMS card)",
+    "why": "assets.manifest.json only carries the _middle variant of this image, which is what the Studio runtime loads at 1440 (rendered 644px). At 768 (rendered 401.59px) and 390 (rendered 318px) the runtime swaps in the _small variant, verified live in extract/data.states.json -> imageVariantsByViewport. Both files are needed for the 768 and 390 visual diffs to match."
+  }
+]
