@@ -8,6 +8,7 @@ import { NextCreationSection } from "@/components/sites/studio-design-8a86c0e4/j
 import { FreeLayoutSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/FreeLayoutSection";
 import { EditorAiSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/EditorAiSection";
 import { VisualDesignSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/VisualDesignSection";
+import { CreativeAssetsSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/CreativeAssetsSection";
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
         <FreeLayoutSection />
         <EditorAiSection />
         <VisualDesignSection />
+        <CreativeAssetsSection />
       </main>
     </div>
   );
