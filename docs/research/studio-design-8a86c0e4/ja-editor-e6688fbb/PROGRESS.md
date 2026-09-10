@@ -31,10 +31,10 @@
 | 2 | main > .sd-3 | HeroDesignEditor | reviewed | merged 4eef40e, fixes 8604be2; mounted; smoke diff vs origin 0.017% @1440 first viewport |
 | 3 | .sd-13 | NextCreationSection | reviewed | merged 891230d, mounted 25f7f60. Review: 2 minor, both accepted — prev step runs as prevArmed/prevRunning (geometrically identical, avoids an empty head slot; leaves the origin's `[data-animatingPrev]` rule unused), and the three controls carry `type="button"` the origin omits (no form on the page, zero visual effect) |
 | 4 | .sd-45 | FreeLayoutSection | reviewed | merged + mounted ced736b; review: 1 minor (redundant "use client") fixed here and in HeroDesignEditor |
-| 5 | .sd-79 | EditorAiSection | extracting | dark zone rgb(26,26,26), 1997 px tall |
-| 6 | .sd-133 | VisualDesignSection | pending | |
-| 7 | .sd-216 | CreativeAssetsSection | pending | |
-| 8 | .sd-236 | FeaturedCreatorsSection | pending | carousel sd-244 (5) |
+| 5 | .sd-79 | EditorAiSection | reviewed | merged+mounted 9fa3f66; review fix 41916bc (U+2028 in .sd-94, spec was wrong); srcSet resolves to the origin's variant at all three widths |
+| 6 | .sd-133 | VisualDesignSection | reviewed | merged+mounted fe94596, fix ec4d5cf; 4 files (section + MOTION card + video player + slice), 173 rules, 19 reveals, 34 hover rules all pure CSS |
+| 7 | .sd-216 | CreativeAssetsSection | reviewed | merged+mounted 6373d48; review MATCH — 0 mismatches |
+| 8 | .sd-236 | FeaturedCreatorsSection | extracting | carousel sd-244 (1000/4500 ms, no hover-stop) + play-toggle .sd-259 |
 | 9 | .sd-271 | CollaborationSection | pending | |
 | 10 | .sd-303 | DataSection | pending | toggles |
 | 11 | .symbol-2 | StartCtaSection | pending | |
