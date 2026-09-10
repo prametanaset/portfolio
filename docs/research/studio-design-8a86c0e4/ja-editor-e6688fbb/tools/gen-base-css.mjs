@@ -11,7 +11,10 @@ const css = fs.readFileSync(path.join(here, '../css/main.css'), 'utf8');
 const out = process.argv[2];
 if (!out) { console.error('usage: gen-base-css.mjs <out.css>'); process.exit(1); }
 
-const PER_ELEMENT = /\.(sd-\d|symbol-\d|list-\d|modal-|go\d)/;
+// Per-page element rules stay out of the base layer. `modal-ja_menu` is this page's own dialog;
+// the generic `.modal-container` / `.modal-backdrop` / `dialog[data-modal-transition-base]` rules
+// are Studio's modal runtime and DO belong here.
+const PER_ELEMENT = /\.(sd-\d|symbol-\d|list-\d|modal-ja_menu|go\d)/;
 const FONT_DIR = '/sites/studio-design-8a86c0e4/shared/fonts';
 const localFontFace = (block) =>
   block.replace(

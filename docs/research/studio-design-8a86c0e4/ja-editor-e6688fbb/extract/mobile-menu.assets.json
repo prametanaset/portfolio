@@ -1,0 +1,5 @@
+{
+  "section": "mobile-menu",
+  "note": "All 12 <img> src URLs of dialog.modal-ja_menu resolve through assets.manifest.json to files already on disk under public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/. No Material Symbols glyph is an asset (ligature text, font already self-hosted in app/studio-base.css).",
+  "missing": []
+}

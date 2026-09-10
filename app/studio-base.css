@@ -490,6 +490,66 @@ p > code {
     background: transparent;
   }
 }
+.sd-root .modal-container {
+
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1;
+}
+.sd-root .modal-container > * {
+  pointer-events: auto;
+}
+.sd-root .modal-backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.sd-root dialog[open][data-modal-transition-base]:not(.modal-ready) .modal-container * {
+  transition: none !important;
+}
+.sd-root dialog[open][data-modal-transition-base] > .modal-container {
+  opacity: 0;
+
+}
+.sd-root dialog[open][data-modal-transition-base] > .modal-backdrop {
+  opacity: 0;
+}
+.sd-root dialog[open][data-modal-transition-base].modal-ready > .modal-container {
+  opacity: 1;
+  transform: none;
+  transition: opacity 400ms cubic-bezier(.4,.4,0,1), transform 400ms cubic-bezier(.4,.4,0,1);
+}
+.sd-root dialog[open][data-modal-transition-base].modal-ready > .modal-backdrop {
+  opacity: 1;
+  transition: opacity 400ms cubic-bezier(.4,.4,0,1);
+}
+.sd-root dialog[data-modal-transition-base].modal-closing > .modal-container {
+  opacity: 0;
+  transition: opacity 400ms cubic-bezier(.4,.4,0,1), transform 400ms cubic-bezier(.4,.4,0,1);
+}
+.sd-root dialog[data-modal-transition-base].modal-closing > .modal-backdrop {
+  opacity: 0;
+  transition: opacity 400ms cubic-bezier(.4,.4,0,1);
+}
+@media (prefers-reduced-motion: reduce) {
+.sd-root dialog[open][data-modal-transition-base] > .modal-container, .sd-root dialog[open][data-modal-transition-base].modal-ready > .modal-container, .sd-root dialog[data-modal-transition-base].modal-closing > .modal-container {
+    transition: none;
+    opacity: 1;
+    transform: none !important;
+  }
+.sd-root dialog[open][data-modal-transition-base] > .modal-backdrop, .sd-root dialog[open][data-modal-transition-base].modal-ready > .modal-backdrop, .sd-root dialog[data-modal-transition-base].modal-closing > .modal-backdrop {
+    transition: none;
+    opacity: 1;
+  }
+}
 .sd-root .image__bg-container {
   container-type: size;
   container-name: image-container;

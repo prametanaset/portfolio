@@ -1,0 +1,326 @@
+{
+ "section": "mobile-menu",
+ "selector": "dialog.modal-ja_menu#sd-modal-b5c877c2c8794404",
+ "reachability": {
+  "hamburger_display": {
+   "1440": "none",
+   "768": "flex",
+   "390": "flex"
+  },
+  "rule": "@media (max-width:1280px) .symbol-1__sd-370{display:flex} — base rule is display:none, so the dialog is user-reachable only at <=1280px. The 1440 extract was produced by calling the origin's own showModal('sd-modal-b5c877c2c8794404', btn) from the console."
+ },
+ "openApi": {
+  "native": true,
+  "evidence": "dialog.matches(':modal') === true while open; the dialog carries autofocus and data-modal-transition-base='{\"opacity\":0,\"transform\":\"none\"}'",
+  "trigger": "button.symbol-1__sd-370[data-modal='sd-modal-b5c877c2c8794404'] onclick=showModal('sd-modal-b5c877c2c8794404', this)"
+ },
+ "openTimeline_390_ms": {
+  "0": "click on .symbol-1__sd-370",
+  "71": "dialog gets style display:flex then visibility:hidden then both cleared; open attribute added (showModal); .modal-container inline style 'opacity:0;transform:none'; .modal-backdrop inline style 'opacity:0'",
+  "73": "dialog class 'modal-ja_menu' -> 'modal-ja_menu modal-ready'; .modal-container -> 'opacity:1;transform:none'; .modal-backdrop -> 'opacity:1' (both transition 0.4s cubic-bezier(0.4,0.4,0,1))",
+  "77": "the 5 [data-toggle-content] keep inert + aria-hidden=true (all accordions start closed)",
+  "86": "appear runtime writes an inline `transition:<dur> <easing> <delay>, --g-angle, --g-color-0,...` on each target then swaps class appear -> appear-active for batch 1: sd-1, sd-5, sd-6, sd-7, sd-8, sd-75, sd-123, sd-141, sd-229, sd-264, sd-285, sd-287, sd-288, sd-289",
+  "88": "appear-active removed from batch 1 (present ~2 ms / 1 frame)",
+  "362": "batch 2 sd-3 (appear->appear-active)",
+  "368": "sd-3 appear-active removed",
+  "445": "batch 3 sd-10, sd-266",
+  "451": "appear-active removed",
+  "461": "batch 4 sd-77, sd-125, sd-231",
+  "468": "appear-active removed",
+  "469": "batch 5 sd-143",
+  "477": "sd-143 appear-active removed; .modal-container and .modal-backdrop inline styles removed",
+  "902-1803": "the inline transition style is removed per element at (delay+duration) after it was set: sd-7 902, sd-1 1002, sd-8/75/123/141/229/264 1003-1004, sd-5 1202, sd-10/266 1352, sd-77/125/231 1368-1369, sd-143 1377, sd-285 1494, sd-3 1577, sd-6 1602, sd-287 1627, sd-288 1702, sd-289 1803"
+ },
+ "openBatchExplanation": "The batches are IntersectionObserver callbacks, not timers: sd-3 sits inside sd-1 (translate -160px) and sd-10/77/125/143/231/266 sit inside sd-8/75/123/141/229/264 (translate -160px), so they only start intersecting once their ancestor has slid in. A clone that removes `appear` from every node at once will NOT reproduce the cascade.",
+ "closeTimeline_ms": {
+  "0": "click .modal-ja_menu__sd-5 (onclick=hideCurrentModal(this)) OR Escape (native cancel is intercepted by the same runtime)",
+  "10-46": "dialog class modal-ready -> modal-closing; .modal-container inline style 'opacity:0;transform:none'; .modal-backdrop inline style 'opacity:0' (0.4s cubic-bezier(0.4,0.4,0,1))",
+  "443-491": "dialog.close(): open attribute removed, class back to 'modal-ja_menu', the class `appear` is re-added to all 29 targets, all 5 toggles reset to aria-expanded=false + inert + aria-hidden=true",
+  "note": "measured 443 ms via Escape and 491 ms via the close button; the fade itself is 400 ms"
+ },
+ "focus": {
+  "onOpen": "document.activeElement === dialog.modal-ja_menu (autofocus on the <dialog>)",
+  "onClose": "document.activeElement === button.symbol-1__sd-370",
+  "trap": "native showModal top-layer trap; no JS focus trap of its own"
+ },
+ "escape": {
+  "closes": true,
+  "path": "same modal-closing fade as the close button"
+ },
+ "scrollLock": {
+  "locked": true,
+  "evidence": "while open, window.scrollTo(0,300) left scrollY unchanged at 12672.5",
+  "mechanism": "native modal dialog top layer — body/html computed overflow stay 'visible', no class or inline style is added to <html> or <body>"
+ },
+ "backdrop": {
+  "element": "div.modal-backdrop.modal-ja_menu__backdrop (first child of the dialog, position:absolute, inset 0)",
+  "background": "rgba(0,0,0,0)",
+  "borderRadius": "0",
+  "note": "fully transparent — the opaque panel .modal-ja_menu__sd-7 (#222222, height 100vh, width 100%) is what covers the page. The UA ::backdrop is also transparent (`.sd-root dialog::backdrop{background:transparent}` in app/studio-base.css)."
+ },
+ "accordions": {
+  "count": 5,
+  "trigger": "click on button[data-toggle-trigger] (.sd-9 / .sd-76 / .sd-124 / .sd-142 / .sd-230)",
+  "hostAttr": "sd-toggle.toggle.modal-ja_menu__sd-{8,75,123,141,229} close-outside",
+  "oneAtATime": true,
+  "evidence": "opening sd-75 while sd-8 was open: sd-8 lost `open` and got data-toggle-closing at +1 ms, height 799.95 -> 0",
+  "closingMs": 806,
+  "closingEvidence": "data-toggle-closing added t=1503, removed together with `open` at t=2309",
+  "closeOutside": "clicking empty dialog chrome (195,60) closed the open panel and left the dialog open",
+  "contentTransition": "0.8s cubic-bezier(0.4,0.4,0,1) on .sd-14/81/129/147/235 (height auto <-> 0px)",
+  "openHeights390": {
+   "sd-14": 799.95,
+   "sd-81": 892.73,
+   "sd-129": 156.39,
+   "sd-147": 859.95,
+   "sd-235": 288.78
+  },
+  "sd7ScrollHeight390": {
+   "allClosed": 844,
+   "p1": 1514,
+   "p2": 1607,
+   "p3": 870,
+   "p4": 1574,
+   "p5": 1003
+  },
+  "icon": "plus/minus built from two 15x1.5 #EEEEEE bars: .sd-12 static horizontal, .sd-13 position:absolute left0 top0. Closed: .sd-13 opacity 1 rotate 90deg (0.8s). Open: .sd-13 opacity 0 rotate 0deg.",
+  "attrStates": {
+   "closed": "sd-toggle has no [open]; button aria-expanded=false; content inert + aria-hidden=true; content height 0px",
+   "open": "sd-toggle[open]; aria-expanded=true; inert and aria-hidden removed; content height auto",
+   "closing": "sd-toggle keeps [open] and gains [data-toggle-closing] for 800 ms"
+  }
+ },
+ "hoverRules": [
+  ".sd-root .modal-ja_menu__sd-264:hover { transition-timing-function:cubic-bezier(0   , 1   , 0.5 , 1); --ha:1; }",
+  ".sd-root .modal-ja_menu__sd-267:hover { transition-timing-function:cubic-bezier(0   , 1   , 0.5 , 1); --ha:1; }",
+  ".sd-root .modal-ja_menu__sd-267:hover .modal-ja_menu__sd-271 { rotate:-45deg; translate:16px 0px; }",
+  ".sd-root .modal-ja_menu__sd-267:hover .modal-ja_menu__sd-272 { rotate:-45deg; translate:16px -16px; }",
+  ".sd-root .modal-ja_menu__sd-273:hover { transition-timing-function:cubic-bezier(0   , 1   , 0.5 , 1); --ha:1; }",
+  ".sd-root .modal-ja_menu__sd-273:hover .modal-ja_menu__sd-277 { rotate:-45deg; translate:16px 0px; }",
+  ".sd-root .modal-ja_menu__sd-273:hover .modal-ja_menu__sd-278 { rotate:-45deg; translate:16px -16px; }",
+  ".sd-root .modal-ja_menu__sd-279:hover { transition-timing-function:cubic-bezier(0   , 1   , 0.5 , 1); --ha:1; }",
+  ".sd-root .modal-ja_menu__sd-282:hover { transition-timing-function:cubic-bezier(0   , 1   , 0.5 , 1); --ha:1; }"
+ ],
+ "hoverMeasured": {
+  "a.modal-ja_menu__sd-264 (料金プラン)": "no measured change (opacity/translate/rotate/background/color/text-decoration identical before and after a 600 ms hover); the rule only sets transition-timing-function:cubic-bezier(0,1,0.5,1) and --ha:1, and --ha is never read anywhere in css/main.css",
+  "button.modal-ja_menu__sd-5 (close)": "no :hover rule; measured background rgba(0,0,0,0), border-top-color rgb(83,83,83), img rotate none before and after hover",
+  "a.modal-ja_menu__sd-152 / .sd-19 / .sd-87 (panel links)": "no :hover rule anywhere in css/main.css for any modal-ja_menu__sd-N other than 264/267/273/279/282",
+  "sd-267 / sd-273 / sd-279 / sd-282": "carry :hover rules that slide their arrow glyphs (rotate:-45deg; translate:16px 0 / 16px -16px) but the elements are display:none at EVERY width (base rule + @media 1280/768/480/360), so the hover is unreachable"
+ },
+ "geometry": {
+  "390": {
+   "dialog": [
+    0,
+    0,
+    390,
+    844
+   ],
+   "sd-1": [
+    0,
+    0,
+    390,
+    64
+   ],
+   "sd-2": [
+    16,
+    12,
+    358,
+    40
+   ],
+   "sd-4": [
+    16,
+    24,
+    73.19,
+    16
+   ],
+   "sd-5": [
+    318,
+    12,
+    40,
+    40
+   ],
+   "sd-7": [
+    0,
+    0,
+    390,
+    844
+   ],
+   "sd-8": [
+    0,
+    96,
+    390,
+    69.8
+   ],
+   "sd-264": [
+    0,
+    444.98,
+    390,
+    69.8
+   ],
+   "sd-285": [
+    16,
+    562.78,
+    358,
+    23.23
+   ],
+   "sd-267/273/279/282": "display:none"
+  },
+  "768": {
+   "dialog": [
+    0,
+    0,
+    768,
+    1024
+   ],
+   "sd-1": [
+    0,
+    0,
+    768,
+    72
+   ],
+   "sd-2": [
+    24,
+    16,
+    720,
+    40
+   ],
+   "sd-4": [
+    24,
+    28,
+    73.19,
+    16
+   ],
+   "sd-5": [
+    704,
+    16,
+    40,
+    40
+   ],
+   "sd-7": [
+    0,
+    0,
+    768,
+    1024
+   ],
+   "sd-8": [
+    0,
+    96,
+    768,
+    69.8
+   ],
+   "sd-264": [
+    0,
+    444.98,
+    768,
+    69.8
+   ],
+   "sd-285": [
+    24,
+    562.78,
+    720,
+    23.23
+   ],
+   "sd-267/273/279/282": "display:none"
+  },
+  "1440_forced": {
+   "dialog": [
+    0,
+    0,
+    1440,
+    900
+   ],
+   "sd-1": [
+    0,
+    0,
+    1440,
+    88
+   ],
+   "sd-2": [
+    24,
+    24,
+    1392,
+    40
+   ],
+   "sd-5": [
+    1376,
+    24,
+    40,
+    40
+   ],
+   "sd-7": [
+    0,
+    0,
+    1440,
+    900
+   ],
+   "sd-8": [
+    0,
+    128,
+    1440,
+    69.8
+   ],
+   "sd-285": [
+    24,
+    594.78,
+    1392,
+    23.23
+   ],
+   "sd-267/273/279/282": "display:none"
+  }
+ },
+ "counts": {
+  "img": 12,
+  "toggleTriggers": 5,
+  "appearTargets": 29,
+  "materialSymbolSpans": 22,
+  "nodes": 294
+ },
+ "appearTargets": [
+  "sd-1",
+  "sd-3",
+  "sd-5",
+  "sd-6",
+  "sd-7",
+  "sd-8",
+  "sd-10",
+  "sd-75",
+  "sd-77",
+  "sd-123",
+  "sd-125",
+  "sd-141",
+  "sd-143",
+  "sd-229",
+  "sd-231",
+  "sd-264",
+  "sd-266",
+  "sd-267",
+  "sd-269",
+  "sd-273",
+  "sd-275",
+  "sd-279",
+  "sd-281",
+  "sd-282",
+  "sd-284",
+  "sd-285",
+  "sd-287",
+  "sd-288",
+  "sd-289"
+ ],
+ "appearHiddenStates": {
+  "sd-1": "opacity:0; translate:-160px 0",
+  "sd-3": "opacity:0; transition-delay:400ms",
+  "sd-5": "opacity:0; transition-delay:300ms; transition-duration:800ms",
+  "sd-6": "opacity:0; rotate:-45deg (own rule: transition-delay:700ms; transition-duration:800ms; cubic-bezier(0.2,1,1,1))",
+  "sd-7": "opacity:0; translate:-96px 0",
+  "sd-8/75/123/141/229/264/267/273/279/282": "opacity:0; translate:-160px 0",
+  "sd-10/77/125/143/231/266/269/275/281/284": "linear-gradient(90deg, rgba(255,255,255,0) var(--g-position-0), rgb(255,255,255) var(--g-position-1)) with --g-position-0/1 = 0% while .appear, 100% at rest — a left-to-right text wipe",
+  "sd-285": "opacity:0; transition-delay:600ms; transition-duration:800ms",
+  "sd-287": "opacity:0; transition-delay:725ms; transition-duration:800ms",
+  "sd-288": "opacity:0; transition-delay:800ms; transition-duration:800ms",
+  "sd-289": "opacity:0; transition-delay:900ms"
+ },
+ "appearActive": {
+  "rule": ".sd-root .modal-ja_menu__sd-7.appear-active { transition-timing-function: cubic-bezier(0, 1.01, 1, 1) }",
+  "measured": "the runtime writes the inline shorthand `transition: 0.8s cubic-bezier(0, 1, 1, 1), --g-angle, ...` on sd-7 in the same tick it adds appear-active, and an inline declaration outranks the class rule, so cubic-bezier(0,1,1,1) is what actually runs; appear-active is present for ~2 ms."
+ }
+}
