@@ -1,0 +1,168 @@
+"use client";
+
+// Port of the studio.design/ja/editor footer marquee (`sd-loop-box.box.symbol-3__sd-2`,
+// `speed="80"`). The origin ships only the authored `<ul class="box list-2">`; its runtime then
+// wraps that ul in a hidden `div.loop-sizer` (the height spacer) and builds a second, absolutely
+// positioned `div.loop-track` carrying a copy of the ul plus a third copy inside `div.loop-clone`.
+// None of `loop-sizer` / `loop-track` / `loop-clone` has a CSS rule anywhere in the origin
+// stylesheet — the runtime writes their styles inline, so this component does too (the inline
+// declarations below are transcribed verbatim from `extract/site-footer.states.json` → `loopBox`).
+//
+// Motion is a Web Animation on the track, not a CSS keyframe animation (the origin stylesheet has
+// no `@keyframes` at all): translateX(0) → -(trackW + 16)px, linear, infinite, with
+// `duration = (trackW + 16) * 1000` ms and `playbackRate = 80`, i.e. a constant 80 px/s leftwards
+// at every viewport. It runs from load: no hover stop, no IntersectionObserver gate.
+
+import { useEffect, useRef, useState } from "react";
+
+/** The `speed` attribute on the origin's `<sd-loop-box>` — px per second. */
+const SPEED_PX_PER_SECOND = 80;
+/** `--gap-h` inherited from `.symbol-3__sd-2 > *`; the track travels one copy plus this gap. */
+const TRACK_GAP_PX = 16;
+
+type MarqueeItem = { src: string; alt: string };
+
+/** The 12 authored `<li class="box list-2__item">`, in origin DOM order. */
+const ITEMS: readonly MarqueeItem[] = [
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4e2b3a41-40d5-42b3-8905-327b8d2e54af_small.webp",
+    alt: "poporpop | ｢想像を超えるポップ｣をつくるコンテンツ制作会社",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_773373a5-098d-4561-9bd2-89da8bca7092_small.webp",
+    alt: "PROS(プロス) | BtoB特化のUXデザイン・UIデザイン会社",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4d1f7529-b8e8-41cf-afc0-94c8c9c4b761_small.webp",
+    alt: "ANATOMICA｜アナトミカ公式サイト",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_9c778003-1574-4fc7-a9a1-029f8dee95af_small.webp",
+    alt: "doda PRESENTS: パ・リーグ球団 仕事図鑑2025",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_e5539cec-bede-4b8b-b1c6-01ff4475524e_small.webp",
+    alt: "Wedding invitation | 2025.10.12",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_94bb0a25-e722-46bb-94ac-a60d74becbb3_small.webp",
+    alt: "スペースマーケットのテクノロジーページ",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_057d7f8b-9721-49fd-b8c4-b8f63454cb5c_small.webp",
+    alt: "Next 10 Chairs",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_84785f8a-3ea7-477d-bdef-7e303ec884a9_small.webp",
+    alt: "ランディーズドーナツ | LA発の大人気ドーナツ店が日本初上陸！",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_19349c0a-e2df-422c-9d8a-5e3389a11701_small.webp",
+    alt: "早苗饗レモン（さなぶりれもん） ",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_034943b5-1a91-41dc-a6cc-c0e3aa344283_small.webp",
+    alt: "Coalition Group Recruit Site",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_291f6395-5ba1-44b1-ae07-e43ec6a1cb6b_small.webp",
+    alt: "KURATECA | 倉敷化工株式会社",
+  },
+  {
+    src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_b054ee16-f3e6-4cb9-855e-148eb61ab0e8_small.webp",
+    alt: "WoodSpirits",
+  },];
+
+/** One copy of the authored list. Rendered three times: sizer, track, clone. */
+function MarqueeList() {
+  return (
+    <ul className="box list-2">
+      {ITEMS.map((item) => (
+        <li className="box list-2__item" key={item.src}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="img list-2__item__sd-1" alt={item.alt} src={item.src} />
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+/** Verbatim from the runtime record's `sizerInlineStyle`. */
+const SIZER_STYLE = {
+  display: "flex",
+  flexDirection: "row",
+  minWidth: "100%",
+  visibility: "hidden",
+  columnGap: "var(--gap-h, 0px)",
+  rowGap: "var(--gap-v, 0px)",
+  justifyContent: "flex-start",
+  alignItems: "center",
+} as const;
+
+/** Verbatim from the runtime record's `trackInlineStyle`, minus the measured `width`. */
+const TRACK_STYLE = {
+  position: "absolute",
+  left: "0px",
+  height: "100%",
+  display: "flex",
+  flexDirection: "row",
+  minWidth: "100%",
+  transition: "none",
+  columnGap: "var(--gap-h, 0px)",
+  rowGap: "var(--gap-v, 0px)",
+  justifyContent: "flex-start",
+  alignItems: "center",
+} as const;
+
+export function FooterLoopBox() {
+  const sizerRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
+  // The sizer is laid out by the origin CSS alone (its automatic minimum size is the list's
+  // min-content width), so its box is exactly the track width the origin measures: 4456 @1440,
+  // 2816 @390. Never hard-coded — the ≤768 rule `width: calc(32% - var(--gap-h) * 0.68)` makes it
+  // resolve against the list's own intrinsic width, which only the browser can settle.
+  const [trackWidth, setTrackWidth] = useState<number | null>(null);
+
+  useEffect(() => {
+    const sizer = sizerRef.current;
+    if (!sizer) return;
+    const measure = () => setTrackWidth(sizer.getBoundingClientRect().width);
+    measure();
+    // Fires on viewport changes and again once the 12 thumbnails have decoded.
+    const observer = new ResizeObserver(measure);
+    observer.observe(sizer);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track || trackWidth === null || trackWidth <= 0) return;
+    const distance = trackWidth + TRACK_GAP_PX;
+    const animation = track.animate(
+      [{ transform: "translateX(0px)" }, { transform: `translateX(-${distance}px)` }],
+      { duration: distance * 1000, easing: "linear", iterations: Infinity },
+    );
+    animation.playbackRate = SPEED_PX_PER_SECOND;
+    return () => animation.cancel();
+  }, [trackWidth]);
+
+  return (
+    <div className="box symbol-3__sd-1">
+      <sd-loop-box className="box symbol-3__sd-2" {...{ speed: "80" }}>
+        <div className="loop-sizer" style={SIZER_STYLE} ref={sizerRef}>
+          <MarqueeList />
+        </div>
+        <div
+          className="loop-track"
+          style={trackWidth === null ? TRACK_STYLE : { ...TRACK_STYLE, width: `${trackWidth}px` }}
+          ref={trackRef}
+        >
+          <MarqueeList />
+          <div className="loop-clone">
+            <MarqueeList />
+          </div>
+        </div>
+      </sd-loop-box>
+    </div>
+  );
+}
