@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/sites/studio-design-8a86c0e4/ja-editor-
 import { HeroDesignEditor } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/HeroDesignEditor";
 import { NextCreationSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/NextCreationSection";
 import { FreeLayoutSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/FreeLayoutSection";
+import { EditorAiSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/EditorAiSection";
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
         <HeroDesignEditor />
         <NextCreationSection />
         <FreeLayoutSection />
+        <EditorAiSection />
       </main>
     </div>
   );
