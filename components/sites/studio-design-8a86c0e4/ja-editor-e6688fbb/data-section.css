@@ -1,0 +1,104 @@
+/* Sliced from the origin stylesheet (studio.design/ja/editor) for: sd-303..330 */
+.sd-root .sd-303 { align-content:center; align-items:center; background:var(--s-color-56baa902); flex-wrap:nowrap; justify-content:center; padding:0px; width:100%; max-width:100%; }
+.sd-root .sd-304 { align-content:flex-start; align-items:flex-start; border-bottom:0px solid var(--s-color-a99509da); border-left:0px solid var(--s-color-a99509da); border-right:0px solid var(--s-color-a99509da); border-top:1px solid var(--s-color-a99509da); flex:none; flex-direction:row; flex-wrap:wrap; gap:24px; justify-content:flex-start; margin:0px 24px; padding:96px 0px; width:1920px; max-width:calc(100% - 48px); }
+.sd-root .sd-304 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-305 { align-content:flex-start; align-items:flex-start; bottom:auto; flex-direction:column; flex-wrap:nowrap; gap:8px; height:auto; justify-content:flex-start; left:auto; padding:0px; position:sticky; right:auto; top:104px; width:212px; z-index:1; max-width:100%; }
+.sd-root .sd-305 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-306 { color:#222222; height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-307 { color:var(--s-color-36ba82f0); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-308 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-308 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-309 { align-content:stretch; align-items:stretch; flex:1; flex-direction:row; flex-wrap:wrap; gap:24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-309 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-310 { align-content:flex-start; align-items:flex-start; background:var(--s-color-06b63738); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(60% - (var(--gap-h) * 0.4)); max-width:calc(60% - (var(--gap-h) * 0.4)); }
+.sd-root .sd-310.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-310 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-310.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-311 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-311 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-312 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-313 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-314 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); }
+.sd-root .sd-314 { aspect-ratio:auto 1932 / 1020; }
+.sd-root .sd-315 { align-content:flex-start; align-items:flex-start; background:var(--s-color-06b63738); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(40% - (var(--gap-h) * 0.6)); max-width:calc(40% - (var(--gap-h) * 0.6)); }
+.sd-root .sd-315.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-315 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-315.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-316 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-316 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-317 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-318 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-319 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); }
+.sd-root .sd-319 { aspect-ratio:auto 816 / 676; }
+.sd-root .sd-320 { background:linear-gradient(var(--g-angle), var(--g-color-0) var(--g-position-0), var(--g-color-1) var(--g-position-1)); bottom:0px; height:104px; left:0px; position:absolute; right:0px; top:NaNpx; width:auto; z-index:1; max-width:100%; --g-color-0:#ffffffff; --g-position-0:0%; --g-color-1:#ffffff00; --g-position-1:100%; --g-color-2:#ffffff00; --g-position-2:100%; --g-color-3:#ffffff00; --g-position-3:100%; --g-color-4:#ffffff00; --g-position-4:100%; --g-color-5:#ffffff00; --g-position-5:100%; --g-color-6:#ffffff00; --g-position-6:100%; --g-color-7:#ffffff00; --g-position-7:100%; --g-color-8:#ffffff00; --g-position-8:100%; --g-color-9:#ffffff00; --g-position-9:100%; --g-color-10:#ffffff00; --g-position-10:100%; --g-color-11:#ffffff00; --g-position-11:100%; --g-angle:0deg; }
+.sd-root .sd-321 { align-content:flex-start; align-items:flex-start; background:var(--s-color-06b63738); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(50% - (var(--gap-h) * 0.5)); max-width:calc(50% - (var(--gap-h) * 0.5)); }
+.sd-root .sd-321.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-321 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-321.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-322 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-322 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-323 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-324 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-325 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); }
+.sd-root .sd-325 { aspect-ratio:auto 1578 / 1020; }
+.sd-root .sd-326 { align-content:flex-start; align-items:flex-start; background:var(--s-color-06b63738); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(50% - (var(--gap-h) * 0.5)); max-width:calc(50% - (var(--gap-h) * 0.5)); }
+.sd-root .sd-326.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-326 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-326.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-327 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-327 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-328 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-329 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-330 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); }
+.sd-root .sd-330 { aspect-ratio:auto 2104 / 1272; }
+@media (max-width: 1280px) {
+.sd-root .sd-305 { bottom:auto; flex:none; left:auto; position:relative; right:auto; top:auto; width:100%; max-width:100%; }
+.sd-root .sd-305 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-309 { gap:16px; }
+.sd-root .sd-309 > * { --gap-h:16px; --gap-v:16px; }
+}
+@media (max-width: 768px) {
+.sd-root .sd-305 { width:100%; max-width:100%; }
+.sd-root .sd-305 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-310 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-310 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-310.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-311 { gap:12px; }
+.sd-root .sd-311 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-314 { margin:0px -24px 0px 0px; max-width:calc(100% + 24px); }
+.sd-root .sd-315 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-315 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-315.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-316 { gap:12px; }
+.sd-root .sd-316 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-319 { margin:0px -24px 0px 0px; max-width:calc(100% + 24px); }
+.sd-root .sd-321 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-321 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-321.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-322 { gap:12px; }
+.sd-root .sd-322 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-325 { margin:0px -24px 0px 0px; max-width:calc(100% + 24px); }
+.sd-root .sd-326 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-326 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-326.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-327 { gap:12px; }
+.sd-root .sd-327 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-330 { margin:0px -24px 0px 0px; max-width:calc(100% + 24px); }
+}
+@media (max-width: 480px) {
+.sd-root .sd-304 { padding:64px 0px; }
+.sd-root .sd-304 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-310 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-310 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-310.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-315 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-315 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-315.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-320 { height:64px; }
+.sd-root .sd-321 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-321 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-321.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-326 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-326 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-326.appear > * { --gap-h:0px; --gap-v:24px; }
+}
