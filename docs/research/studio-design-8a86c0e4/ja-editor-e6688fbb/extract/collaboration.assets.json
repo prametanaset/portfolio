@@ -1,0 +1,21 @@
+{
+ "note": "Assets referenced by main > .sd-271 that are NOT in assets.manifest.json / public/.../images. `path` is relative to the page public root (public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/).",
+ "missing": [
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1288x678_v-fms_webp_5c0329b7-8f53-4dfb-a80a-d0dead2ab901_small.webp",
+   "path": "images/s-1288x678_v-fms_webp_5c0329b7-8f53-4dfb-a80a-d0dead2ab901_small.webp",
+   "element": ".sd-282",
+   "reason": "The manifest only holds the _middle variant, which is what the browser picks at 1440 (rendered 642.2px wide). At 768 (401.59px) and 390 (318px) the Studio runtime switches this same <img> to the _small variant, so the clone needs both files."
+  }
+ ],
+ "present": [
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1288x678_v-fms_webp_5c0329b7-8f53-4dfb-a80a-d0dead2ab901_middle.webp", "path": "images/s-1288x678_v-fms_webp_5c0329b7-8f53-4dfb-a80a-d0dead2ab901_middle.webp", "element": ".sd-282" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1632x1356_v-fms_webp_1afb3be4-7c11-4d0b-af78-c374a27ba654_small.webp", "path": "images/s-1632x1356_v-fms_webp_1afb3be4-7c11-4d0b-af78-c374a27ba654_small.webp", "element": ".sd-287" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-816x676_v-fs_webp_c7f1e56c-b94a-48df-b889-9798e2ffd1cc_small.webp", "path": "images/s-816x676_v-fs_webp_c7f1e56c-b94a-48df-b889-9798e2ffd1cc_small.webp", "element": ".sd-292" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-865x852_v-fs_webp_48214724-a010-43fa-aa45-d681a6d391b6_small.webp", "path": "images/s-865x852_v-fs_webp_48214724-a010-43fa-aa45-d681a6d391b6_small.webp", "element": ".sd-298" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-865x852_v-fs_webp_ad3da2af-a173-44c3-8dff-b271ef0baf82_small.webp", "path": "images/s-865x852_v-fs_webp_ad3da2af-a173-44c3-8dff-b271ef0baf82_small.webp", "element": ".sd-299" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-864x851_v-fs_webp_76ee5ccd-fa6a-4ce9-8c93-a4d28efc3b00_small.webp", "path": "images/s-864x851_v-fs_webp_76ee5ccd-fa6a-4ce9-8c93-a4d28efc3b00_small.webp", "element": ".sd-300" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-865x852_v-fs_webp_46e1a776-8667-4242-8ced-ce57aa8610ee_small.webp", "path": "images/s-865x852_v-fs_webp_46e1a776-8667-4242-8ced-ce57aa8610ee_small.webp", "element": ".sd-301" },
+  { "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-764x802_v-fs_webp_3f824ef8-03d9-4c09-bb14-2a595539ac64_small.webp", "path": "images/s-764x802_v-fs_webp_3f824ef8-03d9-4c09-bb14-2a595539ac64_small.webp", "element": ".sd-302" }
+ ]
+}
