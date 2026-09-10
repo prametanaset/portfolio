@@ -1,0 +1,122 @@
+/* Sliced from the origin stylesheet (studio.design/ja/editor) for: sd-331..353 */
+.sd-root .sd-331 { align-content:flex-start; align-items:flex-start; background:rgb(255, 255, 255); flex-direction:row; flex-wrap:nowrap; justify-content:center; overflow-x:hidden; overflow-y:hidden; padding:0px 0px 104px; width:100%; max-width:100%; }
+.sd-root .sd-332 { background:#121212; border-radius:4px; gap:0px; height:auto; margin:0px 24px; overflow-x:hidden; overflow-y:hidden; padding:16px; width:1920px; max-width:calc(100% - 48px); }
+.sd-root .sd-332:hover { opacity:1; --ha:1; }
+.sd-root .sd-332 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-332:hover > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-333 { height:100%; left:0px; position:absolute; scale:1.02 1.02; top:0px; transition-duration:600ms; width:100%; z-index:0; max-width:100%; }
+.sd-root .sd-332:hover .sd-333 { scale:1 1; }
+.sd-root .sd-332:hover .sd-333 > .image__bg-container::before { filter:brightness(70%); }
+.sd-root .sd-334 { align-content:center; align-items:center; bottom:24px; flex-direction:row; flex-wrap:nowrap; gap:0px; height:40px; justify-content:flex-end; left:auto; overflow-x:hidden; overflow-y:hidden; padding:0px; position:absolute; right:24px; top:auto; width:40px; z-index:1; }
+.sd-root .sd-334 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-335 { color:#f7f7f7ff; font-size:40px; rotate:-45deg; transition-duration:600ms; translate:0px 40px; --material-symbol-weight:400; }
+.sd-root .sd-332:hover .sd-335 { rotate:-45deg; translate:40px 0px; }
+.sd-root .sd-336 { color:#f7f7f7ff; font-size:40px; rotate:-45deg; transition-duration:600ms; translate:0px 0px; --material-symbol-weight:400; }
+.sd-root .sd-332:hover .sd-336 { rotate:-45deg; translate:44px -40px; }
+.sd-root .sd-337 { align-content:center; align-items:center; flex-direction:row; flex-wrap:nowrap; gap:24px; height:auto; justify-content:flex-start; margin:0px; padding:0px; width:1920px; max-width:100%; }
+.sd-root .sd-337 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-338 { align-content:flex-start; align-items:flex-start; flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-start; padding:0px; width:196px; max-width:100%; min-width:0; }
+.sd-root .sd-338 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-339 { height:auto; width:10px; max-width:100%; }
+.sd-root .sd-340 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-340 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-341 { color:#f7f7f7ff; flex:1; font-family:var(--s-font-a28a97b6); font-size:0.6875rem; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.04em; line-height:1.1; overflow-x:hidden; overflow-y:hidden; text-align:left; width:auto; justify-content:flex-start; max-width:100%; min-width:0; }
+.sd-root .sd-342 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-342 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-343 { color:#f7f7f7ff; flex:1; font-family:var(--s-font-a28a97b6); font-size:0.6875rem; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.04em; line-height:1.1; overflow-x:hidden; overflow-y:hidden; text-align:left; justify-content:flex-start; }
+.sd-root .sd-344 { align-content:center; align-items:center; display:flex; flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-end; padding:0px; width:196px; max-width:100%; min-width:0; }
+.sd-root .sd-344 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-345 { color:#acacacff; font-family:var(--s-font-a28a97b6); font-size:0.625rem; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.04em; line-height:1.1; overflow-x:hidden; overflow-y:hidden; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-346 { align-content:center; align-items:center; flex-direction:row; flex-wrap:nowrap; gap:0px 24px; justify-content:flex-start; padding:198px 0px 210px; width:100%; max-width:100%; }
+.sd-root .sd-346 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-347 { align-content:flex-start; align-items:flex-start; flex:none; flex-direction:row; flex-wrap:nowrap; gap:0px; height:10px; justify-content:flex-start; padding:0px; width:196px; max-width:100%; min-width:0; }
+.sd-root .sd-347 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-348 { align-content:center; align-items:center; flex:1; flex-direction:row; flex-wrap:nowrap; gap:0px 24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-348 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-349 { align-content:center; align-items:center; flex:1; flex-direction:row; flex-wrap:nowrap; gap:0px 24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-349 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-350 { height:40px; width:auto; max-width:100%; }
+.sd-root .sd-351 { align-content:center; align-items:center; flex:1; flex-direction:row; flex-wrap:nowrap; gap:0px 24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-351 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-352 { color:#f7f7f7ff; flex:none; font-family:var(--s-font-5489e031); font-size:1.0625rem; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.04em; line-height:1.30; overflow-x:hidden; overflow-y:hidden; text-align:left; justify-content:flex-start; }
+.sd-root .sd-353 { align-content:flex-start; align-items:flex-start; flex:none; flex-direction:row; flex-wrap:nowrap; gap:0px; height:10px; justify-content:flex-start; padding:0px; width:196px; max-width:100%; min-width:0; }
+.sd-root .sd-353 > * { --gap-h:0px; --gap-v:0px; }
+@media (max-width: 1280px) {
+.sd-root .sd-337 { flex-direction:row; flex-wrap:nowrap; }
+.sd-root .sd-337 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-344 { display:flex; }
+.sd-root .sd-344 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-349 { flex:1; }
+.sd-root .sd-349 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-350 { height:30px; }
+.sd-root .sd-351 { flex:1; }
+.sd-root .sd-351 > * { --gap-h:24px; --gap-v:0px; }
+}
+@media (max-width: 768px) {
+.sd-root .sd-331 { flex-direction:row; flex-wrap:nowrap; }
+.sd-root .sd-334 { bottom:16px; height:24px; left:auto; right:16px; top:auto; width:24px; }
+.sd-root .sd-334 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-335 { font-size:24px; rotate:-45deg; translate:0px 24px; }
+.sd-root .sd-332:hover .sd-335 { rotate:-45deg; translate:24px 0px; }
+.sd-root .sd-336 { font-size:24px; }
+.sd-root .sd-332:hover .sd-336 { rotate:-45deg; translate:28px -28px; }
+.sd-root .sd-337 { flex-wrap:wrap; }
+.sd-root .sd-337 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-338 { flex:1; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-338 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-340 { flex:1.7; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-340 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-341 { font-size:0.625rem; }
+.sd-root .sd-342 { flex:1.7; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-342 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-343 { font-size:0.625rem; }
+.sd-root .sd-344 { display:flex; flex:1; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-344 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-346 { padding:100px 0px 120px; width:100%; max-width:100%; }
+.sd-root .sd-346 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-347 { flex:1; width:auto; max-width:100%; }
+.sd-root .sd-347 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-348 { flex:3.4; width:auto; max-width:100%; }
+.sd-root .sd-348 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-349 { flex:1.7; width:auto; max-width:100%; }
+.sd-root .sd-349 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-350 { height:24px; }
+.sd-root .sd-351 { flex:1.7; width:auto; max-width:100%; }
+.sd-root .sd-351 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-352 { font-size:0.75rem; }
+.sd-root .sd-353 { flex:1; width:auto; max-width:100%; }
+.sd-root .sd-353 > * { --gap-h:0px; --gap-v:0px; }
+}
+@media (max-width: 480px) {
+.sd-root .sd-332 { margin:0px 8px; padding:12px; max-width:calc(100% - 16px); }
+.sd-root .sd-332 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-332:hover > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-334 { bottom:12px; left:NaNpx; right:12px; top:NaNpx; }
+.sd-root .sd-334 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-337 { align-content:center; align-items:center; gap:8px 16px; justify-content:space-between; }
+.sd-root .sd-337 > * { --gap-h:16px; --gap-v:8px; }
+.sd-root .sd-338 { flex:none; width:auto; max-width:100%; }
+.sd-root .sd-338 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-339 { width:8px; max-width:100%; }
+.sd-root .sd-340 { flex:none; width:auto; max-width:100%; }
+.sd-root .sd-340 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-342 { flex:none; width:auto; max-width:100%; }
+.sd-root .sd-342 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-344 { display:flex; flex:none; width:auto; max-width:100%; }
+.sd-root .sd-344 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-345 { width:auto; max-width:100%; }
+.sd-root .sd-346 { flex-direction:row; flex-wrap:nowrap; padding:80px 0px 64px; }
+.sd-root .sd-346 > * { --gap-h:24px; --gap-v:0px; }
+.sd-root .sd-347 { flex:none; width:16px; max-width:100%; }
+.sd-root .sd-347 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-348 { align-content:flex-start; align-items:flex-start; flex-direction:column; gap:8px 24px; justify-content:flex-start; }
+.sd-root .sd-348 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-350 { flex:none; height:32px; }
+.sd-root .sd-352 { color:#e0e0e0ff; font-size:0.6875rem; }
+}
+@media (max-width: 360px) {
+.sd-root .sd-344 { display:none; }
+.sd-root .sd-344 > * { --gap-h:0px; --gap-v:0px; }
+.sd-root .sd-346 { padding:64px 0px; }
+.sd-root .sd-346 > * { --gap-h:24px; --gap-v:0px; }
+}
