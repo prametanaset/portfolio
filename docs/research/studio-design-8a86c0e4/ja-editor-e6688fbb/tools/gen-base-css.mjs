@@ -14,7 +14,7 @@ for (let i = 0; i < css.length; i++) {
   else if (css[i] === '}') { depth--; if (depth === 0) { chunks.push(css.slice(start, i + 1)); start = i + 1; } }
 }
 const PER_ELEMENT = /\.(sd-\d|symbol-\d|list-\d|modal-|go\d)/;
-const DROP = /Font Awesome|fontawesome|\.fa-/i;
+const DROP = /(?!)/;  // nothing dropped: the page renders both Material Icons and Font Awesome glyphs
 const splitTop = (sel) => {
   const parts = []; let d = 0, cur = '';
   for (const ch of sel) {
@@ -25,8 +25,8 @@ const splitTop = (sel) => {
   parts.push(cur);
   return parts;
 };
-const scope = (sel) => splitTop(sel).map(s => {
-  s = s.trim();
+const scope = (sel) => splitTop(sel.replace(/\/\*[\s\S]*?\*\//g, '')).map(s => {
+  s = s.replace(/\/\*[\s\S]*?\*\//g, '').trim();
   if (!s) return s;
   if (/^(html|body)\b/.test(s)) return s.replace(/^(html|body)/, m => `${m}:has(.sd-root)`);
   if (/^:root|^:host/.test(s)) return s;
@@ -55,10 +55,12 @@ for (const raw of chunks) {
   }
   if (t.startsWith('@font-face')) {
     // Keep the Material Icons face (the carousel controls render its ligatures), rehomed to /public.
-    if (/Material Icons/.test(t)) {
-      kept.push(t.replace(/url\((['"]?)https:\/\/[^)'"]*MaterialIcons-Regular\.woff2\1\)/,
-        "url('/sites/studio-design-8a86c0e4/shared/fonts/MaterialIcons-Regular.woff2')"));
-    }
+    // Keep the icon faces the page actually renders, rehomed to /public.
+    const local = t.replace(
+      /url\((['"]?)https:\/\/[^)'"]*\/(MaterialIcons-Regular\.woff2|fa-solid-900\.woff2|fa-brands-400\.woff2)\1\)/g,
+      (_m, _q, file) => `url('/sites/studio-design-8a86c0e4/shared/fonts/${file}')`,
+    );
+    if (/Material Icons|Font Awesome/.test(t)) kept.push(local);
     continue;
   }
   if (t.startsWith('@charset') || t.startsWith('@import')) continue;

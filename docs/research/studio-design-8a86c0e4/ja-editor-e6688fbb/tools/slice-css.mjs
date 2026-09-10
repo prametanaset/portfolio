@@ -33,8 +33,8 @@ const splitTop = (sel) => {
   parts.push(cur);
   return parts;
 };
-const scope = (sel) => splitTop(sel).map(s => {
-  s = s.trim();
+const scope = (sel) => splitTop(sel.replace(/\/\*[\s\S]*?\*\//g, '')).map(s => {
+  s = s.replace(/\/\*[\s\S]*?\*\//g, '').trim();
   if (!s) return s;
   if (/^(html|body)\b/.test(s)) return s.replace(/^(html|body)/, m => `${m}:has(.sd-root)`);
   return `.sd-root ${s}`;
