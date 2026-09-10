@@ -4,6 +4,7 @@
 import "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/page-shell.css";
 import { SiteHeader } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/SiteHeader";
 import { HeroDesignEditor } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/HeroDesignEditor";
+import { NextCreationSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/NextCreationSection";
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
       <SiteHeader />
       <main className="box sd-2">
         <HeroDesignEditor />
+        <NextCreationSection />
       </main>
     </div>
   );
