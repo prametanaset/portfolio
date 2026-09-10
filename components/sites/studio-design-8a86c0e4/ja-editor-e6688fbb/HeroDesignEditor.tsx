@@ -39,8 +39,6 @@ export function HeroDesignEditor() {
             as="img"
             className="img sd-11"
             src={HERO_IMAGE}
-            width={1800}
-            height={1121}
             alt=""
             fetchPriority="high"
           />

@@ -16,6 +16,7 @@ export function Appear({
   rootMargin = "0px 0px -10% 0px",
   threshold = 0,
   once = true,
+  activeClass = false,
   ...rest
 }: {
   as?: ElementType;
@@ -24,6 +25,9 @@ export function Appear({
   rootMargin?: string;
   threshold?: number;
   once?: boolean;
+  /** Some origin elements also carry `appear-active` (it only ever sets a timing function).
+   *  Off by default: adding it where the origin does not would be a class the CSS never defines. */
+  activeClass?: boolean;
 } & Record<string, unknown>) {
   const ref = useRef<HTMLElement>(null);
   const [shown, setShown] = useState(false);
@@ -53,7 +57,7 @@ export function Appear({
   }, [once, rootMargin, threshold]);
 
   return (
-    <Tag ref={ref} className={cn(className, "appear-active", !shown && "appear")} {...rest}>
+    <Tag ref={ref} className={cn(className, activeClass && "appear-active", !shown && "appear")} {...rest}>
       {children}
     </Tag>
   );
