@@ -22,7 +22,22 @@ for (let i = 0; i < css.length; i++) {
   else if (ch === '}') { depth--; if (depth === 0) { chunks.push(css.slice(start, i + 1)); start = i + 1; } }
 }
 
-const re = new RegExp(prefixes.map(p => `\\.${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`).join('|'));
+// Selector matching. A token is one of:
+//   sd-45          exact class (`.sd-45`, not `.sd-450`)
+//   sd-45..sd-78   inclusive numeric range of same-stem classes
+//   symbol-1*      the class plus every class starting with it (`symbol-1__sd-372`)
+const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const expand = (token) => {
+  const range = token.match(/^(.*?)(\d+)\.\.(?:\1)?(\d+)$/);
+  if (range) {
+    const [, stem, from, to] = range;
+    const lo = Math.min(+from, +to), hi = Math.max(+from, +to);
+    return Array.from({ length: hi - lo + 1 }, (_, i) => `\\.${esc(stem)}${lo + i}(?![\\w-])`);
+  }
+  if (token.endsWith('*')) return [`\\.${esc(token.slice(0, -1))}[\\w-]*(?![\\w-])`];
+  return [`\\.${esc(token)}(?![\\w-])`];
+};
+const re = new RegExp(prefixes.flatMap(expand).join('|'));
 const splitTop = (sel) => {
   const parts = []; let d = 0, cur = '';
   for (const ch of sel) {
