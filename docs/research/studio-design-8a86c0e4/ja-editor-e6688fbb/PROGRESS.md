@@ -37,9 +37,9 @@
 | 8 | .sd-236 | FeaturedCreatorsSection | reviewed | merged+mounted 3e96a70; review MATCH — 0 mismatches. Needed a `list-1*` slice token (those rules are in no other file) |
 | 9 | .sd-271 | CollaborationSection | reviewed | merged+mounted 7d64199; review: 1 informational only — the .sd-282 srcSet picks _middle on HiDPI where the origin still serves _small (identical at the dpr-1 QA tiles) |
 | 10 | .sd-303 | DataSection | reviewed | merged+mounted ec15cee; review MATCH — 0 mismatches. Toggles refuted: the page's 15 all live in header + mobile menu + footer |
-| 11 | .symbol-2 | StartCtaSection | extracting | paired with the Stock band in one extractor |
-| 12 | .sd-331 | StockBandSection | extracting | paired with the CTA band in one extractor |
-| 13 | footer.symbol-3 | SiteFooter | pending | appear reveals |
+| 11 | .symbol-2 | StartCtaSection | reviewed | merged+mounted 696ce75; review MATCH — 0 mismatches |
+| 12 | .sd-331 | StockBandSection | reviewed | merged+mounted f1ab076; review MATCH — 0 mismatches. Keeps the 17.8 MB `--img-origin` variant on disk: the container queries never select it at 1440/768/390, but the origin declares it and only a >2x display would ask for it |
+| 13 | footer.symbol-3 | SiteFooter | extracting | 37 images, 5 accordions, 10 reveals |
 | 1b | dialog.modal-ja_menu | MobileMenuDialog | pending | 5 toggles, 24 appear |
 
 ## Open issues
