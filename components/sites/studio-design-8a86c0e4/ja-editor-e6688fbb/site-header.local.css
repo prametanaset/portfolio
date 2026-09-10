@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------------------------
+ * NOT IN THE SLICE — hand-written, never touched by tools/slice-css.mjs.
+ *
+ * The spec's Responsive section states that `#header { top }` (32px @1440,
+ * 12px @768 / @390) comes from the page wrapper, not from a `symbol-1` rule,
+ * and must be supplied by hand. It is repeated here so it survives every
+ * regeneration of `site-header.css`.
+ *
+ * Note for whoever regenerates the slice: the current slice DOES already emit
+ * `.sd-root .symbol-1 { top: 32px }` with `top: 24px` @1280 and `top: 12px`
+ * @768. The declarations below carry the identical values (including the
+ * @1280 step, so this higher-specificity block never contradicts the slice at
+ * any breakpoint) and are therefore a no-op safety net rather than an
+ * override. `site-header.local.css` is imported after the slice.
+ * ------------------------------------------------------------------------- */
+.sd-root #header {
+  top: 32px;
+}
+
+@media (max-width: 1280px) {
+  .sd-root #header {
+    top: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sd-root #header {
+    top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sd-root #header {
+    top: 12px;
+  }
+}
