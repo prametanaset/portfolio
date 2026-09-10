@@ -1,0 +1,150 @@
+/* Sliced from the origin stylesheet (studio.design/ja/editor) for: sd-45..78 */
+.sd-root .sd-45 { align-content:center; align-items:center; background:var(--s-color-06b63738); flex-wrap:nowrap; gap:80px; justify-content:center; padding:0px 0px 96px; width:100%; max-width:100%; }
+.sd-root .sd-45 > * { --gap-h:0px; --gap-v:80px; }
+.sd-root .sd-46 { align-content:flex-start; align-items:flex-start; border-bottom:0px solid var(--s-color-a99509da); border-left:0px solid var(--s-color-a99509da); border-right:0px solid var(--s-color-a99509da); border-top:1px solid var(--s-color-a99509da); flex:none; flex-direction:row; flex-wrap:wrap; gap:24px; justify-content:flex-start; margin:0px 24px; padding:96px 0px 0px; width:1920px; max-width:calc(100% - 48px); }
+.sd-root .sd-46 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-47 { align-content:flex-start; align-items:flex-start; bottom:auto; flex-direction:column; flex-wrap:nowrap; gap:8px; height:auto; justify-content:flex-start; left:auto; padding:0px; position:sticky; right:auto; top:104px; width:212px; z-index:1; max-width:100%; }
+.sd-root .sd-47 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-48 { color:var(--s-color-99a91143); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-49 { color:var(--s-color-36ba82f0); font-family:var(--s-font-5489e031); font-feature-settings:'palt' 1; font-size:0.94rem; font-style:normal; font-weight:400; height:auto; letter-spacing:normal; line-height:1.40; text-align:left; text-orientation:mixed; width:auto; writing-mode:horizontal-tb; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-50 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:auto; }
+.sd-root .sd-50 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-51 { align-content:stretch; align-items:stretch; flex:1; flex-direction:row; flex-wrap:wrap; gap:24px; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-51 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-52 { align-content:flex-start; align-items:flex-start; background:var(--s-color-56baa902); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(60% - (var(--gap-h) * 0.4)); max-width:calc(60% - (var(--gap-h) * 0.4)); }
+.sd-root .sd-52.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-52 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-52.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-53 { align-content:flex-start; align-items:flex-start; flex:none; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; }
+.sd-root .sd-53 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-54 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-55 { color:var(--s-color-36ba82f0); font-family:var(--s-font-5489e031); font-feature-settings:'palt' 1; font-size:16px; font-style:normal; font-weight:400; height:auto; letter-spacing:normal; line-height:1.40; text-align:left; text-orientation:mixed; width:auto; writing-mode:horizontal-tb; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-56 { border-radius:4px 0px 0px; flex:1; height:auto; margin:0px -40px 0px 0px; object-fit:cover; width:calc(100% + 40px); max-width:calc(100% + 40px); }
+.sd-root .sd-56 > video { width:100%; height:100%; }
+.sd-root .sd-56 { aspect-ratio:2672 / 1856; }
+.sd-root .sd-57 { align-content:flex-start; align-items:flex-start; background:var(--s-color-56baa902); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(40% - (var(--gap-h) * 0.6)); max-width:calc(40% - (var(--gap-h) * 0.6)); }
+.sd-root .sd-57.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-57 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-57.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-58 { align-content:flex-start; align-items:flex-start; flex:none; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; }
+.sd-root .sd-58 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-59 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-60 { color:var(--s-color-36ba82f0); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-61 { flex:1; height:auto; margin:0px -40px; object-fit:cover; width:calc(100% + 80px); max-width:calc(100% + 80px); }
+.sd-root .sd-61 > video { width:100%; height:100%; }
+.sd-root .sd-61 { aspect-ratio:2160 / 2160; }
+.sd-root .sd-62 { align-content:flex-start; align-items:flex-start; background:var(--s-color-99a91143); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(33.33% - (var(--gap-h) * 0.67)); max-width:calc(33.33% - (var(--gap-h) * 0.67)); }
+.sd-root .sd-62.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-62 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-62.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-63 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; margin:0px -20px 0px 0px; padding:0px; width:auto; max-width:calc(100% + 20px); min-width:0; }
+.sd-root .sd-63 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-64 { color:var(--s-color-56baa902); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-65 { color:var(--s-color-56baa902); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-66 { height:auto; margin:0px -40px; width:896px; max-width:calc(100% + 80px); }
+.sd-root .sd-66 { aspect-ratio:auto 1476 / 920; }
+.sd-root .sd-67 { align-content:flex-start; align-items:flex-start; background:var(--s-color-56baa902); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(33.33% - (var(--gap-h) * 0.67)); max-width:calc(33.33% - (var(--gap-h) * 0.67)); }
+.sd-root .sd-67.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-67 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-67.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-68 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; padding:0px; width:auto; max-width:100%; min-width:0; }
+.sd-root .sd-68 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-69 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-70 { color:var(--s-color-36ba82f0); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-71 { height:auto; margin:-8px -40px 0px; width:896px; max-width:calc(100% + 80px); }
+.sd-root .sd-71 { aspect-ratio:auto 739 / 503; }
+.sd-root .sd-72 { background:linear-gradient(var(--g-angle), var(--g-color-0) var(--g-position-0), var(--g-color-1) var(--g-position-1)); bottom:0px; height:80px; left:0px; position:absolute; right:0px; top:auto; width:auto; z-index:1; max-width:100%; --g-color-0:#EEEEEE; --g-position-0:0%; --g-color-1:#eeeeee00; --g-position-1:100%; --g-color-2:#eeeeee00; --g-position-2:100%; --g-color-3:#eeeeee00; --g-position-3:100%; --g-color-4:#eeeeee00; --g-position-4:100%; --g-color-5:#eeeeee00; --g-position-5:100%; --g-color-6:#eeeeee00; --g-position-6:100%; --g-color-7:#eeeeee00; --g-position-7:100%; --g-color-8:#eeeeee00; --g-position-8:100%; --g-color-9:#eeeeee00; --g-position-9:100%; --g-color-10:#eeeeee00; --g-position-10:100%; --g-color-11:#eeeeee00; --g-position-11:100%; --g-angle:0deg; }
+.sd-root .sd-73 { align-content:flex-start; align-items:flex-start; background:var(--s-color-99a91143); border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(33.33% - (var(--gap-h) * 0.67)); max-width:calc(33.33% - (var(--gap-h) * 0.67)); }
+.sd-root .sd-73.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
+.sd-root .sd-73 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-73.appear > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-74 { align-content:flex-start; align-items:flex-start; flex:1; flex-direction:column; flex-wrap:nowrap; gap:16px; height:auto; justify-content:flex-start; margin:0px -20px 0px 0px; padding:0px; width:auto; max-width:calc(100% + 20px); min-width:0; }
+.sd-root .sd-74 > * { --gap-h:0px; --gap-v:16px; }
+.sd-root .sd-75 { color:var(--s-color-56baa902); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-76 { color:var(--s-color-56baa902); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .sd-77 { flex:none; height:100%; left:0; margin:0; position:absolute; top:0; width:100%; z-index:-2; max-width:100%; }
+.sd-root .sd-78 { flex:none; height:auto; margin:0px -40px; width:calc(100% + 80px); max-width:calc(100% + 80px); }
+.sd-root .sd-78 { aspect-ratio:auto 1478 / 996; }
+@media (max-width: 1280px) {
+.sd-root .sd-47 { bottom:auto; left:auto; position:relative; right:auto; top:auto; width:100%; max-width:100%; }
+.sd-root .sd-47 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-51 { gap:16px; }
+.sd-root .sd-51 > * { --gap-h:16px; --gap-v:16px; }
+.sd-root .sd-56 > video { width:100%; height:100%; }
+.sd-root .sd-56 { aspect-ratio:2672 / 1856; }
+.sd-root .sd-61 > video { width:100%; height:100%; }
+.sd-root .sd-61 { aspect-ratio:2160 / 2160; }
+}
+@media (max-width: 768px) {
+.sd-root .sd-45 { gap:64px; }
+.sd-root .sd-45 > * { --gap-h:0px; --gap-v:64px; }
+.sd-root .sd-47 { width:100%; max-width:100%; }
+.sd-root .sd-47 > * { --gap-h:0px; --gap-v:8px; }
+.sd-root .sd-51 { gap:16px; }
+.sd-root .sd-51 > * { --gap-h:16px; --gap-v:16px; }
+.sd-root .sd-52 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-52 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-52.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-53 { gap:12px; }
+.sd-root .sd-53 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-55 { font-size:12px; }
+.sd-root .sd-56 > video { width:100%; height:100%; }
+.sd-root .sd-56 { aspect-ratio:2672 / 1856; }
+.sd-root .sd-57 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-57 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-57.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-58 { gap:12px; }
+.sd-root .sd-58 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-61 > video { width:100%; height:100%; }
+.sd-root .sd-61 { aspect-ratio:2160 / 2160; }
+.sd-root .sd-62 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-62 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-62.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-63 { gap:12px; margin:0px; max-width:100%; }
+.sd-root .sd-63 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-66 { margin:0px -24px; max-width:calc(100% + 48px); }
+.sd-root .sd-67 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-67 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-67.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-68 { gap:12px; }
+.sd-root .sd-68 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-71 { margin:-8px -24px 0px; max-width:calc(100% + 48px); }
+.sd-root .sd-73 { gap:32px; padding:24px 24px 0px; }
+.sd-root .sd-73 > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-73.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-74 { gap:12px; margin:0px; max-width:100%; }
+.sd-root .sd-74 > * { --gap-h:0px; --gap-v:12px; }
+.sd-root .sd-78 { margin:0px -24px; width:calc(100% + 48px); max-width:calc(100% + 48px); }
+}
+@media (max-width: 480px) {
+.sd-root .sd-45 { gap:48px; padding:0px 0px 64px; }
+.sd-root .sd-45 > * { --gap-h:0px; --gap-v:48px; }
+.sd-root .sd-46 { padding:64px 0px 0px; }
+.sd-root .sd-46 > * { --gap-h:24px; --gap-v:24px; }
+.sd-root .sd-52 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-52 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-52.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-56 > video { width:100%; height:100%; }
+.sd-root .sd-56 { aspect-ratio:2672 / 1856; }
+.sd-root .sd-57 { flex:none; width:100%; max-width:100%; }
+.sd-root .sd-57 > * { --gap-h:0px; --gap-v:40px; }
+.sd-root .sd-57.appear > * { --gap-h:0px; --gap-v:32px; }
+.sd-root .sd-61 > video { width:100%; height:100%; }
+.sd-root .sd-61 { aspect-ratio:2160 / 2160; }
+.sd-root .sd-62 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-62 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-62.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-67 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-67 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-67.appear > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-72 { height:64px; }
+.sd-root .sd-73 { flex:none; gap:24px; width:100%; max-width:100%; }
+.sd-root .sd-73 > * { --gap-h:0px; --gap-v:24px; }
+.sd-root .sd-73.appear > * { --gap-h:0px; --gap-v:24px; }
+}
+@media (max-width: 360px) {
+.sd-root .sd-56 > video { width:100%; height:100%; }
+.sd-root .sd-56 { aspect-ratio:2672 / 1856; }
+.sd-root .sd-61 > video { width:100%; height:100%; }
+.sd-root .sd-61 { aspect-ratio:2160 / 2160; }
+}
