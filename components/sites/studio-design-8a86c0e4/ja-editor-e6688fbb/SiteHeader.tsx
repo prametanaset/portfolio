@@ -404,23 +404,48 @@ export function SiteHeader({ onOpenMenu }: { onOpenMenu?: () => void } = {}) {
   // attributes are identical to `SdToggle`'s, because the sliced CSS keys off `[open]`,
   // `:not([open])` and `[data-toggle-closing]`.
   const [openId, setOpenId] = useState<number | null>(null);
-  const [closingId, setClosingId] = useState<number | null>(null);
+  // Each panel runs its own 300ms leave transition, so a panel closing while another one opens
+  // must keep counting down independently — hence a set of ids and a timer per id.
+  const [closingIds, setClosingIds] = useState<readonly number[]>([]);
   const rootRef = useRef<HTMLElement>(null);
-  const closeTimer = useRef<number | undefined>(undefined);
+  const closeTimers = useRef(new Map<number, number>());
+
+  const cancelClose = useCallback((id: number) => {
+    const timer = closeTimers.current.get(id);
+    if (timer !== undefined) {
+      window.clearTimeout(timer);
+      closeTimers.current.delete(id);
+    }
+    setClosingIds((ids) => ids.filter((openId) => openId !== id));
+  }, []);
 
   /** The origin keeps `open` alongside `data-toggle-closing` for the 300ms leave transition. */
   const beginClose = useCallback((id: number) => {
-    setClosingId(id);
-    window.clearTimeout(closeTimer.current);
-    closeTimer.current = window.setTimeout(() => setClosingId(null), 300);
+    const running = closeTimers.current.get(id);
+    if (running !== undefined) window.clearTimeout(running);
+    setClosingIds((ids) => (ids.includes(id) ? ids : [...ids, id]));
+    closeTimers.current.set(
+      id,
+      window.setTimeout(() => {
+        closeTimers.current.delete(id);
+        setClosingIds((ids) => ids.filter((closing) => closing !== id));
+      }, 300),
+    );
   }, []);
 
   const activate = useCallback(
     (id: number) => {
+      if (openId === id) {
+        setOpenId(null);
+        beginClose(id);
+        return;
+      }
       if (openId !== null) beginClose(openId);
-      setOpenId(openId === id ? null : id);
+      // Re-opening a panel mid-close must reach the open state, not inherit its own closing flag.
+      cancelClose(id);
+      setOpenId(id);
     },
-    [openId, beginClose],
+    [openId, beginClose, cancelClose],
   );
 
   // `close-outside` on every `<sd-toggle>`: a pointer down outside the header closes the
@@ -436,7 +461,13 @@ export function SiteHeader({ onOpenMenu }: { onOpenMenu?: () => void } = {}) {
     return () => document.removeEventListener("pointerdown", onPointerDown);
   }, [openId, beginClose]);
 
-  useEffect(() => () => window.clearTimeout(closeTimer.current), []);
+  useEffect(() => {
+    const timers = closeTimers.current;
+    return () => {
+      for (const timer of timers.values()) window.clearTimeout(timer);
+      timers.clear();
+    };
+  }, []);
 
   return (
     <header className="box symbol-1" id="header" ref={rootRef}>
@@ -455,7 +486,7 @@ export function SiteHeader({ onOpenMenu }: { onOpenMenu?: () => void } = {}) {
           <div className="box symbol-1__sd-5">
             {PANELS.map((panel) => {
               const isOpen = openId === panel.id;
-              const isClosing = closingId === panel.id;
+              const isClosing = closingIds.includes(panel.id);
               return (
                 <sd-toggle
                   key={panel.id}
@@ -484,7 +515,7 @@ export function SiteHeader({ onOpenMenu }: { onOpenMenu?: () => void } = {}) {
                   <div
                     className={`box ${sd(panel.id + 6)}`}
                     data-toggle-content=""
-                    {...(isOpen ? {} : { "aria-hidden": true, inert: true })}
+                    {...(isOpen || isClosing ? {} : { "aria-hidden": true, inert: true })}
                   >
                     <div className={`box ${sd(panel.id + 7)}`}>
                       {panel.blocks.map((block) => (

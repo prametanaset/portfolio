@@ -98,7 +98,7 @@ Panel column/divider ids: p1 `14,44,46,69,71` · p2 `102,119,121,123,150,152,169
 - **Close on outside click:** yes (`close-outside`). **Escape:** does NOT close.
 - **Evidence:** hover 600ms → `diff('base','h1')` changedNodes 1 = `{rotate: none → 180deg}` only, panel height stayed 0px. Click → height 0 → 375.586px. Mid-close at 60ms height 271.008px. `__cloneSnap.animations('#header')` = `{count:0}`.
 - **Open geometry @1440 (panel rect / card rect):** 1 プロダクト [136.41,75.5,868.8,375.59] / [136.41,107.5,868.8,343.59] · 2 活用方法 [120.81,75.5,1008,321.59] · 3 導入事例 [586.02,75.5,285.59,198.8] · 4 リソース [256.97,75.5,1110.7,303.79] · 5 サポート [776.22,75.5,319.2,313.59]. Off-centre widths come from `width: calc(720% + 120px); margin-right:-120px` (p1), `1200%` (p2), `340%` (p3), `calc(1290% + 40px); margin-left:-40px` (p4), `380%` (p5) on the clipper, centred by `align-items:center` on `sd-toggle`.
-- **Implementation approach:** `SdToggle` from `shared/toggle.tsx` (`trigger`, `triggerClassName`, `contentClassName`, `closeOutside`). Add a parent-level "only one open" coordinator — `SdToggle` alone does not close its siblings.
+- **Implementation approach:** do NOT use the shared `SdToggle` here — it renders `<div class="toggle">` instead of `<sd-toggle>`, adds an `aria-controls` the origin lacks, and closes on Escape, which the origin does not. Hand-roll the disclosure inside `SiteHeader` with a parent-level "only one open" coordinator, one 300 ms closing timer PER panel (a panel already closing keeps its own transition when another opens), and a re-open mid-close that cancels that panel's closing flag.
 ### Scroll
 - Computed style at scrollY 0 and scrollY 800 identical (top 32px, position fixed, zIndex 5, rect [0,32,1440,64], pill background rgba(255,255,255,0.8), boxShadow rgba(14,31,53,0.08) 0px 1px 4px 0px, backdropFilter blur(2px)). No scroll state.
 ### Hover / focus states
@@ -118,7 +118,7 @@ Each of the 5 panels renders one fixed content tree. All 45 links are listed ver
 - `public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-80x17_b5c1ab9c-6742-40f1-8fad-48d23bafba5b.svg` — wordmark, rendered 80×17 @1440/768 and 72×15.3 @390, objectFit: fill.
 - Icons: 66 `arrow_forward` Material Symbols Outlined ligature spans — use `MaterialSymbol` from `components/sites/studio-design-8a86c0e4/shared/icons.tsx`, rendered 16×16 at fontSize 9px.
 - Icons: 10 Font Awesome spans (`fa-solid fa-plus` / `fa-solid fa-minus`), glyphs supplied by `::before` content `"\2b"` / `"\f068"`.
-- MISSING: the `Font Awesome 6 Free` woff2 was not downloaded — `assets.manifest.json` has no font entries. Source: `https://storage.googleapis.com/production-os-assets/assets/fontawesome/1629704621943/6.4.2/webfonts/fa-solid-900.woff2` (declared in `css/main.css`). Download it into `public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/fonts/` and re-point the `@font-face`, otherwise the `−` glyph (`\f068`) renders as tofu (`+` = `\2b` is plain ASCII and survives).
+- Font Awesome: RESOLVED — `fa-solid-900.woff2` (and `fa-brands-400.woff2`, `MaterialIcons-Regular.woff2`) are self-hosted at `public/sites/studio-design-8a86c0e4/shared/fonts/` and declared in `app/studio-base.css`. MISSING: none.
 - Layered composition: `.symbol-1__sd-11` is absolutely positioned on top of `.symbol-1__sd-10` inside the 8.75×10 stack `.symbol-1__sd-9`; opacity cross-fades between them.
 
 ## Text Content (verbatim)
@@ -136,7 +136,7 @@ Every column heading `<p>` and `料金プラン` end with a literal `<br>` insid
 - **Tablet (768):** header top 12px, height 56px; pill 744×56 at [12,12], margin 0px 12px, padding 8px 8px 8px 16px, radius 12px, maxWidth calc(100% - 24px). Nav list display: none (`@media (max-width: 1280px) .symbol-1__sd-5 { display:none }`). CTA display: none (`@media (max-width: 768px) .symbol-1__sd-365 { display:none }`). Hamburger display: flex, 40×40 at [708,20], radius 8px, background rgba(255,255,255,0.9), border 1px solid rgb(85,85,85), padding 8px, rowGap 5px; two 22×1 bars #222222 at y 36.5 and 42.5. Logo 80×17 at [28,31.5].
 - **Mobile (390):** header top 12px, height 52px; pill 366×52 at [12,12], radius 8px (`@media (max-width: 480px) .symbol-1__sd-1 { border-radius:8px }`); logo 72×15.3 at [28,30.35] (`@media (max-width: 480px) .symbol-1__sd-3 { width:72px }`); hamburger 36×36 at [334,20], radius 6px (`@media (max-width: 480px) .symbol-1__sd-370 { height:36px; width:36px; border-radius:6px }`); two 18×1 bars at y 34.5 and 40.5.
 - **Breakpoints used:** `(max-width: 1280px)`, `(max-width: 768px)`, `(max-width: 480px)`, `(max-width: 360px)` — the only width media queries in `css/main.css`; full rule text in `extract/site-header.states.json` → `breakpointRules`.
-- `#header { top }` is 32px @1440 and 12px @768/390; that value is inherited from the page wrapper, not from a `symbol-1` rule — read it from the extract JSONs, not the slice.
+- `#header { top }` = 32px desktop, 24px `(max-width:1280px)`, 12px `(max-width:768px)`; the slice DOES carry it as `.sd-root .symbol-1 { top: … }`.
 - `[data-boolean1] .symbol-1__sd-1 { background:#1a1a1acc }` and three siblings ship a dark header variant. No ancestor on this page has `data-boolean1`, so the light values apply; keep the rules in the slice and do not set the attribute.
 
 ## Extraction Data
