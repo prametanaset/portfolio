@@ -1,0 +1,30 @@
+{
+  "note": "Assets referenced by main > .sd-45 that are NOT yet in public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb. Everything else in the section is already downloaded (see assets.manifest.json).",
+  "missing": [
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666_small.webp",
+      "path": "images/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666_small.webp",
+      "kind": "image",
+      "usedBy": ".sd-77 --img-small (the variant actually painted at dpr 1 at 1440/768/390)"
+    },
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666_middle.webp",
+      "path": "images/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666_middle.webp",
+      "kind": "image",
+      "usedBy": ".sd-77 --img-middle (higher-dpr variant)"
+    },
+    {
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666.webp",
+      "path": "images/s-1478x1600_v-fms_webp_1228027a-e582-45f7-a17f-976623568666.webp",
+      "kind": "image",
+      "usedBy": ".sd-77 --img-origin and --img-regular (highest-dpr variant)"
+    }
+  ],
+  "present": [
+    "video/s-2672x1856_cd6091a9-5173-4219-9604-470d08abbfb4.mp4",
+    "video/s-2160x2160_b9fe14c4-85dd-46a0-a114-f34348472441.mp4",
+    "images/s-1476x920_v-fms_webp_15cde8d8-0d0e-498d-92c2-09770d1ed83f_small.webp",
+    "images/s-739x503_v-fs_webp_03a514fa-203a-4936-a7cd-e7f4cb58a083_small.webp",
+    "images/s-1478x996_v-fms_webp_21bca91a-9f5c-40dd-bd60-c179ce3709df_small.webp"
+  ]
+}
