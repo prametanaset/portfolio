@@ -1,5 +1,3 @@
-"use client";
-
 // Port of studio.design/ja/editor `main > .sd-3` (DOM order 2 of 13) — the "Design Editor" hero.
 // Structure, class names, Japanese copy and the image alt are verbatim from the origin markup
 // (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-3`).

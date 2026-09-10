@@ -1,5 +1,3 @@
-"use client";
-
 // Port of studio.design/ja/editor `main > .sd-45` (DOM order 4 of 13) — the "Free Layout"
 // section: a CSS-only `position: sticky` rail (`.sd-47`) beside a 5-card `<ul>` (`.sd-51`).
 // Structure, class names, alt text and Japanese copy are verbatim from the origin markup
