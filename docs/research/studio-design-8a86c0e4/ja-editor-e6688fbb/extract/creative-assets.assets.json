@@ -1,0 +1,33 @@
+{
+ "note": "Both images resolve to a _middle.webp at 1440/768 (already in assets.manifest.json and on disk) and to a _small.webp at 390 (NOT downloaded). Fetch the two _small variants so the clone matches the origin at <=480.",
+ "missing": [
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1380x1000_v-fms_webp_53907708-1354-4a2c-a2a2-3148a83aacbc_small.webp",
+   "path": "images/s-1380x1000_v-fms_webp_53907708-1354-4a2c-a2a2-3148a83aacbc_small.webp",
+   "usedBy": "img.sd-226 (alt \"Studio Stock\") at viewport <= 480; intrinsic 600x434"
+  },
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_small.webp",
+   "path": "images/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_small.webp",
+   "usedBy": "img.sd-235 (alt \"Unsplash\") at viewport <= 480; intrinsic 600x434"
+  }
+ ],
+ "alreadyPresent": [
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1380x1000_v-fms_webp_53907708-1354-4a2c-a2a2-3148a83aacbc_middle.webp",
+   "path": "images/s-1380x1000_v-fms_webp_53907708-1354-4a2c-a2a2-3148a83aacbc_middle.webp",
+   "intrinsic": [
+    1200,
+    869
+   ]
+  },
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_middle.webp",
+   "path": "images/s-1380x1000_v-fms_webp_84a9bfbf-876e-4ccc-93ff-df84b35b5de2_middle.webp",
+   "intrinsic": [
+    1200,
+    869
+   ]
+  }
+ ]
+}
