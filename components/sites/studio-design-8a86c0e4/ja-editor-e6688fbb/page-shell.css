@@ -1,0 +1,9 @@
+/* Sliced from the origin stylesheet (studio.design/ja/editor) for: sd-1, sd-2 */
+.sd-root .sd-1 {
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: clip;
+}
+.sd-root .sd-1 { background:var(--s-color-56baa902); border-radius:0; height:100%; margin:0; opacity:1; padding:0px; width:100%; max-width:100%; }
+.sd-root .sd-2 { align-content:center; align-items:center; flex-wrap:nowrap; justify-content:center; padding:0px; width:100%; max-width:100%; }
