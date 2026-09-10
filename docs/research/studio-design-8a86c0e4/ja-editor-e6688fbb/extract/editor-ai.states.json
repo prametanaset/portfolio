@@ -1,0 +1,3478 @@
+{
+ "selector": "main > .sd-79",
+ "measuredAt": "dpr 1, Playwright MCP, https://studio.design/ja/editor",
+ "interactionModel": "scroll-driven only — 4 IntersectionObserver `appear` reveals. No hover, no focus, no click, no timer, no carousel, no toggle, no sticky, no video.",
+ "inventory": {
+  "elements": 69,
+  "links": 0,
+  "buttons": 0,
+  "formControls": 0,
+  "toggleTriggers": 0,
+  "carousels": 0,
+  "videos": 0,
+  "stickyOrFixed": 0,
+  "imageBgContainers": 0,
+  "noscriptBlocks": 4,
+  "images": 4
+ },
+ "rules": {
+  "selector": "main > .sd-79",
+  "hits": [],
+  "total": 0,
+  "unreadableSheets": [
+   "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Mono:ital,wght@0,500;1,500&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0&display=swap"
+  ]
+ },
+ "animations": {
+  "count": 0,
+  "items": []
+ },
+ "texts": {
+  "selector": "main > .sd-79",
+  "count": 33,
+  "items": [
+   {
+    "path": "div>h2>span:nth-of-type(1)",
+    "tag": "span",
+    "text": "Editor AI"
+   },
+   {
+    "path": "div>h2>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "AIが伴走する、"
+   },
+   {
+    "path": "div>h2>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "最速の制作体験。"
+   },
+   {
+    "path": "div>div>div>p",
+    "tag": "p",
+    "text": "Editor AIは、クリエイターに全く新しい制作体験を提供します。"
+   },
+   {
+    "path": "div>div>div>p",
+    "tag": "p",
+    "text": "ドラフト文章の作成はもちろん、直感的な画像編集、"
+   },
+   {
+    "path": "div>div>div>p>strong",
+    "tag": "strong",
+    "text": "面倒だった作業も自動で代行。"
+   },
+   {
+    "path": "div>div>div>p",
+    "tag": "p",
+    "text": "すべての作業が、これまでにない速さに。"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+    "tag": "p",
+    "text": "01"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(1)",
+    "tag": "span",
+    "text": "Image AI"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "画像を「探す」から 「編集する」へ"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "指示を出すだけで、"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "画像素材を自在に編集可能に。"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "素材探しのストレスから、自由になろう。"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+    "tag": "p",
+    "text": "02"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(1)",
+    "tag": "span",
+    "text": "Text AI"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "あなた専属のコピーライター"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "プロンプトひとつで、"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "あなたの意図に沿った文章を自動生成。"
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+    "tag": "p",
+    "text": "他言語翻訳なども、もっと簡単に。"
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+    "tag": "p",
+    "text": "03"
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(1)",
+    "tag": "span",
+    "text": "Auto Layer Rename"
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "自動でリネーム、自動で整理"
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div>p",
+    "tag": "p",
+    "text": "煩雑なレイヤーの整理もStudioにお任せ。"
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div>p",
+    "tag": "p",
+    "text": "各レイヤーを自動で命名、サイト構造がよりわかりやすく。"
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+    "tag": "p",
+    "text": "04"
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(1)",
+    "tag": "span",
+    "text": "Auto Responsive"
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>h3>span:nth-of-type(2)",
+    "tag": "span",
+    "text": "あっという間に、レスポンシブ対応"
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div>p",
+    "tag": "p",
+    "text": "1つのデザインで、すべてのデバイスに対応。"
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div>p",
+    "tag": "p",
+    "text": "制作したレイアウトを、自動でレスポンシブ対応します。"
+   },
+   {
+    "path": "ul>li:nth-of-type(1)>div:nth-of-type(2)>img",
+    "tag": "img",
+    "attrs": {
+     "alt": "サンプル画像：黒い背景の上に複数の画像が浮かび上がるように並んでいる。赤みがかったオレンジ色の背景に横向きの人物シルエットが映された画像が中央手前に配置され、その奥で同じ構成・異なる色味の写真が放射状に並んでいる。"
+    }
+   },
+   {
+    "path": "ul>li:nth-of-type(2)>div:nth-of-type(2)>img",
+    "tag": "img",
+    "attrs": {
+     "alt": "サンプル画像：暗い背景に韓国語・日本語・英語など複数言語のテキストが記載されたカードが並んでいる。中央の英語カードのみ発光しているようなピンク色のエフェクトと赤い円形アイコンが追加され、他のカードより強調されている。"
+    }
+   },
+   {
+    "path": "ul>li:nth-of-type(3)>div:nth-of-type(2)>img",
+    "tag": "img",
+    "attrs": {
+     "alt": "サンプル画像：デザインエディタ画面の切り取り。左側にレイヤーパネル、右側に人物写真が並ぶ。レイヤーパネルの中には階層構造を示すレイヤー名が縦に並んでおり、リネーム中のレイヤーはピンク色のテキストと細長い線で強調して表示されている。"
+    }
+   },
+   {
+    "path": "ul>li:nth-of-type(4)>div:nth-of-type(2)>img",
+    "tag": "img",
+    "attrs": {
+     "alt": "サンプル画像：黒い画面の中央にWebサイトのデザインが配置され、その背景に赤いガイドラインやレスポンシブ時のレイアウト例が薄く表示されている。Webサイトはオレンジ色基調の人物写真や英文で構成されている。"
+    }
+   }
+  ]
+ },
+ "hoverDiff": {
+  "note": "mouse.move over card .sd-87 body (360,300), over the .sd-97 image area (360,700) and over card .sd-99 (1100,500) at scrollY 3800 @1440; snapshot compared backgroundColor+color+opacity+transform+borderColor+boxShadow+filter+scale for all 69 descendants",
+  "changedNodes": {
+   "cardCopy": 0,
+   "cardImage": 0,
+   "secondCard": 0
+  }
+ },
+ "appear": {
+  "targets": [
+   ".sd-87",
+   ".sd-99",
+   ".sd-120",
+   ".sd-131"
+  ],
+  "armedComputed": {
+   "className": "box sd-87 appear",
+   "opacity": "0",
+   "translate": "0px 16px",
+   "transitionDelay": "0.4s",
+   "transitionDuration": "0.8s",
+   "transitionTimingFunction": "cubic-bezier(0.2, 1, 1, 1)",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, ... --g-position-11"
+  },
+  "revealedComputed": {
+   "opacity": "1",
+   "translate": "none",
+   "classNameAfter": "box sd-87",
+   "attributesLeftBehind": [
+    "data-appear",
+    "data-inited-appear",
+    "style"
+   ]
+  },
+  "identicalForAllFour": true,
+  "staggerDelayDifference": "none — all four declare transition-delay 400ms",
+  "triggerProbe1440": {
+   "viewportHeight": 900,
+   "method": "reload with history.scrollRestoration=manual, scrollTo(0,0), then 50px steps 2200..3900 sampling classList.contains(appear) and getBoundingClientRect().top",
+   "samples": [
+    {
+     "scrollY": 2700,
+     "sd-87": {
+      "appear": 1,
+      "viewportTop": 942
+     },
+     "sd-120": {
+      "appear": 1,
+      "viewportTop": 1720
+     },
+     "sd-131": {
+      "appear": 1,
+      "viewportTop": 2196
+     }
+    },
+    {
+     "scrollY": 2750,
+     "sd-87": {
+      "appear": 0,
+      "viewportTop": 892
+     },
+     "sd-120": {
+      "appear": 1,
+      "viewportTop": 1670
+     },
+     "sd-131": {
+      "appear": 1,
+      "viewportTop": 2146
+     }
+    },
+    {
+     "scrollY": 3500,
+     "sd-87": {
+      "appear": 0,
+      "viewportTop": 126
+     },
+     "sd-120": {
+      "appear": 1,
+      "viewportTop": 920
+     },
+     "sd-131": {
+      "appear": 1,
+      "viewportTop": 1396
+     }
+    },
+    {
+     "scrollY": 3550,
+     "sd-87": {
+      "appear": 0,
+      "viewportTop": 76
+     },
+     "sd-120": {
+      "appear": 0,
+      "viewportTop": 870
+     },
+     "sd-131": {
+      "appear": 1,
+      "viewportTop": 1346
+     }
+    },
+    {
+     "scrollY": 3900,
+     "sd-87": {
+      "appear": 0,
+      "viewportTop": -274
+     },
+     "sd-120": {
+      "appear": 0,
+      "viewportTop": 504
+     },
+     "sd-131": {
+      "appear": 1,
+      "viewportTop": 996
+     }
+    }
+   ],
+   "conclusion": "the appear class is removed in the step where the element top crosses below the viewport bottom (900): sd-87 between viewportTop 942 and 892, sd-120 between 920 and 870. IntersectionObserver root = viewport, threshold 0, no rootMargin. Fires once; the class is never re-added on scroll-up."
+  }
+ },
+ "edges": {
+  "note": "how the dark zone meets its white neighbours @1440",
+  "prevSection": {
+   "selector": "main > .sd-45",
+   "backgroundColor": "rgb(255, 255, 255)",
+   "pageTop": 2046.93,
+   "height": 1272.44,
+   "bottom": 3319.37
+  },
+  "self": {
+   "selector": "main > .sd-79",
+   "backgroundColor": "rgb(26, 26, 26)",
+   "pageTop": 3319.37,
+   "height": 2042.47,
+   "bottom": 5361.84
+  },
+  "nextSection": {
+   "selector": "main > .sd-133",
+   "backgroundColor": "rgb(255, 255, 255)",
+   "pageTop": 5361.84,
+   "height": 1798.11
+  },
+  "conclusion": "hard butt joints on both sides, zero overlap and zero gradient bleed. The dark band is exactly the .sd-79 border box; its own padding 96px 0 (64px 0 at 480) is the only breathing room. Nothing in .sd-45 or .sd-133 paints into the dark zone."
+ },
+ "detail1440": {
+  "neighbors": {
+   "prev": {
+    "x": 0,
+    "y": 2046.93,
+    "w": 1440,
+    "h": 1272.44
+   },
+   "self": {
+    "x": 0,
+    "y": 3319.37,
+    "w": 1440,
+    "h": 2042.47
+   },
+   "next": {
+    "x": 0,
+    "y": 5361.84,
+    "w": 1440,
+    "h": 1798.11
+   }
+  },
+  "rects": {
+   ".sd-79": {
+    "x": 0,
+    "y": 3319.37,
+    "w": 1440,
+    "h": 2042.47
+   },
+   ".sd-80": {
+    "x": 24,
+    "y": 3415.37,
+    "w": 1392,
+    "h": 211
+   },
+   ".sd-81": {
+    "x": 24,
+    "y": 3440.37,
+    "w": 920,
+    "h": 90
+   },
+   ".sd-82": {
+    "x": 24,
+    "y": 3440.37,
+    "w": 212,
+    "h": 14.25
+   },
+   ".sd-83": {
+    "x": 260,
+    "y": 3440.37,
+    "w": 684,
+    "h": 90
+   },
+   ".sd-84": {
+    "x": 968,
+    "y": 3440.37,
+    "w": 448,
+    "h": 76.69
+   },
+   ".sd-85": {
+    "x": 968,
+    "y": 3440.37,
+    "w": 448,
+    "h": 76.69
+   },
+   ".sd-86": {
+    "x": 24,
+    "y": 3626.37,
+    "w": 1392,
+    "h": 1639.47
+   },
+   ".sd-87": {
+    "x": 24,
+    "y": 3626.37,
+    "w": 684,
+    "h": 689.09
+   },
+   ".sd-88": {
+    "x": 25,
+    "y": 3627.37,
+    "w": 682,
+    "h": 292.59
+   },
+   ".sd-89": {
+    "x": 49,
+    "y": 3651.37,
+    "w": 634,
+    "h": 13.2
+   },
+   ".sd-90": {
+    "x": 49,
+    "y": 3651.37,
+    "w": 11.98,
+    "h": 13.2
+   },
+   ".sd-91": {
+    "x": 49,
+    "y": 3720.56,
+    "w": 634,
+    "h": 175.39
+   },
+   ".sd-92": {
+    "x": 89,
+    "y": 3720.56,
+    "w": 219.8,
+    "h": 149.19
+   },
+   ".sd-93": {
+    "x": 89,
+    "y": 3720.56,
+    "w": 219.8,
+    "h": 93.59
+   },
+   ".sd-94": {
+    "x": 89,
+    "y": 3822.16,
+    "w": 155,
+    "h": 47.59
+   },
+   ".sd-95": {
+    "x": 356.8,
+    "y": 3824.56,
+    "w": 286.2,
+    "h": 71.39
+   },
+   ".sd-96": {
+    "x": 25,
+    "y": 3935.95,
+    "w": 682,
+    "h": 378.51
+   },
+   ".sd-97": {
+    "x": 25,
+    "y": 3935.95,
+    "w": 682,
+    "h": 378.51
+   },
+   ".sd-98": {
+    "x": 25,
+    "y": 3935.95,
+    "w": 682,
+    "h": 200
+   },
+   ".sd-99": {
+    "x": 732,
+    "y": 3626.37,
+    "w": 684,
+    "h": 689.09
+   },
+   ".sd-108": {
+    "x": 733,
+    "y": 3935.95,
+    "w": 682,
+    "h": 378.51
+   },
+   ".sd-109": {
+    "x": 733,
+    "y": 3935.95,
+    "w": 682,
+    "h": 378.51
+   },
+   ".sd-110": {
+    "x": 733,
+    "y": 3935.95,
+    "w": 682,
+    "h": 200
+   },
+   ".sd-111": {
+    "x": 24,
+    "y": 4379.46,
+    "w": 1392,
+    "h": 411.19
+   },
+   ".sd-112": {
+    "x": 24,
+    "y": 4404.46,
+    "w": 683,
+    "h": 386.19
+   },
+   ".sd-113": {
+    "x": 24,
+    "y": 4404.46,
+    "w": 212,
+    "h": 386.19
+   },
+   ".sd-115": {
+    "x": 260,
+    "y": 4404.46,
+    "w": 448,
+    "h": 386.19
+   },
+   ".sd-117": {
+    "x": 260,
+    "y": 4404.46,
+    "w": 361.26,
+    "h": 69.59
+   },
+   ".sd-118": {
+    "x": 260,
+    "y": 4482.05,
+    "w": 216.07,
+    "h": 23.8
+   },
+   ".sd-119": {
+    "x": 260,
+    "y": 4743.05,
+    "w": 329.19,
+    "h": 47.59
+   },
+   ".sd-120": {
+    "x": 731,
+    "y": 4404.46,
+    "w": 685,
+    "h": 386.19
+   },
+   ".sd-121": {
+    "x": 732,
+    "y": 4405.46,
+    "w": 683,
+    "h": 384.19
+   },
+   ".sd-122": {
+    "x": 24,
+    "y": 4854.65,
+    "w": 1392,
+    "h": 411.19
+   },
+   ".sd-131": {
+    "x": 731,
+    "y": 4879.65,
+    "w": 685,
+    "h": 386.19
+   },
+   ".sd-132": {
+    "x": 732,
+    "y": 4880.65,
+    "w": 683,
+    "h": 384.19
+   }
+  },
+  "styles": {
+   "sd-79": {
+    "backgroundColor": "rgb(26, 26, 26)",
+    "padding": "96px 0px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "center",
+    "justifyContent": "flex-start",
+    "position": "relative",
+    "rowGap": "normal",
+    "width": "1440px",
+    "height": "2042.47px",
+    "transitionDuration": "0.3s",
+    "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)"
+   },
+   "sd-80": {
+    "borderTopColor": "rgb(51, 51, 51)",
+    "borderTopWidth": "1px",
+    "margin": "0px 24px",
+    "padding": "24px 0px 96px",
+    "columnGap": "24px",
+    "rowGap": "24px",
+    "flexDirection": "row",
+    "width": "1392px",
+    "maxWidth": "calc(100% - 48px)"
+   },
+   "sd-82": {
+    "fontFamily": "Inter, \"Noto Sans JP\"",
+    "fontSize": "12.96px",
+    "lineHeight": "14.256px",
+    "fontWeight": "500",
+    "letterSpacing": "-0.5184px",
+    "color": "rgb(247, 247, 247)",
+    "width": "212px"
+   },
+   "sd-83": {
+    "fontFamily": "Inter, \"Noto Sans JP\"",
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "fontWeight": "600",
+    "letterSpacing": "normal",
+    "color": "rgb(247, 247, 247)",
+    "fontFeatureSettings": "\"palt\""
+   },
+   "sd-85": {
+    "fontSize": "15.04px",
+    "lineHeight": "25.568px",
+    "fontWeight": "400",
+    "color": "rgb(172, 172, 172)",
+    "fontFeatureSettings": "\"palt\""
+   },
+   "sd-85strong": {
+    "color": "rgb(247, 247, 247)",
+    "fontWeight": "500",
+    "fontSize": "15.04px"
+   },
+   "sd-86": {
+    "columnGap": "24px",
+    "rowGap": "64px",
+    "flexWrap": "wrap",
+    "justifyContent": "center",
+    "margin": "0px 24px",
+    "width": "1392px",
+    "maxWidth": "calc(100% - 48px)"
+   },
+   "sd-87": {
+    "backgroundColor": "rgb(30, 30, 30)",
+    "borderTopColor": "rgba(247, 247, 247, 0.05)",
+    "borderTopWidth": "1px",
+    "borderRadius": "4px",
+    "rowGap": "16px",
+    "justifyContent": "space-between",
+    "overflow": "hidden",
+    "width": "684px",
+    "height": "689.094px"
+   },
+   "sd-88": {
+    "padding": "24px",
+    "rowGap": "56px",
+    "width": "682px"
+   },
+   "sd-90": {
+    "fontSize": "12px",
+    "lineHeight": "13.2px",
+    "fontWeight": "400",
+    "letterSpacing": "-0.24px",
+    "color": "rgb(247, 247, 247)",
+    "fontFamily": "Inter, \"Noto Sans JP\""
+   },
+   "sd-91": {
+    "flexDirection": "row",
+    "columnGap": "48px",
+    "rowGap": "56px",
+    "padding": "0px 40px",
+    "justifyContent": "center"
+   },
+   "sd-93": {
+    "fontFamily": "\"Instrument Serif\"",
+    "fontSize": "78px",
+    "lineHeight": "93.6px",
+    "fontWeight": "400",
+    "letterSpacing": "-1.56px",
+    "color": "rgb(247, 247, 247)"
+   },
+   "sd-94": {
+    "fontSize": "17px",
+    "lineHeight": "23.8px",
+    "fontWeight": "500",
+    "letterSpacing": "-0.34px",
+    "color": "rgb(172, 172, 172)",
+    "width": "155px"
+   },
+   "sd-95": {
+    "fontSize": "14px",
+    "lineHeight": "23.8px",
+    "fontWeight": "400",
+    "letterSpacing": "-0.28px",
+    "color": "rgb(172, 172, 172)",
+    "margin": "104px 0px 0px",
+    "flex": "1 1 0%"
+   },
+   "sd-96": {
+    "position": "relative",
+    "rowGap": "16px",
+    "justifyContent": "space-between",
+    "width": "682px",
+    "height": "378.508px"
+   },
+   "sd-97": {
+    "aspectRatio": "auto 5472 / 3040",
+    "objectFit": "fill",
+    "width": "682px",
+    "height": "378.508px",
+    "borderRadius": "0px"
+   },
+   "sd-98": {
+    "background": "rgba(0, 0, 0, 0) linear-gradient(rgb(30, 30, 30) 0%, rgba(30, 30, 30, 0) 100%) repeat scroll 0% 0% / auto padding-box border-box",
+    "height": "200px",
+    "position": "absolute",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "zIndex": "1"
+   },
+   "sd-107": {
+    "flex": "0 0 auto",
+    "margin": "104px 0px 0px"
+   },
+   "sd-111": {
+    "borderTopColor": "rgb(51, 51, 51)",
+    "borderTopWidth": "1px",
+    "padding": "24px 0px 0px",
+    "columnGap": "24px",
+    "flexDirection": "row",
+    "justifyContent": "space-between"
+   },
+   "sd-113": {
+    "width": "212px",
+    "flexDirection": "row"
+   },
+   "sd-115": {
+    "width": "448px",
+    "rowGap": "24px",
+    "justifyContent": "space-between",
+    "flexDirection": "column"
+   },
+   "sd-117": {
+    "fontFamily": "\"Instrument Serif\"",
+    "fontSize": "58px",
+    "lineHeight": "69.6px",
+    "fontWeight": "400",
+    "letterSpacing": "-1.16px",
+    "color": "rgb(247, 247, 247)"
+   },
+   "sd-118": {
+    "fontSize": "17px",
+    "lineHeight": "23.8px",
+    "fontWeight": "500",
+    "color": "rgb(172, 172, 172)"
+   },
+   "sd-119": {
+    "fontSize": "14px",
+    "lineHeight": "23.8px",
+    "fontWeight": "400",
+    "color": "rgb(172, 172, 172)",
+    "fontFeatureSettings": "\"palt\""
+   },
+   "sd-120": {
+    "backgroundColor": "rgb(30, 30, 30)",
+    "borderRadius": "4px",
+    "borderTopColor": "rgba(247, 247, 247, 0.05)",
+    "flex": "1 1 0%",
+    "overflow": "hidden",
+    "justifyContent": "space-between",
+    "rowGap": "16px"
+   },
+   "sd-121": {
+    "aspectRatio": "auto 5472 / 3080",
+    "objectFit": "fill",
+    "width": "683px"
+   }
+  },
+  "appearAttrs": [
+   {
+    "cls": "box sd-87",
+    "attrs": [
+     "class=box sd-87",
+     "data-appear=",
+     "data-inited-appear=",
+     "style="
+    ]
+   },
+   {
+    "cls": "box sd-99",
+    "attrs": [
+     "class=box sd-99",
+     "data-appear=",
+     "data-inited-appear=",
+     "style="
+    ]
+   },
+   {
+    "cls": "box sd-120",
+    "attrs": [
+     "class=box sd-120",
+     "data-appear=",
+     "data-inited-appear=",
+     "style="
+    ]
+   },
+   {
+    "cls": "box sd-131",
+    "attrs": [
+     "class=box sd-131",
+     "data-appear=",
+     "data-inited-appear=",
+     "style="
+    ]
+   }
+  ],
+  "pos96": "relative",
+  "pos108": "relative"
+ },
+ "detail768": {
+  "rects": {
+   ".sd-79": {
+    "x": 0,
+    "y": 2737.36,
+    "w": 768,
+    "h": 3420.41
+   },
+   ".sd-80": {
+    "x": 24,
+    "y": 2833.36,
+    "w": 720,
+    "h": 285.38
+   },
+   ".sd-81": {
+    "x": 24,
+    "y": 2858.36,
+    "w": 720,
+    "h": 128.25
+   },
+   ".sd-82": {
+    "x": 24,
+    "y": 2858.36,
+    "w": 212,
+    "h": 14.25
+   },
+   ".sd-83": {
+    "x": 24,
+    "y": 2896.61,
+    "w": 268.71,
+    "h": 90
+   },
+   ".sd-84": {
+    "x": 24,
+    "y": 3010.61,
+    "w": 720,
+    "h": 44.13
+   },
+   ".sd-86": {
+    "x": 24,
+    "y": 3118.73,
+    "w": 720,
+    "h": 2943.03
+   },
+   ".sd-87": {
+    "x": 24,
+    "y": 3118.73,
+    "w": 720,
+    "h": 770.46
+   },
+   ".sd-88": {
+    "x": 25,
+    "y": 3119.73,
+    "w": 718,
+    "h": 353.98
+   },
+   ".sd-91": {
+    "x": 49,
+    "y": 3212.93,
+    "w": 670,
+    "h": 236.78
+   },
+   ".sd-93": {
+    "x": 49,
+    "y": 3212.93,
+    "w": 219.8,
+    "h": 93.59
+   },
+   ".sd-94": {
+    "x": 49,
+    "y": 3314.52,
+    "w": 270.76,
+    "h": 23.8
+   },
+   ".sd-95": {
+    "x": 49,
+    "y": 3378.32,
+    "w": 259.84,
+    "h": 71.39
+   },
+   ".sd-96": {
+    "x": 25,
+    "y": 3489.71,
+    "w": 718,
+    "h": 398.48
+   },
+   ".sd-97": {
+    "x": 25,
+    "y": 3489.71,
+    "w": 718,
+    "h": 398.48
+   },
+   ".sd-98": {
+    "x": 25,
+    "y": 3489.71,
+    "w": 718,
+    "h": 200
+   },
+   ".sd-99": {
+    "x": 24,
+    "y": 3913.2,
+    "w": 720,
+    "h": 770.46
+   },
+   ".sd-111": {
+    "x": 24,
+    "y": 4707.66,
+    "w": 720,
+    "h": 665.05
+   },
+   ".sd-112": {
+    "x": 24,
+    "y": 4732.66,
+    "w": 720,
+    "h": 307.02
+   },
+   ".sd-113": {
+    "x": 24,
+    "y": 4732.66,
+    "w": 212,
+    "h": 13.2
+   },
+   ".sd-115": {
+    "x": 24,
+    "y": 4866.7,
+    "w": 720,
+    "h": 172.98
+   },
+   ".sd-117": {
+    "x": 24,
+    "y": 4866.7,
+    "w": 361.26,
+    "h": 69.59
+   },
+   ".sd-119": {
+    "x": 24,
+    "y": 4992.09,
+    "w": 329.19,
+    "h": 47.59
+   },
+   ".sd-120": {
+    "x": 24,
+    "y": 5063.68,
+    "w": 720,
+    "h": 309.03
+   },
+   ".sd-121": {
+    "x": 25,
+    "y": 5064.68,
+    "w": 718,
+    "h": 403.88
+   },
+   ".sd-122": {
+    "x": 24,
+    "y": 5396.71,
+    "w": 720,
+    "h": 665.05
+   },
+   ".sd-131": {
+    "x": 24,
+    "y": 5752.73,
+    "w": 720,
+    "h": 309.03
+   }
+  },
+  "styles": {
+   "sd-79": {
+    "padding": "96px 0px",
+    "backgroundColor": "rgb(26, 26, 26)"
+   },
+   "sd-80": {
+    "padding": "24px 0px 64px",
+    "flexWrap": "wrap",
+    "columnGap": "24px",
+    "rowGap": "24px",
+    "flexDirection": "row"
+   },
+   "sd-81": {
+    "flexDirection": "column",
+    "rowGap": "24px"
+   },
+   "sd-82": {
+    "fontSize": "12.96px",
+    "lineHeight": "14.256px"
+   },
+   "sd-83": {
+    "fontSize": "36px",
+    "lineHeight": "45px"
+   },
+   "sd-84": {
+    "margin": "0px",
+    "width": "720px",
+    "flex": "0 0 auto"
+   },
+   "sd-85": {
+    "fontSize": "12.96px",
+    "lineHeight": "22.032px"
+   },
+   "sd-85s": {
+    "fontSize": "13px"
+   },
+   "sd-86": {
+    "columnGap": "24px",
+    "rowGap": "24px"
+   },
+   "sd-87": {
+    "width": "720px",
+    "maxWidth": "100%"
+   },
+   "sd-91": {
+    "flexDirection": "column",
+    "rowGap": "40px",
+    "padding": "0px"
+   },
+   "sd-95": {
+    "margin": "0px",
+    "maxWidth": "100%"
+   },
+   "sd-98": {
+    "height": "200px"
+   },
+   "sd-111": {
+    "flexDirection": "column",
+    "rowGap": "24px",
+    "columnGap": "24px"
+   },
+   "sd-112": {
+    "flexDirection": "column",
+    "rowGap": "24px"
+   },
+   "sd-113": {
+    "flex": "0 0 auto",
+    "width": "212px"
+   },
+   "sd-115": {
+    "flex": "0 0 auto",
+    "width": "720px"
+   },
+   "sd-119s": {
+    "fontSize": "14px"
+   },
+   "sd-120": {
+    "width": "720px",
+    "maxWidth": "100%"
+   }
+  },
+  "imgs": [
+   {
+    "c": "img sd-97",
+    "cur": "s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_middle.webp"
+   },
+   {
+    "c": "img sd-109",
+    "cur": "s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_middle.webp"
+   },
+   {
+    "c": "img sd-121",
+    "cur": "s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_middle.webp"
+   },
+   {
+    "c": "img sd-132",
+    "cur": "s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_middle.webp"
+   }
+  ]
+ },
+ "detail390": {
+  "rects": {
+   ".sd-79": {
+    "x": 0,
+    "y": 3549.87,
+    "w": 390,
+    "h": 2317.27
+   },
+   ".sd-80": {
+    "x": 24,
+    "y": 3613.87,
+    "w": 342,
+    "h": 292.45
+   },
+   ".sd-81": {
+    "x": 24,
+    "y": 3638.87,
+    "w": 342,
+    "h": 107.2
+   },
+   ".sd-82": {
+    "x": 24,
+    "y": 3638.87,
+    "w": 212,
+    "h": 13.2
+   },
+   ".sd-83": {
+    "x": 24,
+    "y": 3676.06,
+    "w": 208.99,
+    "h": 70
+   },
+   ".sd-84": {
+    "x": 24,
+    "y": 3770.06,
+    "w": 342,
+    "h": 88.25
+   },
+   ".sd-86": {
+    "x": 24,
+    "y": 3906.31,
+    "w": 342,
+    "h": 1896.83
+   },
+   ".sd-87": {
+    "x": 24,
+    "y": 3906.31,
+    "w": 342,
+    "h": 490.07
+   },
+   ".sd-88": {
+    "x": 25,
+    "y": 3907.31,
+    "w": 340,
+    "h": 299.38
+   },
+   ".sd-91": {
+    "x": 49,
+    "y": 3976.51,
+    "w": 292,
+    "h": 206.18
+   },
+   ".sd-92": {
+    "x": 49,
+    "y": 3976.51,
+    "w": 222.98,
+    "h": 94.79
+   },
+   ".sd-93": {
+    "x": 49,
+    "y": 3976.51,
+    "w": 158.09,
+    "h": 67.2
+   },
+   ".sd-94": {
+    "x": 49,
+    "y": 4051.7,
+    "w": 222.98,
+    "h": 19.59
+   },
+   ".sd-95": {
+    "x": 49,
+    "y": 4111.3,
+    "w": 259.84,
+    "h": 71.39
+   },
+   ".sd-96": {
+    "x": 25,
+    "y": 4206.69,
+    "w": 340,
+    "h": 188.7
+   },
+   ".sd-97": {
+    "x": 25,
+    "y": 4206.69,
+    "w": 340,
+    "h": 188.7
+   },
+   ".sd-98": {
+    "x": 25,
+    "y": 4206.69,
+    "w": 340,
+    "h": 100
+   },
+   ".sd-99": {
+    "x": 24,
+    "y": 4420.38,
+    "w": 342,
+    "h": 490.07
+   },
+   ".sd-111": {
+    "x": 24,
+    "y": 4934.45,
+    "w": 342,
+    "h": 422.34
+   },
+   ".sd-112": {
+    "x": 24,
+    "y": 4959.45,
+    "w": 329.19,
+    "h": 185.67
+   },
+   ".sd-113": {
+    "x": 24,
+    "y": 4959.45,
+    "w": 212,
+    "h": 13.2
+   },
+   ".sd-115": {
+    "x": 24,
+    "y": 5001.94,
+    "w": 329.19,
+    "h": 143.19
+   },
+   ".sd-116": {
+    "x": 24,
+    "y": 5001.94,
+    "w": 249.77,
+    "h": 71.59
+   },
+   ".sd-117": {
+    "x": 24,
+    "y": 5001.94,
+    "w": 249.77,
+    "h": 48
+   },
+   ".sd-118": {
+    "x": 24,
+    "y": 5053.94,
+    "w": 177.95,
+    "h": 19.59
+   },
+   ".sd-119": {
+    "x": 24,
+    "y": 5097.53,
+    "w": 329.19,
+    "h": 47.59
+   },
+   ".sd-120": {
+    "x": 24,
+    "y": 5169.13,
+    "w": 342,
+    "h": 187.67
+   },
+   ".sd-121": {
+    "x": 25,
+    "y": 5170.13,
+    "w": 340,
+    "h": 190.96
+   },
+   ".sd-122": {
+    "x": 24,
+    "y": 5380.8,
+    "w": 342,
+    "h": 422.34
+   },
+   ".sd-131": {
+    "x": 24,
+    "y": 5615.47,
+    "w": 342,
+    "h": 187.67
+   },
+   ".sd-132": {
+    "x": 25,
+    "y": 5616.47,
+    "w": 340,
+    "h": 190.96
+   }
+  },
+  "styles": {
+   "sd-79": {
+    "padding": "64px 0px"
+   },
+   "sd-80": {
+    "padding": "24px 0px 48px",
+    "columnGap": "24px",
+    "rowGap": "24px"
+   },
+   "sd-81": {
+    "flexDirection": "column",
+    "rowGap": "24px"
+   },
+   "sd-82": {
+    "fontSize": "12px",
+    "lineHeight": "13.2px",
+    "letterSpacing": "-0.48px"
+   },
+   "sd-83": {
+    "fontSize": "28px",
+    "lineHeight": "35px"
+   },
+   "sd-85": {
+    "fontSize": "12.96px",
+    "lineHeight": "22.032px"
+   },
+   "sd-85s": {
+    "fontSize": "13px"
+   },
+   "sd-87": {
+    "rowGap": "0px",
+    "width": "342px"
+   },
+   "sd-88": {
+    "rowGap": "32px",
+    "padding": "24px"
+   },
+   "sd-93": {
+    "fontSize": "56px",
+    "lineHeight": "67.2px"
+   },
+   "sd-94": {
+    "fontSize": "14px",
+    "lineHeight": "19.6px"
+   },
+   "sd-98": {
+    "height": "100px"
+   },
+   "sd-111": {
+    "alignItems": "flex-start",
+    "justifyContent": "flex-start",
+    "flexDirection": "column",
+    "rowGap": "24px"
+   },
+   "sd-112": {
+    "rowGap": "24px",
+    "height": "185.672px"
+   },
+   "sd-116": {
+    "rowGap": "4px"
+   },
+   "sd-117": {
+    "fontSize": "40px",
+    "lineHeight": "48px"
+   },
+   "sd-118": {
+    "fontSize": "14px"
+   },
+   "sd-119": {
+    "fontSize": "14px"
+   }
+  },
+  "imgs": [
+   "s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_small.webp",
+   "s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_small.webp",
+   "s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_small.webp",
+   "s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_small.webp"
+  ]
+ },
+ "styleTable": {
+  "S1": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "1440px",
+   "height": "2042.47px",
+   "maxWidth": "100%",
+   "paddingTop": "96px",
+   "paddingBottom": "96px",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "backgroundColor": "rgb(26, 26, 26)",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "720px 1021.23px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S2": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "1392px",
+   "height": "211px",
+   "maxWidth": "calc(100% - 48px)",
+   "paddingTop": "24px",
+   "paddingBottom": "96px",
+   "marginRight": "24px",
+   "marginLeft": "24px",
+   "borderTopWidth": "1px",
+   "borderTopStyle": "solid",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "space-between",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "24px",
+   "columnGap": "24px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "696px 105.5px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S3": {
+   "fontFamily": "sans-serif",
+   "fontSize": "24px",
+   "fontWeight": "700",
+   "lineHeight": "24px",
+   "color": "rgb(51, 51, 51)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "920px",
+   "height": "90px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(51, 51, 51) none 3px",
+   "position": "relative",
+   "justifyContent": "space-between",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "flexBasis": "0%",
+   "rowGap": "24px",
+   "columnGap": "24px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "460px 45px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(51, 51, 51)"
+  },
+  "S4": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "12.96px",
+   "fontWeight": "500",
+   "lineHeight": "14.256px",
+   "letterSpacing": "-0.5184px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "212px",
+   "height": "14.25px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "106px 7.125px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S5": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "36px",
+   "fontWeight": "600",
+   "lineHeight": "45px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "684px",
+   "height": "90px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "flexBasis": "0%",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "342px 45px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S6": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "36px",
+   "fontWeight": "600",
+   "lineHeight": "45px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "block",
+   "boxSizing": "content-box",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "static",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "0px 0px",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S7": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "448px",
+   "height": "76.6875px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "8px",
+   "columnGap": "8px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "224px 38.3438px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S8": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "15.04px",
+   "fontWeight": "400",
+   "lineHeight": "25.568px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "block",
+   "boxSizing": "border-box",
+   "width": "448px",
+   "height": "76.6875px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "224px 38.3438px",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S9": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "15.04px",
+   "fontWeight": "400",
+   "lineHeight": "25.568px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "block",
+   "boxSizing": "border-box",
+   "width": "448px",
+   "height": "76.6875px",
+   "minHeight": "15.04px",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "static",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "224px 38.3438px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S10": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "15.04px",
+   "fontWeight": "400",
+   "lineHeight": "25.568px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "inline",
+   "boxSizing": "border-box",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "static",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "0px 0px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S11": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "15.04px",
+   "fontWeight": "500",
+   "lineHeight": "25.568px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "inline",
+   "boxSizing": "border-box",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "static",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "0px 0px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S12": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "1392px",
+   "height": "1639.47px",
+   "maxWidth": "calc(100% - 48px)",
+   "marginRight": "24px",
+   "marginLeft": "24px",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexWrap": "wrap",
+   "justifyContent": "center",
+   "rowGap": "64px",
+   "columnGap": "24px",
+   "placeItems": "stretch normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "696px 819.734px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S13": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "684px",
+   "height": "689.094px",
+   "maxWidth": "calc(50% - 12px)",
+   "borderTopWidth": "1px",
+   "borderRightWidth": "1px",
+   "borderBottomWidth": "1px",
+   "borderLeftWidth": "1px",
+   "borderTopStyle": "solid",
+   "borderTopColor": "rgba(247, 247, 247, 0.05)",
+   "borderRightColor": "rgba(247, 247, 247, 0.05)",
+   "borderBottomColor": "rgba(247, 247, 247, 0.05)",
+   "borderLeftColor": "rgba(247, 247, 247, 0.05)",
+   "borderTopLeftRadius": "4px",
+   "borderTopRightRadius": "4px",
+   "borderBottomRightRadius": "4px",
+   "borderBottomLeftRadius": "4px",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "space-between",
+   "alignItems": "center",
+   "alignContent": "center",
+   "rowGap": "16px",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "backgroundColor": "rgb(30, 30, 30)",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "342px 344.547px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S14": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "682px",
+   "height": "292.586px",
+   "maxWidth": "100%",
+   "paddingTop": "24px",
+   "paddingRight": "24px",
+   "paddingBottom": "24px",
+   "paddingLeft": "24px",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "rowGap": "56px",
+   "placeItems": "center normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341px 146.293px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S15": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "634px",
+   "height": "13.1953px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "56px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "317px 6.59766px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S16": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "13.2px",
+   "letterSpacing": "-0.24px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "11.9766px",
+   "height": "13.1953px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "5.98828px 6.59766px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S17": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "634px",
+   "height": "175.391px",
+   "maxWidth": "100%",
+   "paddingRight": "40px",
+   "paddingLeft": "40px",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "center",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "56px",
+   "columnGap": "48px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "317px 87.6953px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S18": {
+   "fontFamily": "sans-serif",
+   "fontSize": "18.72px",
+   "fontWeight": "700",
+   "lineHeight": "18.72px",
+   "color": "rgb(51, 51, 51)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "219.797px",
+   "height": "149.188px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(51, 51, 51) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "8px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "109.898px 74.5938px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(51, 51, 51)"
+  },
+  "S19": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "23.8px",
+   "letterSpacing": "-0.28px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "286.203px",
+   "height": "71.3906px",
+   "maxWidth": "100%",
+   "marginTop": "104px",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "flexBasis": "0%",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "143.102px 35.6953px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S20": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "682px",
+   "height": "378.508px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "space-between",
+   "alignItems": "center",
+   "alignContent": "center",
+   "rowGap": "16px",
+   "placeItems": "center normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341px 189.254px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S21": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "wordBreak": "break-word",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "682px",
+   "height": "378.508px",
+   "maxWidth": "100%",
+   "aspectRatio": "auto 5472 / 3040",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "center",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "clip",
+   "overflowY": "clip",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341px 189.254px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S22": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "682px",
+   "height": "200px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "absolute",
+   "bottom": "178.508px",
+   "inset": "0px 0px 178.508px",
+   "flexDirection": "column",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "backgroundImage": "linear-gradient(rgb(30, 30, 30) 0%, rgba(30, 30, 30, 0) 100%)",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341px 100px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S23": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "684px",
+   "height": "689.094px",
+   "maxWidth": "calc(50% - 12px)",
+   "borderTopWidth": "1px",
+   "borderRightWidth": "1px",
+   "borderBottomWidth": "1px",
+   "borderLeftWidth": "1px",
+   "borderTopStyle": "solid",
+   "borderTopColor": "rgba(247, 247, 247, 0.05)",
+   "borderRightColor": "rgba(247, 247, 247, 0.05)",
+   "borderBottomColor": "rgba(247, 247, 247, 0.05)",
+   "borderLeftColor": "rgba(247, 247, 247, 0.05)",
+   "borderTopLeftRadius": "4px",
+   "borderTopRightRadius": "4px",
+   "borderBottomRightRadius": "4px",
+   "borderBottomLeftRadius": "4px",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "center",
+   "alignItems": "center",
+   "alignContent": "center",
+   "rowGap": "16px",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "backgroundColor": "rgb(30, 30, 30)",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "342px 344.547px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S24": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "13.2px",
+   "letterSpacing": "-0.24px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "14.4141px",
+   "height": "13.1953px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "7.20703px 6.59766px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S25": {
+   "fontFamily": "sans-serif",
+   "fontSize": "18.72px",
+   "fontWeight": "700",
+   "lineHeight": "18.72px",
+   "color": "rgb(51, 51, 51)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "166.523px",
+   "height": "149.188px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(51, 51, 51) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "8px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "83.2617px 74.5938px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(51, 51, 51)"
+  },
+  "S26": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "23.8px",
+   "letterSpacing": "-0.28px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "246.961px",
+   "height": "71.3906px",
+   "maxWidth": "100%",
+   "marginTop": "104px",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "123.48px 35.6953px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S27": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "1392px",
+   "height": "411.188px",
+   "maxWidth": "100%",
+   "paddingTop": "24px",
+   "borderTopWidth": "1px",
+   "borderTopStyle": "solid",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "space-between",
+   "rowGap": "24px",
+   "columnGap": "24px",
+   "placeItems": "stretch normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "696px 205.594px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S28": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "683px",
+   "height": "386.188px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "space-between",
+   "flexBasis": "0%",
+   "rowGap": "24px",
+   "columnGap": "24px",
+   "placeItems": "stretch normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341.5px 193.094px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S29": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "212px",
+   "height": "386.188px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "106px 193.094px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S30": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "13.2px",
+   "letterSpacing": "-0.24px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(247, 247, 247)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "212px",
+   "height": "13.1953px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(247, 247, 247)",
+   "borderRightColor": "rgb(247, 247, 247)",
+   "borderBottomColor": "rgb(247, 247, 247)",
+   "borderLeftColor": "rgb(247, 247, 247)",
+   "outline": "rgb(247, 247, 247) none 3px",
+   "position": "relative",
+   "justifyContent": "flex-start",
+   "alignItems": "center",
+   "alignContent": "center",
+   "flexBasis": "0%",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "106px 6.59766px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(247, 247, 247)"
+  },
+  "S31": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "448px",
+   "height": "386.188px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "space-between",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "24px",
+   "columnGap": "24px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "224px 193.094px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S32": {
+   "fontFamily": "sans-serif",
+   "fontSize": "18.72px",
+   "fontWeight": "700",
+   "lineHeight": "18.72px",
+   "color": "rgb(51, 51, 51)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "361.258px",
+   "height": "101.391px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(51, 51, 51) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "8px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "180.629px 50.6953px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(51, 51, 51)"
+  },
+  "S33": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "23.8px",
+   "letterSpacing": "-0.28px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "block",
+   "boxSizing": "border-box",
+   "width": "329.188px",
+   "height": "47.5938px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "164.594px 23.7969px",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  },
+  "S34": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "685px",
+   "height": "386.188px",
+   "maxWidth": "100%",
+   "borderTopWidth": "1px",
+   "borderRightWidth": "1px",
+   "borderBottomWidth": "1px",
+   "borderLeftWidth": "1px",
+   "borderTopStyle": "solid",
+   "borderTopColor": "rgba(247, 247, 247, 0.05)",
+   "borderRightColor": "rgba(247, 247, 247, 0.05)",
+   "borderBottomColor": "rgba(247, 247, 247, 0.05)",
+   "borderLeftColor": "rgba(247, 247, 247, 0.05)",
+   "borderTopLeftRadius": "4px",
+   "borderTopRightRadius": "4px",
+   "borderBottomRightRadius": "4px",
+   "borderBottomLeftRadius": "4px",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "space-between",
+   "alignItems": "center",
+   "alignContent": "center",
+   "flexBasis": "0%",
+   "rowGap": "16px",
+   "placeItems": "center normal",
+   "overflowX": "hidden",
+   "overflowY": "hidden",
+   "backgroundColor": "rgb(30, 30, 30)",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "342.5px 193.094px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S35": {
+   "fontFamily": "sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "wordBreak": "break-word",
+   "color": "rgb(0, 0, 0)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "683px",
+   "height": "384.188px",
+   "maxWidth": "100%",
+   "aspectRatio": "auto 5472 / 3080",
+   "borderTopColor": "rgb(0, 0, 0)",
+   "borderRightColor": "rgb(0, 0, 0)",
+   "borderBottomColor": "rgb(0, 0, 0)",
+   "borderLeftColor": "rgb(0, 0, 0)",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "position": "relative",
+   "justifyContent": "center",
+   "alignItems": "center",
+   "alignContent": "center",
+   "placeItems": "center normal",
+   "overflowX": "clip",
+   "overflowY": "clip",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "341.5px 192.094px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(0, 0, 0)"
+  },
+  "S36": {
+   "fontFamily": "sans-serif",
+   "fontSize": "18.72px",
+   "fontWeight": "700",
+   "lineHeight": "18.72px",
+   "color": "rgb(51, 51, 51)",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "flex",
+   "boxSizing": "border-box",
+   "width": "301.5px",
+   "height": "101.391px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(51, 51, 51)",
+   "borderRightColor": "rgb(51, 51, 51)",
+   "borderBottomColor": "rgb(51, 51, 51)",
+   "borderLeftColor": "rgb(51, 51, 51)",
+   "outline": "rgb(51, 51, 51) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "justifyContent": "flex-start",
+   "alignItems": "flex-start",
+   "alignContent": "flex-start",
+   "rowGap": "8px",
+   "placeItems": "flex-start normal",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "150.75px 50.6953px",
+   "transitionProperty": "all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11",
+   "transitionDuration": "0.3s",
+   "transitionTimingFunction": "cubic-bezier(0.4, 0.4, 0, 1)",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(51, 51, 51)"
+  },
+  "S37": {
+   "fontFamily": "Inter, \"Noto Sans JP\"",
+   "fontSize": "14px",
+   "fontWeight": "400",
+   "lineHeight": "23.8px",
+   "letterSpacing": "-0.28px",
+   "textAlign": "left",
+   "wordBreak": "break-word",
+   "color": "rgb(172, 172, 172)",
+   "fontFeatureSettings": "\"palt\"",
+   "WebkitFontSmoothing": "antialiased",
+   "display": "block",
+   "boxSizing": "border-box",
+   "width": "314.945px",
+   "height": "47.5938px",
+   "maxWidth": "100%",
+   "borderTopColor": "rgb(172, 172, 172)",
+   "borderRightColor": "rgb(172, 172, 172)",
+   "borderBottomColor": "rgb(172, 172, 172)",
+   "borderLeftColor": "rgb(172, 172, 172)",
+   "outline": "rgb(172, 172, 172) none 3px",
+   "position": "relative",
+   "flexDirection": "column",
+   "objectFit": "fill",
+   "cursor": "auto",
+   "transformOrigin": "157.473px 23.7969px",
+   "animationIterationCount": "1",
+   "animationFillMode": "none",
+   "caretColor": "rgb(172, 172, 172)"
+  }
+ },
+ "nodes": [
+  {
+   "i": 0,
+   "p": -1,
+   "d": 0,
+   "tag": "div",
+   "path": "",
+   "rect": [
+    0,
+    0,
+    1440,
+    2042
+   ],
+   "s": "S1",
+   "cls": "box sd-79",
+   "id": "ai"
+  },
+  {
+   "i": 1,
+   "p": 0,
+   "d": 1,
+   "tag": "div",
+   "path": "div",
+   "rect": [
+    24,
+    96,
+    1392,
+    211
+   ],
+   "s": "S2",
+   "cls": "box sd-80"
+  },
+  {
+   "i": 2,
+   "p": 1,
+   "d": 2,
+   "tag": "h2",
+   "path": "div>h2",
+   "rect": [
+    24,
+    121,
+    920,
+    90
+   ],
+   "s": "S3",
+   "cls": "box sd-81"
+  },
+  {
+   "i": 3,
+   "p": 2,
+   "d": 3,
+   "tag": "span",
+   "path": "div>h2>span:nth-of-type(1)",
+   "rect": [
+    24,
+    121,
+    212,
+    14
+   ],
+   "s": "S4",
+   "cls": "text sd-82 theme-b6b0338f",
+   "text": "Editor AI"
+  },
+  {
+   "i": 4,
+   "p": 2,
+   "d": 3,
+   "tag": "span",
+   "path": "div>h2>span:nth-of-type(2)",
+   "rect": [
+    260,
+    121,
+    684,
+    90
+   ],
+   "s": "S5",
+   "cls": "text sd-83 theme-57a9da79",
+   "text": "AIが伴走する、最速の制作体験。"
+  },
+  {
+   "i": 5,
+   "p": 4,
+   "d": 4,
+   "tag": "br",
+   "path": "div>h2>span:nth-of-type(2)>br",
+   "rect": [
+    486,
+    122,
+    0,
+    44
+   ],
+   "s": "S6"
+  },
+  {
+   "i": 6,
+   "p": 1,
+   "d": 2,
+   "tag": "div",
+   "path": "div>div",
+   "rect": [
+    968,
+    121,
+    448,
+    77
+   ],
+   "s": "S7",
+   "cls": "box sd-84"
+  },
+  {
+   "i": 7,
+   "p": 6,
+   "d": 3,
+   "tag": "div",
+   "path": "div>div>div",
+   "rect": [
+    968,
+    121,
+    448,
+    77
+   ],
+   "s": "S8",
+   "cls": "richText sd-85"
+  },
+  {
+   "i": 8,
+   "p": 7,
+   "d": 4,
+   "tag": "p",
+   "path": "div>div>div>p",
+   "rect": [
+    968,
+    121,
+    448,
+    77
+   ],
+   "s": "S9",
+   "text": "Editor AIは、クリエイターに全く新しい制作体験を提供します。ドラフト文章の作成はもちろん、直感的な画像編集、すべての作業が、これまでにない速さに。"
+  },
+  {
+   "i": 9,
+   "p": 8,
+   "d": 5,
+   "tag": "br",
+   "path": "div>div>div>p>br",
+   "rect": [
+    1365,
+    125,
+    0,
+    18
+   ],
+   "s": "S10"
+  },
+  {
+   "i": 10,
+   "p": 8,
+   "d": 5,
+   "tag": "strong",
+   "path": "div>div>div>p>strong",
+   "rect": [
+    968,
+    150,
+    445,
+    44
+   ],
+   "s": "S11",
+   "text": "面倒だった作業も自動で代行。"
+  },
+  {
+   "i": 11,
+   "p": 0,
+   "d": 1,
+   "tag": "ul",
+   "path": "ul",
+   "rect": [
+    24,
+    307,
+    1392,
+    1639
+   ],
+   "s": "S12",
+   "cls": "box sd-86"
+  },
+  {
+   "i": 12,
+   "p": 11,
+   "d": 2,
+   "tag": "li",
+   "path": "ul>li:nth-of-type(1)",
+   "rect": [
+    24,
+    307,
+    684,
+    689
+   ],
+   "s": "S13",
+   "cls": "box sd-87"
+  },
+  {
+   "i": 13,
+   "p": 12,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)",
+   "rect": [
+    25,
+    308,
+    682,
+    293
+   ],
+   "s": "S14",
+   "cls": "box sd-88"
+  },
+  {
+   "i": 14,
+   "p": 13,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)",
+   "rect": [
+    49,
+    332,
+    634,
+    13
+   ],
+   "s": "S15",
+   "cls": "box sd-89"
+  },
+  {
+   "i": 15,
+   "p": 14,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+   "rect": [
+    49,
+    332,
+    12,
+    13
+   ],
+   "s": "S16",
+   "cls": "text sd-90",
+   "text": "01"
+  },
+  {
+   "i": 16,
+   "p": 13,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)",
+   "rect": [
+    49,
+    401,
+    634,
+    175
+   ],
+   "s": "S17",
+   "cls": "box sd-91"
+  },
+  {
+   "i": 17,
+   "p": 16,
+   "d": 5,
+   "tag": "h3",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>h3",
+   "rect": [
+    89,
+    401,
+    220,
+    149
+   ],
+   "s": "S18",
+   "cls": "box sd-92"
+  },
+  {
+   "i": 18,
+   "p": 16,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+   "rect": [
+    357,
+    505,
+    286,
+    71
+   ],
+   "s": "S19",
+   "cls": "text sd-95",
+   "text": "指示を出すだけで、画像素材を自在に編集可能に。素材探しのストレスから、自由になろう。"
+  },
+  {
+   "i": 19,
+   "p": 12,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(2)",
+   "rect": [
+    25,
+    617,
+    682,
+    379
+   ],
+   "s": "S20",
+   "cls": "box sd-96"
+  },
+  {
+   "i": 20,
+   "p": 19,
+   "d": 4,
+   "tag": "img",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(2)>img",
+   "rect": [
+    25,
+    617,
+    682,
+    379
+   ],
+   "s": "S21",
+   "cls": "img sd-97",
+   "attrs": {
+    "alt": "サンプル画像：黒い背景の上に複数の画像が浮かび上がるように並んでいる。赤みがかったオレンジ色の背景に横向きの人物シルエットが映された画像が中央手前に配置され、その奥で同じ構成・異なる色味の写真が放射状に並んでいる。",
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_middle.webp"
+   },
+   "img": {
+    "natural": [
+     1200,
+     666
+    ],
+    "current": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_middle.webp"
+   }
+  },
+  {
+   "i": 21,
+   "p": 19,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(1)>div:nth-of-type(2)>div",
+   "rect": [
+    25,
+    617,
+    682,
+    200
+   ],
+   "s": "S22",
+   "cls": "box sd-98"
+  },
+  {
+   "i": 22,
+   "p": 11,
+   "d": 2,
+   "tag": "li",
+   "path": "ul>li:nth-of-type(2)",
+   "rect": [
+    732,
+    307,
+    684,
+    689
+   ],
+   "s": "S23",
+   "cls": "box sd-99"
+  },
+  {
+   "i": 23,
+   "p": 22,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)",
+   "rect": [
+    733,
+    308,
+    682,
+    293
+   ],
+   "s": "S14",
+   "cls": "box sd-100"
+  },
+  {
+   "i": 24,
+   "p": 23,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+   "rect": [
+    757,
+    332,
+    634,
+    13
+   ],
+   "s": "S15",
+   "cls": "box sd-101"
+  },
+  {
+   "i": 25,
+   "p": 24,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+   "rect": [
+    757,
+    332,
+    14,
+    13
+   ],
+   "s": "S24",
+   "cls": "text sd-102",
+   "text": "02"
+  },
+  {
+   "i": 26,
+   "p": 23,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+   "rect": [
+    757,
+    401,
+    634,
+    175
+   ],
+   "s": "S17",
+   "cls": "box sd-103"
+  },
+  {
+   "i": 27,
+   "p": 26,
+   "d": 5,
+   "tag": "h3",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>h3",
+   "rect": [
+    843,
+    401,
+    167,
+    149
+   ],
+   "s": "S25",
+   "cls": "box sd-104"
+  },
+  {
+   "i": 28,
+   "p": 26,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>p",
+   "rect": [
+    1058,
+    505,
+    247,
+    71
+   ],
+   "s": "S26",
+   "cls": "text sd-107",
+   "text": "プロンプトひとつで、あなたの意図に沿った文章を自動生成。他言語翻訳なども、もっと簡単に。"
+  },
+  {
+   "i": 29,
+   "p": 22,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(2)",
+   "rect": [
+    733,
+    617,
+    682,
+    379
+   ],
+   "s": "S20",
+   "cls": "box sd-108"
+  },
+  {
+   "i": 30,
+   "p": 29,
+   "d": 4,
+   "tag": "img",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(2)>img",
+   "rect": [
+    733,
+    617,
+    682,
+    379
+   ],
+   "s": "S21",
+   "cls": "img sd-109",
+   "attrs": {
+    "alt": "サンプル画像：暗い背景に韓国語・日本語・英語など複数言語のテキストが記載されたカードが並んでいる。中央の英語カードのみ発光しているようなピンク色のエフェクトと赤い円形アイコンが追加され、他のカードより強調されている。",
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_middle.webp"
+   },
+   "img": {
+    "natural": [
+     1200,
+     666
+    ],
+    "current": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_middle.webp"
+   }
+  },
+  {
+   "i": 31,
+   "p": 29,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(2)>div:nth-of-type(2)>div",
+   "rect": [
+    733,
+    617,
+    682,
+    200
+   ],
+   "s": "S22",
+   "cls": "box sd-110"
+  },
+  {
+   "i": 32,
+   "p": 11,
+   "d": 2,
+   "tag": "li",
+   "path": "ul>li:nth-of-type(3)",
+   "rect": [
+    24,
+    1060,
+    1392,
+    411
+   ],
+   "s": "S27",
+   "cls": "box sd-111"
+  },
+  {
+   "i": 33,
+   "p": 32,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)",
+   "rect": [
+    24,
+    1085,
+    683,
+    386
+   ],
+   "s": "S28",
+   "cls": "box sd-112"
+  },
+  {
+   "i": 34,
+   "p": 33,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)",
+   "rect": [
+    24,
+    1085,
+    212,
+    386
+   ],
+   "s": "S29",
+   "cls": "box sd-113"
+  },
+  {
+   "i": 35,
+   "p": 34,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+   "rect": [
+    24,
+    1085,
+    212,
+    13
+   ],
+   "s": "S30",
+   "cls": "text sd-114",
+   "text": "03"
+  },
+  {
+   "i": 36,
+   "p": 33,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)",
+   "rect": [
+    260,
+    1085,
+    448,
+    386
+   ],
+   "s": "S31",
+   "cls": "box sd-115"
+  },
+  {
+   "i": 37,
+   "p": 36,
+   "d": 5,
+   "tag": "h3",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>h3",
+   "rect": [
+    260,
+    1085,
+    361,
+    101
+   ],
+   "s": "S32",
+   "cls": "box sd-116"
+  },
+  {
+   "i": 38,
+   "p": 36,
+   "d": 5,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+   "rect": [
+    260,
+    1424,
+    329,
+    48
+   ],
+   "s": "S33",
+   "cls": "richText sd-119"
+  },
+  {
+   "i": 39,
+   "p": 32,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(2)",
+   "rect": [
+    731,
+    1085,
+    685,
+    386
+   ],
+   "s": "S34",
+   "cls": "box sd-120"
+  },
+  {
+   "i": 40,
+   "p": 39,
+   "d": 4,
+   "tag": "img",
+   "path": "ul>li:nth-of-type(3)>div:nth-of-type(2)>img",
+   "rect": [
+    732,
+    1086,
+    683,
+    384
+   ],
+   "s": "S35",
+   "cls": "img sd-121",
+   "attrs": {
+    "alt": "サンプル画像：デザインエディタ画面の切り取り。左側にレイヤーパネル、右側に人物写真が並ぶ。レイヤーパネルの中には階層構造を示すレイヤー名が縦に並んでおり、リネーム中のレイヤーはピンク色のテキストと細長い線で強調して表示されている。",
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_middle.webp"
+   },
+   "img": {
+    "natural": [
+     1200,
+     675
+    ],
+    "current": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_middle.webp"
+   }
+  },
+  {
+   "i": 41,
+   "p": 11,
+   "d": 2,
+   "tag": "li",
+   "path": "ul>li:nth-of-type(4)",
+   "rect": [
+    24,
+    1535,
+    1392,
+    411
+   ],
+   "s": "S27",
+   "cls": "box sd-122"
+  },
+  {
+   "i": 42,
+   "p": 41,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)",
+   "rect": [
+    24,
+    1560,
+    683,
+    386
+   ],
+   "s": "S28",
+   "cls": "box sd-123"
+  },
+  {
+   "i": 43,
+   "p": 42,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)",
+   "rect": [
+    24,
+    1560,
+    212,
+    386
+   ],
+   "s": "S29",
+   "cls": "box sd-124"
+  },
+  {
+   "i": 44,
+   "p": 43,
+   "d": 5,
+   "tag": "p",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>p",
+   "rect": [
+    24,
+    1560,
+    212,
+    13
+   ],
+   "s": "S30",
+   "cls": "text sd-125",
+   "text": "04"
+  },
+  {
+   "i": 45,
+   "p": 42,
+   "d": 4,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)",
+   "rect": [
+    260,
+    1560,
+    448,
+    386
+   ],
+   "s": "S31",
+   "cls": "box sd-126"
+  },
+  {
+   "i": 46,
+   "p": 45,
+   "d": 5,
+   "tag": "h3",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>h3",
+   "rect": [
+    260,
+    1560,
+    302,
+    101
+   ],
+   "s": "S36",
+   "cls": "box sd-127"
+  },
+  {
+   "i": 47,
+   "p": 45,
+   "d": 5,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+   "rect": [
+    260,
+    1899,
+    315,
+    48
+   ],
+   "s": "S37",
+   "cls": "richText sd-130"
+  },
+  {
+   "i": 48,
+   "p": 41,
+   "d": 3,
+   "tag": "div",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(2)",
+   "rect": [
+    731,
+    1560,
+    685,
+    386
+   ],
+   "s": "S34",
+   "cls": "box sd-131"
+  },
+  {
+   "i": 49,
+   "p": 48,
+   "d": 4,
+   "tag": "img",
+   "path": "ul>li:nth-of-type(4)>div:nth-of-type(2)>img",
+   "rect": [
+    732,
+    1561,
+    683,
+    384
+   ],
+   "s": "S35",
+   "cls": "img sd-132",
+   "attrs": {
+    "alt": "サンプル画像：黒い画面の中央にWebサイトのデザインが配置され、その背景に赤いガイドラインやレスポンシブ時のレイアウト例が薄く表示されている。Webサイトはオレンジ色基調の人物写真や英文で構成されている。",
+    "src": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_middle.webp"
+   },
+   "img": {
+    "natural": [
+     1200,
+     675
+    ],
+    "current": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_middle.webp"
+   }
+  }
+ ],
+ "nodesNote": "nodes + styleTable mirrored from editor-ai.1440.json so the snapshot is self-contained"
+}

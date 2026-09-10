@@ -1,0 +1,35 @@
+{
+  "note": "Origin URLs used by main > .sd-79 that are NOT in assets.manifest.json. The runtime swaps variants by rendered width: _middle.webp at 1440 and 768 (already downloaded), _small.webp at 390 (MISSING). The `_small` files must be fetched and written to the intended paths below.",
+  "present": [
+    "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_middle.webp",
+    "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_middle.webp",
+    "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_middle.webp",
+    "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_middle.webp"
+  ],
+  "missing": [
+    {
+      "el": ".sd-97",
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_small.webp",
+      "path": "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455_small.webp",
+      "usedAt": "390 (currentSrc), rendered 340x188.70"
+    },
+    {
+      "el": ".sd-109",
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_small.webp",
+      "path": "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e_small.webp",
+      "usedAt": "390 (currentSrc), rendered 340x188.70"
+    },
+    {
+      "el": ".sd-121",
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_small.webp",
+      "path": "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a_small.webp",
+      "usedAt": "390 (currentSrc), rendered 340x190.96"
+    },
+    {
+      "el": ".sd-132",
+      "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_small.webp",
+      "path": "public/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429_small.webp",
+      "usedAt": "390 (currentSrc), rendered 340x190.96"
+    }
+  ]
+}
