@@ -1,0 +1,25 @@
+{
+ "note": "Background of div.sd-333 via the image / image__bg-container custom-property machinery. None of these four URLs is in assets.manifest.json and none is on disk.",
+ "assets": [
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_small.webp",
+   "path": "images/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_small.webp",
+   "usedAt": "390 (container 381px)"
+  },
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_middle.webp",
+   "path": "images/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_middle.webp",
+   "usedAt": "768 (container 734px)"
+  },
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_regular.webp",
+   "path": "images/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869_regular.webp",
+   "usedAt": "1440 (container 1420px)"
+  },
+  {
+   "url": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a74Ny3WR/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869.webp",
+   "path": "images/s-11136x4000_v-frms_webp_aac6934b-3d26-4ddb-9617-27db10104869.webp",
+   "usedAt": "--img-origin; never selected at dpr 1 at 390/768/1440, declared inline so keep it for parity"
+  }
+ ]
+}
