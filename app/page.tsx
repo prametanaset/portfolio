@@ -11,6 +11,7 @@ import { VisualDesignSection } from "@/components/sites/studio-design-8a86c0e4/j
 import { CreativeAssetsSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/CreativeAssetsSection";
 import { FeaturedCreatorsSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/FeaturedCreatorsSection";
 import { CollaborationSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/CollaborationSection";
+import { DataSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/DataSection";
 
 export default function Page() {
   return (
@@ -25,6 +26,7 @@ export default function Page() {
         <CreativeAssetsSection />
         <FeaturedCreatorsSection />
         <CollaborationSection />
+        <DataSection />
       </main>
     </div>
   );
