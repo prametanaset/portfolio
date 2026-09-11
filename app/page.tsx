@@ -2,7 +2,7 @@
 // The origin wraps the whole page in `div.box.sd-1` (header + main.sd-2 + footer); `.sd-root`
 // is the clone's scope for the origin's stylesheet (app/studio-base.css + the per-section slices).
 import "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/page-shell.css";
-import { SiteHeader } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/SiteHeader";
+import { SiteChrome } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/SiteChrome";
 import { HeroDesignEditor } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/HeroDesignEditor";
 import { NextCreationSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/NextCreationSection";
 import { FreeLayoutSection } from "@/components/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/FreeLayoutSection";
@@ -19,7 +19,7 @@ import { SiteFooter } from "@/components/sites/studio-design-8a86c0e4/ja-editor-
 export default function Page() {
   return (
     <div className="sd-root box sd-1">
-      <SiteHeader />
+      <SiteChrome />
       <main className="box sd-2">
         <HeroDesignEditor />
         <NextCreationSection />
