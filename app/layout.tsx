@@ -35,18 +35,8 @@ export const metadata: Metadata = {
     apple:
       "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/3303d963-e1b6-467d-bfab-b0cb3913b39c.png",
   },
-  openGraph: {
-    type: "website",
-    locale: "th_TH",
-    url: "https://studio.design/ja/editor",
-    siteName: "Studio | แพลตฟอร์มสร้างเว็บแบบโนโค้ด",
-    title: "ออกแบบได้ดั่งใจคิด | Studio",
-    description:
-      "เครื่องมือออกแบบของ Studio ให้คุณออกแบบได้อย่างอิสระตั้งแต่ศูนย์ ตั้งแต่การขยับระดับพิกเซลไปจนถึงแอนิเมชันที่เคลื่อนไหวจริง โดยไม่ต้องเขียนโค้ดและไม่ถูกจำกัดด้วยเทมเพลตอีกต่อไป",
-    images: [
-      "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/dfd263e5-049b-4c84-9607-3d634c91c1ea.png",
-    ],
-  },
+
+
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
