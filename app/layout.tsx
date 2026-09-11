@@ -27,9 +27,9 @@ const STUDIO_FONTS_HREF =
   "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Mono:ital,wght@0,500;1,500&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0&display=swap";
 
 export const metadata: Metadata = {
-  title: "ออกแบบได้ดั่งใจคิด | Studio",
+  title: "Tanaset Sriratda | Woxa Labs",
   description:
-    "เครื่องมือออกแบบของ Studio ให้คุณออกแบบได้อย่างอิสระตั้งแต่ศูนย์ ตั้งแต่การขยับระดับพิกเซลไปจนถึงแอนิเมชันที่เคลื่อนไหวจริง โดยไม่ต้องเขียนโค้ดและไม่ถูกจำกัดด้วยเทมเพลตอีกต่อไป",
+    "Portfolio",
   icons: {
     icon: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/3303d963-e1b6-467d-bfab-b0cb3913b39c.png",
     apple:
