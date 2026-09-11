@@ -222,7 +222,9 @@ export function NextCreationCarousel() {
           data-sd-carousel-transform="sd-20"
           data-sd-carousel-duration="sd-20"
           data-appear-manual=""
-          data-animatingNext={animatingNext ? "" : undefined}
+          // The origin writes `data-animatingNext`; HTML attribute selectors are case-insensitive,
+          // and React rejects a camelCase custom attribute, so the DOM carries the lowercase form.
+          data-animatingnext={animatingNext ? "" : undefined}
           style={{ transitionDuration: animated ? "0.6s" : "0s" }}
         >
           <a className="box sd-20__content__sd-1" href={slide.href} target="_blank">

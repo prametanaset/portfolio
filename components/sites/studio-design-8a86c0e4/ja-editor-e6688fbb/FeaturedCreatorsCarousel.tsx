@@ -210,7 +210,9 @@ export function FeaturedCreatorsCarousel() {
           data-sd-carousel-transform="sd-244"
           data-sd-carousel-duration="sd-244"
           data-appear-manual=""
-          data-animatingNext={animatingNext ? "" : undefined}
+          // The origin writes `data-animatingNext`; HTML attribute selectors are case-insensitive,
+          // and React rejects a camelCase custom attribute, so the DOM carries the lowercase form.
+          data-animatingnext={animatingNext ? "" : undefined}
           style={{ transitionDuration: animated ? "1000ms" : "0s" }}
         >
           {/* `.appear` is rendered literally: its only declarations here are transition timing —
