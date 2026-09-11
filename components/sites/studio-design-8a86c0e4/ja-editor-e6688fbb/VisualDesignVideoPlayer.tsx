@@ -2,7 +2,7 @@
 
 // The origin's `<sd-video-player>` custom element for `.sd-209`: the only stateful node in the
 // VisualDesign section. Clicking `.sd-211` toggles the `is-playing` attribute (and the runtime's
-// "Pause"/"Play" aria-label) and plays/pauses the underlying <video>. The glyph swap itself is
+// play/pause aria-label, here in Thai) and plays/pauses the underlying <video>. The glyph swap is
 // pure CSS — `app/studio-base.css` hides `[slot=pause]` while not playing and `[slot=play]` while
 // playing — so both icons stay in the DOM at all times.
 
@@ -36,7 +36,7 @@ export function VisualDesignVideoPlayer({ src }: { src: string }) {
   return (
     <sd-video-player ref={rootRef} className="box sd-209" {...playingAttr}>
       <SdVideo className="sd-210" src={src} />
-      <button className="box sd-211" aria-label={isPlaying ? "Pause" : "Play"} onClick={toggle}>
+      <button className="box sd-211" aria-label={isPlaying ? "หยุดชั่วคราว" : "เล่น"} onClick={toggle}>
         <div className="box sd-212" slot="play">
           <MaterialIcon name="play_arrow" className="sd-213" />
         </div>

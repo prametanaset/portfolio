@@ -35,7 +35,7 @@ const RENDERED = 7;
 type Slide = {
   href: string;
   cover: string;
-  /** `「<title>」のカバー画像`. */
+  /** `Cover image for "<title>"`. */
   coverAlt: string;
   logo: string;
   logoAlt: string;
@@ -48,47 +48,47 @@ const SLIDES: Slide[] = [
   {
     href: "https://studio.design/ja/interview/randysdonuts",
     cover: `${IMAGES}/s-1800x2400_v-frms_webp_763a3d0a-a1bb-4777-9374-bb8cfded6c18_small.webp`,
-    coverAlt: "「LA発「ランディーズ・ドーナツ」日本上陸を支えたサイト制作の舞台裏」のカバー画像",
+    coverAlt: "ภาพปกของ “เบื้องหลังเว็บไซต์ที่พา Randy’s Donuts จากแอลเอมาถึงญี่ปุ่น”",
     logo: `${IMAGES}/s-435x198_92b31fb9-259d-479c-8982-de52d3dc4389.svg`,
-    logoAlt: "株式会社アイティプラス",
-    title: "LA発「ランディーズ・ドーナツ」日本上陸を支えたサイト制作の舞台裏",
-    tag: "#中小企業",
+    logoAlt: "IT Plus Inc.",
+    title: "Behind the site that brought LA's Randy's Donuts to Japan",
+    tag: "#SMB",
   },
   {
     href: "https://studio.design/ja/interview/baigie",
     cover: `${IMAGES}/s-1800x2400_v-frms_webp_aa92a579-a13d-42a8-b1a1-80728c51e38e_small.webp`,
-    coverAlt: "「デザインの本質は“映え”にあらず。枌谷力が見据えるWebデザインの行き先」のカバー画像",
+    coverAlt: "ภาพปกของ “งานออกแบบไม่ใช่แค่เรื่องความสวย: Chikara Sogaya กับทิศทางของเว็บดีไซน์”",
     logo: `${IMAGES}/s-435x198_e2cbe5d4-5552-4a42-82d4-6d203601ad00.svg`,
-    logoAlt: "株式会社ベイジ",
-    title: "デザインの本質は“映え”にあらず。枌谷力が見据えるWebデザインの行き先",
-    tag: "#制作会社",
+    logoAlt: "Baigie Inc.",
+    title: "Design isn't about looking good: Chikara Sogaya on where web design is headed",
+    tag: "#Agency",
   },
   {
     href: "https://studio.design/ja/interview/cockdoodoodoo",
     cover: `${IMAGES}/s-1800x2400_v-frms_webp_b79c8f44-1526-4a9f-a085-3b98cda1fcf2_small.webp`,
-    coverAlt: "「感受性が導く、空想と現実のあわいへ──大橋絵里奈が描く“没入”のデザイン」のカバー画像",
+    coverAlt: "ภาพปกของ “ปล่อยให้ความรู้สึกนำทางสู่พื้นที่ระหว่างจินตนาการกับความจริง: งานออกแบบชวนดื่มด่ำของ Erina Ohashi”",
     logo: `${IMAGES}/s-435x198_93410cb5-a5a4-463a-a351-6aa6c4321fd2.svg`,
-    logoAlt: "クックドゥードゥードゥー",
-    title: "感受性が導く、空想と現実のあわいへ──大橋絵里奈が描く“没入”のデザイン",
-    tag: "#フリーランス",
+    logoAlt: "Cook Doodle Doo",
+    title: "Led by sensibility, into the space between fantasy and reality: Erina Ohashi's immersive design",
+    tag: "#Freelance",
   },
   {
     href: "https://studio.design/ja/interview/maruigroup",
     cover: `${IMAGES}/s-1800x2400_v-frms_webp_9439ed80-0673-4ea0-8d70-bb5896116af0_small.webp`,
-    coverAlt: "「安く、早く、で終わらせない。丸井グループのDXが向き合う内製化の“本質”とは」のカバー画像",
+    coverAlt: "ภาพปกของ “ไม่ใช่แค่ถูกและเร็ว: การทำงานด้วยทีมในองค์กรมีความหมายอย่างไรต่อ DX ของ Marui Group”",
     logo: `${IMAGES}/s-435x198_7289a2af-6478-4af0-9946-d338f53889aa.svg`,
-    logoAlt: "株式会社マルイユナイト",
-    title: "安く、早く、で終わらせない。丸井グループのDXが向き合う内製化の“本質”とは",
-    tag: "#エンタープライズ",
+    logoAlt: "Marui United Inc.",
+    title: "Not just cheap and fast: what in-housing really means for Marui Group's DX",
+    tag: "#Enterprise",
   },
   {
     href: "https://studio.design/ja/blog/wosh-design",
     cover: `${IMAGES}/s-1800x2400_v-frms_webp_fc249913-5eed-41d5-84f4-2b148a64ec2f_small.webp`,
-    coverAlt: "「家族と仲間と猫と。 広がる景色、花開くデザイン」のカバー画像",
+    coverAlt: "ภาพปกของ “ครอบครัว เพื่อน และแมวหนึ่งตัว: มุมมองที่กว้างขึ้นกับงานออกแบบที่เบ่งบาน”",
     logo: `${IMAGES}/s-435x198_8f40e704-c2b9-4ce3-9ef6-242bd31d5071.svg`,
-    logoAlt: "株式会社WOSH design",
-    title: "家族と仲間と猫と。 広がる景色、花開くデザイン",
-    tag: "#制作会社",
+    logoAlt: "WOSH design Inc.",
+    title: "Family, friends and a cat: a widening view and a design in bloom",
+    tag: "#Agency",
   },
 ];
 
@@ -176,12 +176,12 @@ export function FeaturedCreatorsCarousel() {
           is position:absolute, so the order is irrelevant. */}
       <div className="box sd-255 sd-carousel__controls">
         <div className="box sd-256">
-          <button className="box sd-257" aria-label="Prev Slide" slot="prev" type="button" onClick={goPrev}>
+          <button className="box sd-257" aria-label="สไลด์ก่อนหน้า" slot="prev" type="button" onClick={goPrev}>
             <MaterialIcon name="keyboard_arrow_left" className="sd-258" />
           </button>
           <button
             className="box sd-259"
-            aria-label={playing ? "Stop automatic slide show" : "Play automatic slide show"}
+            aria-label={playing ? "หยุดเล่นสไลด์อัตโนมัติ" : "เล่นสไลด์อัตโนมัติ"}
             slot="play-toggle"
             type="button"
             data-playing-label="Stop automatic slide show"
@@ -196,7 +196,7 @@ export function FeaturedCreatorsCarousel() {
               <MaterialIcon name="play_arrow" className="sd-263" />
             </div>
           </button>
-          <button className="box sd-264" aria-label="Next Slide" slot="next" type="button" onClick={goNext}>
+          <button className="box sd-264" aria-label="สไลด์ถัดไป" slot="next" type="button" onClick={goNext}>
             <MaterialIcon name="keyboard_arrow_right" className="sd-265" />
           </button>
         </div>

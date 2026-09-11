@@ -1,0 +1,39 @@
+/* ---------------------------------------------------------------------------
+   Thai overrides for the studio.design clone.
+
+   The origin's type scale was authored for Latin + Japanese metrics. Thai stacks
+   an upper vowel and a tone mark above the consonant line and hangs a lower vowel
+   below it, so the origin's tight tracking and sub-1.2 line boxes clip glyphs that
+   Latin never reaches with. Everything here is scoped to `.sd-root` and lives
+   outside the generated `studio-base.css` so a regenerate cannot drop it.
+   --------------------------------------------------------------------------- */
+
+/* The origin's font vars, with Noto Sans Thai (self-hosted via next/font in
+   app/layout.tsx) taking the place of Noto Sans JP. Inter still leads, so Latin
+   text renders exactly as it did before. */
+:root {
+  --s-font-5489e031: Inter, var(--font-thai), sans-serif;
+  --s-font-68aa87c4: Inter, var(--font-thai), sans-serif;
+  /* The two display faces carry no Thai glyphs at all, so Thai has to fall through to
+     Noto Sans Thai rather than to whatever the system happens to pick. */
+  --s-font-b18a84da: "Instrument Serif", var(--font-thai), serif;
+  --s-font-a28a97b6: "IBM Plex Mono", var(--font-thai), monospace;
+}
+
+/* The origin tracks nearly all copy at -0.02em, which collapses the gap Thai
+   consonants need between their loops. */
+/* `.sd-root.sd-root` is the doubled class, not a typo: the per-section slices are imported from
+   their components and so land after this file, and their `.sd-root .sd-NN` rules would otherwise
+   win the tie on source order. */
+.sd-root.sd-root :is(.text, p, h1, h2, h3, h4, h5, h6, a, span, li, button) {
+  letter-spacing: normal;
+}
+
+/* The four eyebrow labels the origin sets at line-height 1.1 with `overflow: hidden`:
+   the line box is a little shorter than a Thai glyph plus its upper vowel and tone mark,
+   so the marks were being shaved off. Unclipping keeps the box the exact height the
+   origin's layout measures — raising line-height instead would move everything below. */
+.sd-root.sd-root :is(.sd-16, .sd-219, .sd-341, .sd-343) {
+  overflow-x: visible;
+  overflow-y: visible;
+}

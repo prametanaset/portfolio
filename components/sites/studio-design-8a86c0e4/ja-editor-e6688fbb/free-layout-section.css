@@ -148,3 +148,22 @@
 .sd-root .sd-61 > video { width:100%; height:100%; }
 .sd-root .sd-61 { aspect-ratio:2160 / 2160; }
 }
+
+/* Local override (not from the origin): the five media slots now hold IUX24 screenshots whose
+   ratios differ from the origin assets — three are tall mobile captures in wide slots. Keep the
+   origin's slot geometry (aspect-ratio, width, negative margins) and crop from the top instead
+   of letting the <img> stretch. */
+.sd-root .sd-56,
+.sd-root .sd-61,
+.sd-root .sd-71,
+.sd-root .sd-78 { object-fit:cover; object-position:top center; }
+
+/* The Components card's phone mockup is portrait, so the origin's bottom-flush slot leaves a
+   tall gap above it and none below. Stop the copy block from absorbing the slack and give the
+   card a real bottom inset instead. */
+.sd-root .sd-62 { padding-bottom:8px; }
+.sd-root .sd-63 { flex:none; }
+.sd-root .sd-66 { object-fit:contain; margin-top:auto; }
+@media (max-width: 768px) {
+  .sd-root .sd-62 { padding-bottom:14px; }
+}

@@ -1,7 +1,8 @@
 // Port of studio.design/ja/editor `main > .sd-133` (DOM order 6 of 13) — the "Visual Design"
 // section: a CSS-only `position: sticky` rail (`.sd-135`, top 104px) beside a 6-card `<ul>`.
-// Structure, class names, alt text and Japanese copy are verbatim from the origin markup
-// (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-133`).
+// Structure and class names are verbatim from the origin markup
+// (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-133`); the copy and
+// alt text are the Thai translation.
 //
 // Interaction model is mixed(scroll + hover + click), but only the click needs JavaScript:
 //   * the sticky rail is native `position: sticky` (relative ≤1280) — no scroll listener;
@@ -46,27 +47,27 @@ export function VisualDesignSection() {
       <div className="box sd-134">
         <div className="box sd-135">
           <h2 className="text sd-136 theme-cb8ba68c">
-            Visual
+            งานออกแบบ
             <br />
-            Design
+            เชิงภาพ
           </h2>
           <p className="text sd-137 theme-969c5ae1">
-            ブランドをカタチづくる、
+            สไตล์และฟอนต์
             <br />
-            スタイルとフォント。
+            ที่ให้รูปทรงกับแบรนด์ของคุณ
           </p>
         </div>
         <div className="box sd-138">
           <ul className="box sd-139">
             <Appear as="li" className="box sd-140" rootMargin="0px" threshold={0} activeClass={false}>
               <div className="box sd-141">
-                <h3 className="text sd-142 theme-c1a9a55a">スタイルパネル</h3>
+                <h3 className="text sd-142 theme-c1a9a55a">แผงจัดการสไตล์</h3>
                 <p className="text sd-143 theme-a3931427">
-                  色や文字のルールをまとめて管理。
+                  จัดการกฎของสีและตัวอักษรได้จากที่เดียว
                   <br />
-                  ブランドカラーや見出しのスタイルも、
+                  สีประจำแบรนด์และสไตล์หัวข้อ
                   <br />
-                  全ページで一括適用。
+                  ถูกนำไปใช้กับทุกหน้าพร้อมกันในครั้งเดียว
                 </p>
               </div>
               {/* Plain <img> (not next/image) so the sliced `.sd-144` rules apply unchanged. */}
@@ -74,16 +75,16 @@ export function VisualDesignSection() {
               <img
                 className="img sd-144"
                 src={`${IMAGES}/s-896x438_v-fs_webp_977a7850-4c23-4d9f-9272-f71e6805ca8c_small.webp`}
-                alt="サンプル画像：デザインエディタの一部の切り取り。画面左にはカラー設定パネルとテキストスタイルパネルが並んでいる。その下には「Start your story」と記載されたテキストボックスが表示されており、スタイルパネルで選択したスタイルが青い曲線で紐づけられている。"
+                alt="ภาพตัวอย่าง: ส่วนหนึ่งของเครื่องมือออกแบบ แผงสีและแผงสไตล์ข้อความอยู่ทางซ้าย ใต้ลงมาเป็นกล่องข้อความที่เขียนว่า “Start your story” ซึ่งเชื่อมกับสไตล์ที่เลือกไว้ในแผงด้วยเส้นโค้งสีน้ำเงิน"
               />
             </Appear>
             <Appear as="li" className="box sd-145" rootMargin="0px" threshold={0} activeClass={false}>
               <div className="box sd-146">
-                <h3 className="text sd-147 theme-c1a9a55a">タイポグラフィ</h3>
+                <h3 className="text sd-147 theme-c1a9a55a">ตัวอักษร</h3>
                 <div className="box sd-148">
-                  <p className="text sd-149">9,200種類以上のフォントが無料で利用可能。</p>
+                  <p className="text sd-149">กว่า 9,200 แบบอักษร ใช้งานได้ฟรี</p>
                   <p className="text sd-150 theme-a3931427">
-                    モリサワフォント(TypeSquare)、Google Fonts、カスタムフォント、System Fontsに対応。ブランドに合わせた多彩な書体を自由に使えます。
+                    รองรับ Morisawa Fonts (TypeSquare), Google Fonts, ฟอนต์ที่อัปโหลดเอง และฟอนต์ของระบบ เลือกใช้แบบอักษรที่เข้ากับแบรนด์ของคุณได้ตามใจ
                   </p>
                 </div>
               </div>
@@ -113,9 +114,9 @@ export function VisualDesignSection() {
             <VisualDesignMotionCard />
             <Appear as="li" className="box sd-194" rootMargin="0px" threshold={0} activeClass={false}>
               <div className="box sd-195">
-                <h3 className="text sd-196 theme-c1a9a55a">色々な形式に対応</h3>
+                <h3 className="text sd-196 theme-c1a9a55a">รองรับไฟล์หลากหลายรูปแบบ</h3>
                 <p className="text sd-197 theme-a3931427">
-                  動画・画像・PDFなど、幅広いファイル形式をアップロードして利用できます。
+                  อัปโหลดและใช้งานไฟล์ได้หลายรูปแบบ ทั้งวิดีโอ รูปภาพ PDF และอื่น ๆ อีกมาก
                   <br />
                 </p>
               </div>
@@ -124,7 +125,7 @@ export function VisualDesignSection() {
                 className="img sd-198"
                 width="272"
                 height="165"
-                alt="サンプル画像：灰色の背景に白い8枚のカードが2段4列で並ぶ。各カードは拡張子を示し、アイコンと「.png」「.svg」「.mp4」などのテキストで構成されている。左上には黒いポインターとそれに追従する緑色の「＋」アイコン、赤い「8」の通知が付いており、複数ファイルの追加する様子を示している。"
+                alt="ภาพตัวอย่าง: การ์ดสีขาวแปดใบเรียงสองแถวแถวละสี่ใบบนพื้นหลังสีเทา แต่ละใบบอกชนิดไฟล์ด้วยไอคอนและป้ายกำกับอย่าง “.png”, “.svg” หรือ “.mp4” เคอร์เซอร์สีดำที่มุมบนซ้ายลากไอคอน “+” สีเขียวและป้าย “8” สีแดงตามมา แสดงว่ากำลังเพิ่มไฟล์หลายไฟล์พร้อมกัน"
                 src={`${IMAGES}/s-272x165_db94a6c4-7da1-4ae6-94da-1da1013385f1.svg`}
               />
             </Appear>
@@ -139,7 +140,7 @@ export function VisualDesignSection() {
               <span className="image__bg-container" aria-hidden="true" />
               <div className="box sd-200">
                 <h3 className="text sd-201 theme-f799e4ef">Lottie</h3>
-                <p className="text sd-202 theme-a3931427">軽量で滑らかなLottieアニメーションに対応。</p>
+                <p className="text sd-202 theme-a3931427">รองรับแอนิเมชัน Lottie ที่เบาและลื่นไหล</p>
               </div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -151,7 +152,7 @@ export function VisualDesignSection() {
             <Appear as="li" className="box sd-204" rootMargin="0px" threshold={0} activeClass={false}>
               <div className="box sd-205">
                 <h3 className="text sd-206 theme-f799e4ef">iframe</h3>
-                <p className="text sd-207 theme-a3931427">外部コンテンツをiframeで自由に埋め込み可能。</p>
+                <p className="text sd-207 theme-a3931427">ฝังเนื้อหาจากภายนอกได้อย่างอิสระด้วย iframe</p>
               </div>
               <div className="box sd-208">
                 <VisualDesignVideoPlayer

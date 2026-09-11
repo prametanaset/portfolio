@@ -43,61 +43,43 @@ type Slide = {
 const SLIDES: Slide[] = [
   {
     href: "https://www.ryden.co.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_517b4553-7517-43e4-af28-4665974f4952_small.webp`,
-    alt: "「ブランディングとデザインをつなげる | 株式会社ライデン」のカバー画像",
+    cover: "/logo-bg/bg-woxa-studio.png",
+    alt: "ภาพปกของ “เชื่อมแบรนดิงเข้ากับงานออกแบบ | Raiden Inc.”",
     makerHref: "https://www.ryden.co.jp/",
     maker: {
       kind: "logo",
       src: `${IMAGES}/s-848x320_v-fs_webp_6b04161c-f78f-4182-a719-99c86befbadc_small.webp`,
-      alt: "株式会社ライデン",
+      alt: "Raiden Inc.",
     },
   },
   {
     href: "https://hlt.pref.ibaraki.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_07257143-79e6-498b-b446-068ca6b688a9_small.webp`,
-    alt: "「タイムトリップしよう、常陸国ロングトレイルで。｜茨城県のサイト」のカバー画像",
+    cover: "/logo-bg/bg-iux24.png",
+    alt: "ภาพปกของ “ย้อนเวลาไปกับเส้นทางเดินป่า Hitachi-no-kuni Long Trail | จังหวัดอิบารากิ”",
     makerHref: "https://www.re-d.jp/",
     maker: {
       kind: "logo",
       src: `${IMAGES}/s-848x320_v-fs_webp_e7f74aca-074d-4b9b-861a-f4157a59f054_small.webp`,
-      alt: "株式会社アールイーデザイン",
+      alt: "RE Design Inc.",
     },
   },
   {
     href: "https://portport.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_ca321b68-f854-4fd0-9d93-2d9b1c7c2ad4_small.webp`,
-    alt: "「PortPort Inc.」のカバー画像",
+    cover: "/logo-bg/bg-alphola.png",
+    alt: "ภาพปกของ “PortPort Inc.”",
     makerHref: "https://shhh.jp/",
-    maker: { kind: "text", label: "株式会社Shhh" },
+    maker: { kind: "text", label: "Shhh Inc." },
   },
   {
     href: "https://design.toyota-finance.co.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_0e5e06a9-3388-4e6d-9397-41803ecdd8c6_small.webp`,
-    alt: "「TOYOTA FINANCE Design」のカバー画像",
+    cover: "/logo-bg/bg-nexa.png",
+    alt: "ภาพปกของ “TOYOTA FINANCE Design”",
     makerHref: "https://www.details.co.jp/",
     maker: {
       kind: "logo",
       src: `${IMAGES}/s-848x320_v-fs_webp_e62d5284-53c7-4c98-982c-636d5acf45d1_small.webp`,
-      alt: "株式会社スタジオディテイルズ",
+      alt: "STUDIO DETAILS Inc.",
     },
-  },
-  {
-    href: "https://recruit.coalition-group.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_8021dda9-ac8c-4b79-b6be-e929eeceb7d9_small.webp`,
-    alt: "「Coalition Group Recruit Site」のカバー画像",
-    makerHref: "https://www.funtech.inc/ja",
-    maker: {
-      kind: "logo",
-      src: `${IMAGES}/s-848x320_v-fs_webp_ad6a68bc-bc19-4baa-9ffb-93a5f6574964_small.webp`,
-      alt: "FunTech株式会社",
-    },
-  },
-  {
-    href: "https://huuuu.jp/",
-    cover: `${IMAGES}/s-2160x1185_v-frms_webp_4c43e256-3dce-4e23-aa02-21c4f5631a23_small.webp`,
-    alt: "「Huuuu｜編集の力で、今に風穴を」のカバー画像",
-    makerHref: "https://eat-play-sleep.org/",
-    maker: { kind: "text", label: "株式会社Eat, Play, Sleep" },
   },
 ];
 
@@ -189,12 +171,12 @@ export function NextCreationCarousel() {
       {/* `.sd-35` is authored first in page.html and appended by the runtime in the live DOM; it is
           position:absolute, so the order is irrelevant. */}
       <div className="box sd-35 sd-carousel__controls">
-        <button className="box sd-36" aria-label="Prev Slide" slot="prev" type="button" onClick={goPrev}>
+        <button className="box sd-36" aria-label="สไลด์ก่อนหน้า" slot="prev" type="button" onClick={goPrev}>
           <MaterialIcon name="keyboard_arrow_left" className="sd-37" />
         </button>
         <button
           className="box sd-38"
-          aria-label={playing ? "Stop automatic slide show" : "Play automatic slide show"}
+          aria-label={playing ? "หยุดเล่นสไลด์อัตโนมัติ" : "เล่นสไลด์อัตโนมัติ"}
           slot="play-toggle"
           type="button"
           data-playing-label="Stop automatic slide show"
@@ -209,7 +191,7 @@ export function NextCreationCarousel() {
             <MaterialIcon name="play_arrow" className="sd-42" />
           </div>
         </button>
-        <button className="box sd-43" aria-label="Next Slide" slot="next" type="button" onClick={goNext}>
+        <button className="box sd-43" aria-label="สไลด์ถัดไป" slot="next" type="button" onClick={goNext}>
           <MaterialIcon name="keyboard_arrow_right" className="sd-44" />
         </button>
       </div>
@@ -227,44 +209,14 @@ export function NextCreationCarousel() {
           data-animatingnext={animatingNext ? "" : undefined}
           style={{ transitionDuration: animated ? "0.6s" : "0s" }}
         >
-          <a className="box sd-20__content__sd-1" href={slide.href} target="_blank">
+          <div className="box sd-20__content__sd-1">
             {/* Plain <img> (not next/image) so the sliced `.sd-20__content__sd-2` rules apply
                 unchanged. The origin ships an SVG placeholder + data-sd-img-src and a <noscript>
                 fallback; the clone points straight at the local `_small.webp`. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img sd-20__content__sd-2" src={slide.cover} alt={slide.alt} />
-          </a>
-          <div className="box sd-20__content__sd-3">
-            <a className="box sd-20__content__sd-4" href={slide.href} target="_blank">
-              <p className="text sd-20__content__sd-5 theme-b6b0338f">{slide.href}</p>
-              <div className="box sd-20__content__sd-6">
-                <MaterialSymbol name="arrow_forward" className="sd-20__content__sd-7" />
-                {/* Not MaterialSymbol: this second arrow is the labelled one (role=img). */}
-                <span
-                  className="icon sd-20__content__sd-8 material-symbols-outlined"
-                  aria-label="新規タブで開く"
-                  role="img"
-                >
-                  arrow_forward
-                </span>
-              </div>
-            </a>
-            <div className="box sd-20__content__sd-9">
-              <p className="text sd-20__content__sd-10 theme-b6b0338f">Made by</p>
-              <a className="box sd-20__content__sd-11" href={slide.makerHref} target="_blank">
-                {slide.maker.kind === "logo" ? (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
-                    className="img sd-20__content__sd-12"
-                    src={slide.maker.src}
-                    alt={slide.maker.alt}
-                  />
-                ) : (
-                  <p className="text sd-20__content__sd-13 theme-b6b0338f">{slide.maker.label}</p>
-                )}
-              </a>
-            </div>
           </div>
+      
         </div>
       ))}
     </sd-carousel>

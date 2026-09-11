@@ -1,7 +1,8 @@
 // Port of studio.design/ja/editor `main > .sd-79` (DOM order 5 of 13) — the page's dark zone
-// ("Editor AI", background #1a1a1a, 2042.47px tall @1440). Structure, class names, alt text and
-// Japanese copy are verbatim from the origin markup
-// (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-79`).
+// (background #1a1a1a, 2042.47px tall @1440). Structure and class names are verbatim from the
+// origin markup (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-79`);
+// the copy, alt text and screenshots are Alphola's (https://dev.alphola.com/) — the product this
+// section now describes: an investment learning platform with a virtual portfolio.
 // `id="ai"` is the page's #ai anchor target — keep it.
 // The section is scroll-only: exactly four `appear` reveals and nothing else. Zero links, buttons,
 // toggles, carousels, videos, sticky elements and hover rules — none are invented here.
@@ -16,41 +17,31 @@
 import { Appear } from "@/components/sites/studio-design-8a86c0e4/shared/appear";
 import "./editor-ai-section.css";
 
-const IMAGES = "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images";
-
-/** The origin's runtime swaps `_small.webp` (600w) in for `_middle.webp` (1200w) at 390 —
- *  reproduced declaratively so the browser resolves the same `currentSrc` at each width:
- *  682–718px rendered → 1200w, 340px rendered → 600w. */
-function imgSrcSet(stem: string) {
-  return `${IMAGES}/${stem}_small.webp 600w, ${IMAGES}/${stem}_middle.webp 1200w`;
-}
-const IMG_SIZES = "(max-width: 768px) 100vw, 50vw";
-
-const CARD1 = "s-5472x3040_v-frms_webp_3f01b21f-daf6-487a-8507-22cfa2acd455";
-const CARD2 = "s-5472x3040_v-frms_webp_e605ad0a-fa6b-4594-8a45-3d852ebf534e";
-const ROW3 = "s-5472x3080_v-frms_webp_addb103c-efd7-4e76-99dd-f31208bede0a";
-const ROW4 = "s-5472x3080_v-frms_webp_a3dd9297-5346-4589-962c-c34cc8830429";
+const CARD1 = "/alphola/alphola-1.png";
+const CARD2 = "/alphola/alphola-2.png";
+const ROW3 = "/alphola/alphola-3.png";
+const ROW4 = "/alphola/alphola-4.png";
 
 export function EditorAiSection() {
   return (
     <div className="box sd-79" id="ai">
       <div className="box sd-80">
         <h2 className="box sd-81">
-          <span className="text sd-82 theme-b6b0338f">Editor AI</span>
+          <span className="text sd-82 theme-b6b0338f">Alphola</span>
           <span className="text sd-83 theme-57a9da79">
-            AIが伴走する、
+            เรียนรู้ ฝึกฝน
             <br />
-            最速の制作体験。
+            แล้วลงทุนอย่างมั่นใจ
           </span>
         </h2>
         <div className="box sd-84">
           <div className="richText sd-85">
             <p>
-              Editor AIは、クリエイターに全く新しい制作体験を提供します。
+              Alphola คือแพลตฟอร์มเรียนรู้การลงทุน
               <br />
-              ドラフト文章の作成はもちろん、直感的な画像編集、
-              <strong>面倒だった作業も自動で代行。</strong>
-              すべての作業が、これまでにない速さに。
+              สร้างความรู้ทางการเงิน ฝึกซ้อมด้วยพอร์ตจำลอง และ
+              <strong>สะสมความมั่นใจก่อนลงทุนด้วยเงินจริง</strong>
+              ทุกคำสั่งซื้อขายที่นี่ไม่มีค่าใช้จ่าย แต่ได้บทเรียนกลับไปเสมอ
             </p>
           </div>
         </div>
@@ -63,15 +54,15 @@ export function EditorAiSection() {
             </div>
             <div className="box sd-91">
               <h3 className="box sd-92">
-                <span className="text sd-93">Image AI</span>
-                <span className="text sd-94">{"画像を「探す」から\u2028「編集する」へ"}</span>
+                <span className="text sd-93">แดชบอร์ดตลาด</span>
+                <span className="text sd-94">{"จากการ \u201cเฝ้าดู\u201d ตลาด\u2028สู่การ \u201cเข้าใจ\u201d มันจริง ๆ"}</span>
               </h3>
               <p className="text sd-95">
-                指示を出すだけで、
+                รายการที่เฝ้าดู สินทรัพย์ที่เคลื่อนไหวแรง และกำไรขาดทุนรายวัน
                 <br />
-                画像素材を自在に編集可能に。
+                รวมอยู่ในหน้าเดียวที่อ่านง่ายและไม่รก
                 <br />
-                素材探しのストレスから、自由になろう。
+                ครอบคลุมทั้งหุ้น คริปโท ฟอเร็กซ์ ETF และสินค้าโภคภัณฑ์
               </p>
             </div>
           </div>
@@ -80,10 +71,8 @@ export function EditorAiSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="img sd-97"
-              src={`${IMAGES}/${CARD1}_middle.webp`}
-              srcSet={imgSrcSet(CARD1)}
-              sizes={IMG_SIZES}
-              alt="サンプル画像：黒い背景の上に複数の画像が浮かび上がるように並んでいる。赤みがかったオレンジ色の背景に横向きの人物シルエットが映された画像が中央手前に配置され、その奥で同じ構成・異なる色味の写真が放射状に並んでいる。"
+              src={CARD1}
+              alt="ภาพหน้าจอแดชบอร์ดของ Alphola: ภาพรวมพอร์ตพร้อมเงินคงเหลือและกำไรขาดทุนของวันนี้ แผงสินทรัพย์ที่ถือมากที่สุด การ์ดรายการเฝ้าดูที่ยังว่างอยู่ และตารางสินทรัพย์ที่เคลื่อนไหวแรงซึ่งแสดงตัวที่ซื้อขายคึกคักที่สุด ตัวที่ขึ้นแรงที่สุด และตัวที่ลงแรงที่สุด"
             />
             <div className="box sd-98" />
           </div>
@@ -95,16 +84,16 @@ export function EditorAiSection() {
             </div>
             <div className="box sd-103">
               <h3 className="box sd-104">
-                {/* U+00A0 between "Text" and "AI", as authored in the origin markup. */}
-                <span className="text sd-105">{"Text AI"}</span>
-                <span className="text sd-106">あなた専属のコピーライター</span>
+                {/* U+00A0 between the two words, as authored in the origin markup. */}
+                <span className="text sd-105">{"พอร์ต จำลอง"}</span>
+                <span className="text sd-106">ได้ฟีลตลาดจริง โดยไม่มีความเสี่ยงจริง</span>
               </h3>
               <p className="text sd-107">
-                プロンプトひとつで、
+                ซื้อ ขาย และปรับสัดส่วนพอร์ตด้วยเงินจำลอง
                 <br />
-                あなたの意図に沿った文章を自動生成。
+                ราคาขยับจริง คำสั่งจับคู่จริง กำไรขาดทุนเปลี่ยนตามจริง
                 <br />
-                他言語翻訳なども、もっと簡単に。
+                ติดตามสัดส่วนการลงทุนเทียบกับ S&amp;P 500 ได้ตลอดทาง
               </p>
             </div>
           </div>
@@ -112,10 +101,8 @@ export function EditorAiSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="img sd-109"
-              src={`${IMAGES}/${CARD2}_middle.webp`}
-              srcSet={imgSrcSet(CARD2)}
-              sizes={IMG_SIZES}
-              alt="サンプル画像：暗い背景に韓国語・日本語・英語など複数言語のテキストが記載されたカードが並んでいる。中央の英語カードのみ発光しているようなピンク色のエフェクトと赤い円形アイコンが追加され、他のカードより強調されている。"
+              src={CARD2}
+              alt="ภาพหน้าจอพอร์ตจำลองของ Alphola: มูลค่าพอร์ตรวมพร้อมเงินคงเหลือและกำไรขาดทุน ปุ่มซื้อและถอนเงิน กราฟเปรียบเทียบมูลค่าเงินลงทุนรวมกับ S&P 500 สัดส่วนการลงทุนแยกตามหุ้น คริปโท ฟอเร็กซ์ ETF และสินค้าโภคภัณฑ์ และรายการธุรกรรม"
             />
             <div className="box sd-110" />
           </div>
@@ -127,14 +114,14 @@ export function EditorAiSection() {
             </div>
             <div className="box sd-115">
               <h3 className="box sd-116">
-                <span className="text sd-117">Auto Layer Rename</span>
-                <span className="text sd-118">自動でリネーム、自動で整理</span>
+                <span className="text sd-117">เส้นทางการเรียนรู้</span>
+                <span className="text sd-118">เส้นทางที่ออกแบบตามระดับความเสี่ยงของคุณ</span>
               </h3>
               <div className="richText sd-119">
                 <p>
-                  煩雑なレイヤーの整理もStudioにお任せ。
+                  บทเรียนที่เรียงลำดับมาอย่างเป็นระบบ ค่อย ๆ สร้างความรู้ทีละขั้น
                   <br />
-                  各レイヤーを自動で命名、サイト構造がよりわかりやすく。
+                  หลักสูตรปรับตามโปรไฟล์และจังหวะของคุณ จึงไม่รู้สึกว่าง่ายเกินไปหรือยากเกินตัว
                 </p>
               </div>
             </div>
@@ -143,10 +130,8 @@ export function EditorAiSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="img sd-121"
-              src={`${IMAGES}/${ROW3}_middle.webp`}
-              srcSet={imgSrcSet(ROW3)}
-              sizes={IMG_SIZES}
-              alt="サンプル画像：デザインエディタ画面の切り取り。左側にレイヤーパネル、右側に人物写真が並ぶ。レイヤーパネルの中には階層構造を示すレイヤー名が縦に並んでおり、リネーム中のレイヤーはピンク色のテキストと細長い線で強調して表示されている。"
+              src={ROW3}
+              alt="ภาพหน้าจอหน้าการเรียนรู้ของ Alphola: ส่วนหัวทักทายพร้อมกำหนดเรียนจบโดยประมาณ สถานะคอร์ส และเวลาที่ใช้ไป แถบความคืบหน้าของระดับ แผนที่คอร์สแบบเส้นทางคดเคี้ยวที่มีจุดบทเรียน และแผงรายละเอียดคอร์สที่ระบุบทความในคอร์สและทักษะที่เกี่ยวข้อง"
             />
           </Appear>
         </li>
@@ -157,14 +142,14 @@ export function EditorAiSection() {
             </div>
             <div className="box sd-126">
               <h3 className="box sd-127">
-                <span className="text sd-128">Auto Responsive</span>
-                <span className="text sd-129">あっという間に、レスポンシブ対応</span>
+                <span className="text sd-128">ค่า XP และการไต่ระดับ</span>
+                <span className="text sd-129">ความคืบหน้าที่มองเห็นได้จริง</span>
               </h3>
               <div className="richText sd-130">
                 <p>
-                  1つのデザインで、すべてのデバイスに対応。
+                  ทุกบทเรียนและทุกรอบการฝึกซ้อมได้รับ XP และปลดล็อกระดับถัดไป
                   <br />
-                  制作したレイアウトを、自動でレスポンシブ対応します。
+                  XP วัดผลการเรียนรู้เท่านั้น ไม่มีมูลค่าเป็นตัวเงิน และไม่ผูกกับผลตอบแทนจากการลงทุนแต่อย่างใด
                 </p>
               </div>
             </div>
@@ -173,10 +158,8 @@ export function EditorAiSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="img sd-132"
-              src={`${IMAGES}/${ROW4}_middle.webp`}
-              srcSet={imgSrcSet(ROW4)}
-              sizes={IMG_SIZES}
-              alt="サンプル画像：黒い画面の中央にWebサイトのデザインが配置され、その背景に赤いガイドラインやレスポンシブ時のレイアウト例が薄く表示されている。Webサイトはオレンジ色基調の人物写真や英文で構成されている。"
+              src={ROW4}
+              alt="ภาพหน้าจอหน้าโปรไฟล์ของ Alphola: รายละเอียดบัญชี ผลประเมินความเสี่ยงที่แสดงโปรไฟล์แบบรับความเสี่ยงสูง การยืนยันสถานะผู้เชี่ยวชาญ และแผงระดับที่แสดงค่า XP ปัจจุบันพร้อมลำดับขั้นเจ็ดระดับตั้งแต่ Aspirant ถึง Vanguard"
             />
           </Appear>
         </li>

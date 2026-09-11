@@ -26,27 +26,27 @@ type MarqueeItem = { src: string; alt: string };
 const ITEMS: readonly MarqueeItem[] = [
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4e2b3a41-40d5-42b3-8905-327b8d2e54af.webp",
-    alt: "poporpop | ｢想像を超えるポップ｣をつくるコンテンツ制作会社",
+    alt: "poporpop | สตูดิโอคอนเทนต์ที่สร้างงานป๊อปล้ำกว่าจินตนาการ",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_773373a5-098d-4561-9bd2-89da8bca7092.webp",
-    alt: "PROS(プロス) | BtoB特化のUXデザイン・UIデザイン会社",
+    alt: "PROS | บริษัทออกแบบ UX และ UI ที่สร้างมาเพื่องาน B2B",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_4d1f7529-b8e8-41cf-afc0-94c8c9c4b761.webp",
-    alt: "ANATOMICA｜アナトミカ公式サイト",
+    alt: "ANATOMICA | เว็บไซต์ทางการ",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_9c778003-1574-4fc7-a9a1-029f8dee95af.webp",
-    alt: "doda PRESENTS: パ・リーグ球団 仕事図鑑2025",
+    alt: "doda PRESENTS: คู่มือสมัครงานสโมสรแปซิฟิกลีก 2025",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_e5539cec-bede-4b8b-b1c6-01ff4475524e.webp",
-    alt: "Wedding invitation | 2025.10.12",
+    alt: "การ์ดเชิญงานแต่งงาน | 2025.10.12",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_94bb0a25-e722-46bb-94ac-a60d74becbb3.webp",
-    alt: "スペースマーケットのテクノロジーページ",
+    alt: "หน้าเทคโนโลยีของ Spacemarket",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_057d7f8b-9721-49fd-b8c4-b8f63454cb5c.webp",
@@ -54,19 +54,19 @@ const ITEMS: readonly MarqueeItem[] = [
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_84785f8a-3ea7-477d-bdef-7e303ec884a9.webp",
-    alt: "ランディーズドーナツ | LA発の大人気ドーナツ店が日本初上陸！",
+    alt: "Randy’s Donuts | ร้านโดนัทขวัญใจชาวแอลเอเปิดสาขาในญี่ปุ่น",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_19349c0a-e2df-422c-9d8a-5e3389a11701.webp",
-    alt: "早苗饗レモン（さなぶりれもん） ",
+    alt: "Sanaburi Lemon ",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_034943b5-1a91-41dc-a6cc-c0e3aa344283.webp",
-    alt: "Coalition Group Recruit Site",
+    alt: "เว็บไซต์รับสมัครงานของ Coalition Group",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_291f6395-5ba1-44b1-ae07-e43ec6a1cb6b.webp",
-    alt: "KURATECA | 倉敷化工株式会社",
+    alt: "KURATECA | บริษัท Kurashiki Kako จำกัด",
   },
   {
     src: "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-1440x790_v-fms_webp_b054ee16-f3e6-4cb9-855e-148eb61ab0e8.webp",

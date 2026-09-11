@@ -1,5 +1,5 @@
 // Port of studio.design/ja/editor `main > .symbol-2` (DOM order 11 of 13) — the closing CTA:
-// a centred column of badge + headline + copy + two links. Structure, class names, Japanese copy,
+// a centred column of badge + headline + copy + two links. Structure, class names, the Thai copy,
 // alt text, hrefs and `target` are verbatim from the origin markup (docs/research/.../page.html,
 // `box symbol-2`); the origin ships no `rel` on either link, so none is added here.
 //
@@ -16,7 +16,7 @@
 // `theme-57a9da79` stays on `.symbol-2__sd-5`: `.text.theme-57a9da79` (0,2,0) supplies the whole
 // type scale (36px, 28px at ≤480) and never collides with `.symbol-2__sd-5`'s own declarations.
 // `.symbol-2__sd-12` cannot use `MaterialSymbol` — that component hard-codes `aria-hidden`, while
-// the origin gives this glyph `aria-label="新規タブで開く"` + `role="img"`.
+// the origin gives this glyph `aria-label="Opens in a new tab"` + `role="img"`.
 
 import { MaterialSymbol } from "@/components/sites/studio-design-8a86c0e4/shared/icons";
 import "./start-cta-section.css";
@@ -38,10 +38,10 @@ export function StartCtaSection() {
           />
         </div>
         <div className="box symbol-2__sd-4">
-          <h2 className="text symbol-2__sd-5 theme-57a9da79">さあ、今すぐStudioを始めよう。</h2>
+          <h2 className="text symbol-2__sd-5 theme-57a9da79">เริ่มสร้างงานกับ Studio ได้แล้ววันนี้</h2>
           <div className="richText symbol-2__sd-6">
-            <p>AI搭載の軽快なデザインエディタと美しいプリセットで、</p>
-            <p>理想のサイトを最速でカタチに。これが、Web制作ツールの新基準。</p>
+            <p>เครื่องมือออกแบบที่รวดเร็ว ขับเคลื่อนด้วย AI พร้อมพรีเซ็ตสวย ๆ</p>
+            <p>ปั้นเว็บไซต์ที่คุณอยากได้ เร็วกว่าที่เคย นี่คือมาตรฐานใหม่ของเครื่องมือทำเว็บ</p>
           </div>
         </div>
         <div className="box symbol-2__sd-7">
@@ -50,12 +50,12 @@ export function StartCtaSection() {
             href="https://app.studio.design/ja/signup"
             target="_blank"
           >
-            <p className="text symbol-2__sd-9">今すぐ無料で始める</p>
+            <p className="text symbol-2__sd-9">เริ่มใช้ฟรี</p>
             <div className="box symbol-2__sd-10">
               <MaterialSymbol name="arrow_forward" className="symbol-2__sd-11" />
               <span
                 className="icon symbol-2__sd-12 material-symbols-outlined"
-                aria-label="新規タブで開く"
+                aria-label="เปิดในแท็บใหม่"
                 role="img"
               >
                 arrow_forward
@@ -63,7 +63,7 @@ export function StartCtaSection() {
             </div>
           </a>
           <a className="box symbol-2__sd-13" href="/ja/business/download" target="_blank">
-            <p className="text symbol-2__sd-14">法人向け製品資料をダウンロード</p>
+            <p className="text symbol-2__sd-14">ดาวน์โหลดคู่มือผลิตภัณฑ์สำหรับองค์กร</p>
             <div className="box symbol-2__sd-15">
               <MaterialSymbol name="arrow_forward" className="symbol-2__sd-16" />
               <MaterialSymbol name="arrow_forward" className="symbol-2__sd-17" />

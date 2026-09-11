@@ -1,4 +1,4 @@
-// `li.sd-156` of the VisualDesign section (`sd-156`…`sd-193`) — the "アニメーション" card and its
+// `li.sd-156` of the VisualDesign section (`sd-156`…`sd-193`) — the "Animation" card and its
 // MOTION panel, carved out of VisualDesignSection.tsx because it is the bulk of the section.
 // Structure, class names and copy are verbatim from the origin markup
 // (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `box sd-156`).
@@ -19,11 +19,11 @@ export function VisualDesignMotionCard() {
   return (
     <Appear as="li" className="box sd-156" rootMargin="0px" threshold={0} activeClass={false}>
       <div className="box sd-157">
-        <h3 className="text sd-158 theme-c1a9a55a">アニメーション</h3>
+        <h3 className="text sd-158 theme-c1a9a55a">แอนิเมชัน</h3>
         <p className="text sd-159 theme-a3931427">
-          スクロールやホバーなどの動きを、直感的な操作で追加。
+          ใส่การเคลื่อนไหวตอนเลื่อนหน้าและตอนชี้เมาส์ได้ในไม่กี่ขั้นตอนที่เข้าใจง่าย
           <br />
-          デザインに奥行きとリズムを生み出し、より魅力的な表現を実現します。
+          ช่วยเติมมิติและจังหวะให้งานออกแบบ และทำให้ดูน่าสนใจขึ้นอีกมาก
         </p>
       </div>
       <Appear className="box sd-160" rootMargin="0px" threshold={0} activeClass={false} />

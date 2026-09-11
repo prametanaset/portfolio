@@ -38,7 +38,7 @@ export function StockBandSection() {
           {/* `MaterialSymbol` hard-codes aria-hidden, so the labelled twin stays a raw span. */}
           <span
             className="icon sd-336 material-symbols-outlined"
-            aria-label="新規タブで開く"
+            aria-label="เปิดในแท็บใหม่"
             role="img"
           >
             arrow_forward
@@ -55,10 +55,10 @@ export function StockBandSection() {
             />
           </div>
           <div className="box sd-340">
-            <p className="text sd-341">Curated Inspiration</p>
+            <p className="text sd-341">แรงบันดาลใจคัดสรร</p>
           </div>
           <div className="box sd-342">
-            <p className="text sd-343">For You</p>
+            <p className="text sd-343">สำหรับคุณ</p>
           </div>
           <div className="box sd-344">
             <p className="text sd-345">
@@ -81,9 +81,9 @@ export function StockBandSection() {
             </h2>
             <div className="box sd-351">
               <p className="text sd-352">
-                クリエイターのための
+                คลังภาพแห่งยุคใหม่
                 <br />
-                次世代のフォトストック
+                คลังภาพแห่งยุคใหม่
               </p>
             </div>
           </div>

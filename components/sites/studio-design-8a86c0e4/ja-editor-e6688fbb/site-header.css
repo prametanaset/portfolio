@@ -677,7 +677,7 @@
 .sd-root .symbol-1__sd-365:hover > * { --gap-h:20px; --gap-v:0px; }
 .sd-root .symbol-1__sd-366 { align-content:center; align-items:center; flex-direction:row; flex-wrap:nowrap; gap:0px 20px; justify-content:flex-start; padding:0px; }
 .sd-root .symbol-1__sd-366 > * { --gap-h:20px; --gap-v:0px; }
-.sd-root .symbol-1__sd-367 { color:#fafafaff; font-family:Inter,'Noto Sans JP'; font-size:12px; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.02em; line-height:1; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
+.sd-root .symbol-1__sd-367 { color:#fafafaff; font-family:var(--s-font-5489e031); font-size:12px; font-style:normal; font-weight:500; height:auto; letter-spacing:-0.02em; line-height:1; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
 .sd-root [data-boolean1] .symbol-1__sd-367 { color:#222222ff; }
 .sd-root .symbol-1__sd-368 { align-content:center; align-items:center; bottom:-3px; flex:none; flex-direction:row; flex-wrap:nowrap; gap:10px 12px; height:1px; justify-content:flex-start; left:0px; opacity:0.9; padding:0px; position:absolute; right:auto; top:NaNpx; width:100%; z-index:1; max-width:100%; }
 .sd-root .symbol-1__sd-368 > * { --gap-h:12px; --gap-v:0px; }

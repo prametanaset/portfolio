@@ -9,10 +9,10 @@
 // these five disclosures differ from the header's: they have no coordinator (several may be open
 // at once), no `close-outside`, and their closing phase is 800 ms, not 300.
 //
-// Markup, class names, hrefs and Japanese copy are verbatim from the origin
+// Markup, class names and hrefs are verbatim from the origin; the copy is the Thai translation
 // (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `symbol-3__sd-192`).
 // Note the mobile hrefs deliberately differ from the desktop grid's in four places
-// (`/ja/experts/`, `community-ja…/feed`, `luma.com`, the label `公式YouTube`) — both are verbatim.
+// (`/ja/experts/`, `community-ja…/feed`, `luma.com`, the label `Official YouTube`) — both are verbatim.
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { MaterialSymbol } from "@/components/sites/studio-design-8a86c0e4/shared/icons";
@@ -149,13 +149,13 @@ function FooterDisclosure({ id, label, children }: { id: number; label: string; 
 export function FooterAccordionNav() {
   return (
     <div className="box symbol-3__sd-192">
-      <FooterDisclosure id={193} label="プロダクト">
+      <FooterDisclosure id={193} label="Product">
         <div className="box symbol-3__sd-201">
-          <p className="text symbol-3__sd-202">構築</p>
+          <p className="text symbol-3__sd-202">สร้าง</p>
           <div className="box symbol-3__sd-203">
             <a className="box symbol-3__sd-204" href="https://studio.design/ja/editor">
               <div className="box symbol-3__sd-205">
-                <p className="text symbol-3__sd-206">デザインエディタ</p>
+                <p className="text symbol-3__sd-206">เครื่องมือออกแบบ</p>
               </div>
             </a>
             <a className="box symbol-3__sd-207" href="https://studio.design/ja/cms">
@@ -165,7 +165,7 @@ export function FooterAccordionNav() {
             </a>
             <a className="box symbol-3__sd-210" href="https://studio.design/ja/form">
               <div className="box symbol-3__sd-211">
-                <p className="text symbol-3__sd-212">フォーム</p>
+                <p className="text symbol-3__sd-212">ฟอร์ม</p>
               </div>
             </a>
             <a className="box symbol-3__sd-213" href="https://studio.design/ja/seo">
@@ -176,27 +176,27 @@ export function FooterAccordionNav() {
           </div>
         </div>
         <div className="box symbol-3__sd-216">
-          <p className="text symbol-3__sd-217">運用</p>
+          <p className="text symbol-3__sd-217">ดูแลระบบ</p>
           <div className="box symbol-3__sd-218">
             <a className="box symbol-3__sd-219" href="https://studio.design/ja/hosting">
               <div className="box symbol-3__sd-220">
-                <p className="text symbol-3__sd-221">サイト運用</p>
+                <p className="text symbol-3__sd-221">การดูแลเว็บไซต์</p>
               </div>
             </a>
             <a className="box symbol-3__sd-222" href="https://studio.design/ja/lp/security">
               <div className="box symbol-3__sd-223">
-                <p className="text symbol-3__sd-224">セキュリティ</p>
+                <p className="text symbol-3__sd-224">ความปลอดภัย</p>
               </div>
             </a>
             <a className="box symbol-3__sd-225" href="https://studio.design/ja/workspace">
               <div className="box symbol-3__sd-226">
-                <p className="text symbol-3__sd-227">ワークスペース</p>
+                <p className="text symbol-3__sd-227">พื้นที่ทำงาน</p>
               </div>
             </a>
           </div>
         </div>
         <div className="box symbol-3__sd-228">
-          <p className="text symbol-3__sd-229">より自在に</p>
+          <p className="text symbol-3__sd-229">ต่อยอด</p>
           <div className="box symbol-3__sd-230">
             <a className="box symbol-3__sd-231" href="https://studio.design/ja/figma-to-studio">
               <div className="box symbol-3__sd-232">
@@ -210,94 +210,94 @@ export function FooterAccordionNav() {
             </a>
             <a className="box symbol-3__sd-237" href="https://studio.design/ja/accessibility">
               <div className="box symbol-3__sd-238">
-                <p className="text symbol-3__sd-239">アクセシビリティ</p>
+                <p className="text symbol-3__sd-239">การเข้าถึง</p>
               </div>
             </a>
           </div>
         </div>
       </FooterDisclosure>
-      <FooterDisclosure id={240} label="活用方法">
+      <FooterDisclosure id={240} label="Solutions">
         <div className="box symbol-3__sd-248">
           <div className="box symbol-3__sd-249">
             <div className="box symbol-3__sd-250">
-              <p className="text symbol-3__sd-251">サイト種別から探す</p>
+              <p className="text symbol-3__sd-251">ตามประเภทเว็บไซต์</p>
               <a className="box symbol-3__sd-252" href="/ja/solutions/site-types/corporate">
-                <p className="text symbol-3__sd-253">コーポレートサイト</p>
+                <p className="text symbol-3__sd-253">เว็บไซต์องค์กร</p>
               </a>
               <a className="box symbol-3__sd-254" href="/ja/solutions/site-types/recruit">
-                <p className="text symbol-3__sd-255">採用サイト</p>
+                <p className="text symbol-3__sd-255">เว็บไซต์รับสมัครงาน</p>
               </a>
               <a className="box symbol-3__sd-256" href="/ja/solutions/site-types/service">
-                <p className="text symbol-3__sd-257">サービスサイト</p>
+                <p className="text symbol-3__sd-257">เว็บไซต์บริการ</p>
               </a>
             </div>
             <div className="box symbol-3__sd-258">
-              <p className="text symbol-3__sd-259">業種から探す</p>
+              <p className="text symbol-3__sd-259">ตามอุตสาหกรรม</p>
               <a className="box symbol-3__sd-260" href="/ja/solutions/industries/leisure">
-                <p className="text symbol-3__sd-261">宿泊・レジャー</p>
+                <p className="text symbol-3__sd-261">โรงแรมและการท่องเที่ยว</p>
               </a>
               <a className="box symbol-3__sd-262" href="/ja/solutions/industries/entertainment">
-                <p className="text symbol-3__sd-263">エンタメ</p>
+                <p className="text symbol-3__sd-263">บันเทิง</p>
               </a>
               <a className="box symbol-3__sd-264" href="/ja/solutions/industries/local-government">
-                <p className="text symbol-3__sd-265">自治体</p>
+                <p className="text symbol-3__sd-265">หน่วยงานราชการ</p>
               </a>
               <a className="box symbol-3__sd-266" href="/ja/lp/solution/restaurant-homepage">
-                <p className="text symbol-3__sd-267">飲食店</p>
+                <p className="text symbol-3__sd-267">ร้านอาหาร</p>
               </a>
               <a className="box symbol-3__sd-268" href="/ja/lp/solution/ec-homepage">
-                <p className="text symbol-3__sd-269">小売・EC</p>
+                <p className="text symbol-3__sd-269">ค้าปลีกและอีคอมเมิร์ซ</p>
               </a>
             </div>
             <div className="box symbol-3__sd-270">
-              <p className="text symbol-3__sd-271">課題から探す</p>
+              <p className="text symbol-3__sd-271">ตามโจทย์ที่เจอ</p>
               <a className="box symbol-3__sd-272" href="/ja/solutions/usecases/landingpage">
-                <p className="text symbol-3__sd-273">マーケターでのLP運用</p>
+                <p className="text symbol-3__sd-273">แลนดิงเพจสำหรับนักการตลาด</p>
               </a>
               <a className="box symbol-3__sd-274" href="/ja/solutions/usecases/wordpress-migration">
-                <p className="text symbol-3__sd-275">WordPressからの移行</p>
+                <p className="text symbol-3__sd-275">ย้ายจาก WordPress</p>
               </a>
               <a className="box symbol-3__sd-276" href="/ja/solutions/usecases/site-improvement">
-                <p className="text symbol-3__sd-277">サイト導線の変更</p>
+                <p className="text symbol-3__sd-277">ปรับโครงสร้างเมนูเว็บไซต์ใหม่</p>
               </a>
             </div>
             <div className="box symbol-3__sd-278">
-              <p className="text symbol-3__sd-279">企業タイプ</p>
+              <p className="text symbol-3__sd-279">ประเภทองค์กร</p>
               <a className="box symbol-3__sd-280" href="https://studio.design/ja/lp/enterprise">
-                <p className="text symbol-3__sd-281">エンタープライズ</p>
+                <p className="text symbol-3__sd-281">องค์กรขนาดใหญ่</p>
               </a>
               <a className="box symbol-3__sd-282" href="/ja/creators">
-                <p className="text symbol-3__sd-283">制作会社・クリエイター</p>
+                <p className="text symbol-3__sd-283">เอเจนซีและครีเอเตอร์</p>
               </a>
               <a className="box symbol-3__sd-284" href="/ja/lp/solution/marketing-agency">
-                <p className="text symbol-3__sd-285">広告代理店・コンサル</p>
+                <p className="text symbol-3__sd-285">เอเจนซีโฆษณาและที่ปรึกษา</p>
               </a>
               <a className="box symbol-3__sd-286" href="https://studio.design/ja/lp/startup">
-                <p className="text symbol-3__sd-287">スタートアップ</p>
+                <p className="text symbol-3__sd-287">สตาร์ตอัป</p>
               </a>
             </div>
           </div>
         </div>
       </FooterDisclosure>
-      <FooterDisclosure id={288} label="導入事例">
+      <FooterDisclosure id={288} label="Customers">
         <div className="box symbol-3__sd-296">
           <a className="box symbol-3__sd-297" href="https://studio.design/ja/customer-story">
             <div className="box symbol-3__sd-298">
-              <p className="text symbol-3__sd-299">事例インタビュー</p>
+              <p className="text symbol-3__sd-299">เรื่องราวจากลูกค้า</p>
             </div>
           </a>
           <a className="box symbol-3__sd-300" href="https://studio.design/ja/customer">
             <div className="box symbol-3__sd-301">
               <div className="box symbol-3__sd-302">
-                <p className="text symbol-3__sd-303">導入企業一覧</p>
+                <p className="text symbol-3__sd-303">รายชื่อลูกค้า</p>
               </div>
             </div>
           </a>
         </div>
       </FooterDisclosure>
-      <FooterDisclosure id={304} label="リソース">
+      <FooterDisclosure id={304} label="Resources">
         <div className="box symbol-3__sd-312">
-          <p className="text symbol-3__sd-313">つくる・依頼する</p>
+          <p className="text symbol-3__sd-313">สร้างเองหรือจ้างทำ</p>
           <div className="box symbol-3__sd-314">
             <a className="box symbol-3__sd-315" href="https://studio.design/ja/store" target="_blank">
               <div className="box symbol-3__sd-316">
@@ -305,7 +305,7 @@ export function FooterAccordionNav() {
                   <p className="text symbol-3__sd-318">Studio Store</p>
                   <div className="box symbol-3__sd-319">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-320" />
-                    <span className="icon symbol-3__sd-321 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-321 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
@@ -316,7 +316,7 @@ export function FooterAccordionNav() {
                   <p className="text symbol-3__sd-325">Studio Experts</p>
                   <div className="box symbol-3__sd-326">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-327" />
-                    <span className="icon symbol-3__sd-328 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-328 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@ export function FooterAccordionNav() {
                   <p className="text symbol-3__sd-332">Studio Showcase</p>
                   <div className="box symbol-3__sd-333">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-334" />
-                    <span className="icon symbol-3__sd-335 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-335 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
@@ -335,28 +335,28 @@ export function FooterAccordionNav() {
           </div>
         </div>
         <div className="box symbol-3__sd-336">
-          <p className="text symbol-3__sd-337">学ぶ</p>
+          <p className="text symbol-3__sd-337">เรียนรู้</p>
           <div className="box symbol-3__sd-338">
             <a className="box symbol-3__sd-339" href="https://www.youtube.com/channel/UCh4_wCvICgiHg0utNFziOoQ" target="_blank">
               <div className="box symbol-3__sd-340">
                 <div className="box symbol-3__sd-341">
-                  <p className="text symbol-3__sd-342">公式YouTube</p>
+                  <p className="text symbol-3__sd-342">ช่อง YouTube ทางการ</p>
                   <div className="box symbol-3__sd-343">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-344" />
-                    <span className="icon symbol-3__sd-345 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-345 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
             </a>
             <a className="box symbol-3__sd-346" href="/ja/resources">
               <div className="box symbol-3__sd-347">
-                <p className="text symbol-3__sd-348">お役立ち資料</p>
+                <p className="text symbol-3__sd-348">คู่มือและแหล่งข้อมูล</p>
               </div>
             </a>
           </div>
         </div>
         <div className="box symbol-3__sd-349">
-          <p className="text symbol-3__sd-350">つながる</p>
+          <p className="text symbol-3__sd-350">เชื่อมต่อ</p>
           <div className="box symbol-3__sd-351">
             <a className="box symbol-3__sd-352" href="https://community-ja.studio.design/feed" target="_blank">
               <div className="box symbol-3__sd-353">
@@ -364,23 +364,23 @@ export function FooterAccordionNav() {
                   <p className="text symbol-3__sd-355">Studio Community</p>
                   <div className="box symbol-3__sd-356">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-357" />
-                    <span className="icon symbol-3__sd-358 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-358 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
             </a>
             <a className="box symbol-3__sd-359" href="https://studio.design/ja/lp/ambassador">
               <div className="box symbol-3__sd-360">
-                <p className="text symbol-3__sd-361">全国ワークショップ</p>
+                <p className="text symbol-3__sd-361">เวิร์กช็อปทั่วประเทศ</p>
               </div>
             </a>
             <a className="box symbol-3__sd-362" href="https://luma.com/studiodesign?k=c" target="_blank">
               <div className="box symbol-3__sd-363">
                 <div className="box symbol-3__sd-364">
-                  <p className="text symbol-3__sd-365">セミナー</p>
+                  <p className="text symbol-3__sd-365">สัมมนา</p>
                   <div className="box symbol-3__sd-366">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-367" />
-                    <span className="icon symbol-3__sd-368 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-368 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
@@ -388,7 +388,7 @@ export function FooterAccordionNav() {
           </div>
         </div>
         <div className="box symbol-3__sd-369">
-          <p className="text symbol-3__sd-370">読む</p>
+          <p className="text symbol-3__sd-370">อ่าน</p>
           <div className="box symbol-3__sd-371">
             <a className="box symbol-3__sd-372" href="https://studio.design/ja/blog" target="_blank">
               <div className="box symbol-3__sd-373">
@@ -396,42 +396,42 @@ export function FooterAccordionNav() {
                   <p className="text symbol-3__sd-375">Studio Blog</p>
                   <div className="box symbol-3__sd-376">
                     <MaterialSymbol name="arrow_forward" className="symbol-3__sd-377" />
-                    <span className="icon symbol-3__sd-378 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                    <span className="icon symbol-3__sd-378 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                   </div>
                 </div>
               </div>
             </a>
             <a className="box symbol-3__sd-379" href="https://studio.design/ja/whats-new">
               <div className="box symbol-3__sd-380">
-                <p className="text symbol-3__sd-381">最新情報</p>
+                <p className="text symbol-3__sd-381">มีอะไรใหม่</p>
               </div>
             </a>
           </div>
         </div>
       </FooterDisclosure>
-      <FooterDisclosure id={382} label="サポート">
+      <FooterDisclosure id={382} label="Support">
         <div className="box symbol-3__sd-390">
           <a className="box symbol-3__sd-391" href="https://studio.design/ja/support">
             <div className="box symbol-3__sd-392">
               <div className="box symbol-3__sd-393">
-                <p className="text symbol-3__sd-394">総合窓口</p>
+                <p className="text symbol-3__sd-394">สอบถามทั่วไป</p>
               </div>
             </div>
           </a>
           <a className="box symbol-3__sd-395" href="https://studio.design/ja/faq">
             <div className="box symbol-3__sd-396">
               <div className="box symbol-3__sd-397">
-                <p className="text symbol-3__sd-398">よくある質問</p>
+                <p className="text symbol-3__sd-398">FAQ</p>
               </div>
             </div>
           </a>
           <a className="box symbol-3__sd-399" href="https://help.studio.design/ja/" target="_blank">
             <div className="box symbol-3__sd-400">
               <div className="box symbol-3__sd-401">
-                <p className="text symbol-3__sd-402">ヘルプセンター</p>
+                <p className="text symbol-3__sd-402">ศูนย์ช่วยเหลือ</p>
                 <div className="box symbol-3__sd-403">
                   <MaterialSymbol name="arrow_forward" className="symbol-3__sd-404" />
-                  <span className="icon symbol-3__sd-405 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon symbol-3__sd-405 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
             </div>
@@ -439,10 +439,10 @@ export function FooterAccordionNav() {
           <a className="box symbol-3__sd-406" href="https://status.studio.design/" target="_blank">
             <div className="box symbol-3__sd-407">
               <div className="box symbol-3__sd-408">
-                <p className="text symbol-3__sd-409">システムステータス</p>
+                <p className="text symbol-3__sd-409">สถานะระบบ</p>
                 <div className="box symbol-3__sd-410">
                   <MaterialSymbol name="arrow_forward" className="symbol-3__sd-411" />
-                  <span className="icon symbol-3__sd-412 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon symbol-3__sd-412 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
             </div>
@@ -451,35 +451,35 @@ export function FooterAccordionNav() {
       </FooterDisclosure>
       <a className="box symbol-3__sd-413" href="https://studio.design/ja/pricing">
         <div className="box symbol-3__sd-414">
-          <AppearLabel id={415}>料金プラン</AppearLabel>
+          <AppearLabel id={415}>ราคา</AppearLabel>
         </div>
       </a>
       <a className="box symbol-3__sd-416" href="https://studio.inc/" target="_blank">
         <div className="box symbol-3__sd-417">
-          <AppearLabel id={418}>運営会社</AppearLabel>
+          <AppearLabel id={418}>เกี่ยวกับบริษัท</AppearLabel>
           <div className="box symbol-3__sd-419">
             <MaterialSymbol name="arrow_forward" className="symbol-3__sd-420" />
-            <span className="icon symbol-3__sd-421 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+            <span className="icon symbol-3__sd-421 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
           </div>
         </div>
       </a>
       <a className="box symbol-3__sd-422" href="https://studio.inc/career" target="_blank">
         <div className="box symbol-3__sd-423">
-          <AppearLabel id={424}>採用情報</AppearLabel>
+          <AppearLabel id={424}>ร่วมงานกับเรา</AppearLabel>
           <div className="box symbol-3__sd-425">
             <MaterialSymbol name="arrow_forward" className="symbol-3__sd-426" />
-            <span className="icon symbol-3__sd-427 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+            <span className="icon symbol-3__sd-427 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
           </div>
         </div>
       </a>
       <a className="box symbol-3__sd-428" href="https://studio.design/ja/terms">
         <div className="box symbol-3__sd-429">
-          <AppearLabel id={430}>利用規約</AppearLabel>
+          <AppearLabel id={430}>ข้อกำหนดการให้บริการ</AppearLabel>
         </div>
       </a>
       <a className="box symbol-3__sd-431" href="https://studio.design/ja/guidelines">
         <div className="box symbol-3__sd-432">
-          <AppearLabel id={433}>ユーザーガイドライン</AppearLabel>
+          <AppearLabel id={433}>แนวปฏิบัติสำหรับผู้ใช้</AppearLabel>
         </div>
       </a>
     </div>

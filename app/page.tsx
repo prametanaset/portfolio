@@ -20,20 +20,25 @@ export default function Page() {
   return (
     <div className="sd-root box sd-1">
       <SiteChrome />
-      <main className="box sd-2">
+      <main className="box sd-2 overflow-hidden">
         <HeroDesignEditor />
         <NextCreationSection />
         <FreeLayoutSection />
-        <EditorAiSection />
-        <VisualDesignSection />
+
+        {/* <EditorAiSection /> */}
         <CreativeAssetsSection />
-        <FeaturedCreatorsSection />
+
+        {/* <CreativeAssetsSection /> */}
+        {/* <FeaturedCreatorsSection /> */}
         <CollaborationSection />
+
         <DataSection />
-        <StartCtaSection />
-        <StockBandSection />
+        {/* <VisualDesignSection /> */}
+
+        {/* <StartCtaSection /> */}
+        {/* <StockBandSection /> */}
       </main>
-      <SiteFooter />
+      {/* <SiteFooter /> */}
     </div>
   );
 }

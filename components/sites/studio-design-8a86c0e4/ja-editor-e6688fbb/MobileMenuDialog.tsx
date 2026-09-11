@@ -2,7 +2,7 @@
 
 // Port of studio.design/ja/editor `dialog.modal-ja_menu#sd-modal-b5c877c2c8794404`
 // (direct child of `<body>` on the origin, DOM order 1b of 13) — the ≤1280px hamburger menu.
-// Structure, class names, hrefs and Japanese copy are verbatim from the origin markup
+// Structure, class names and hrefs are verbatim from the origin markup; the copy is the Thai translation
 // (docs/research/studio-design-8a86c0e4/ja-editor-e6688fbb/page.html, `modal-ja_menu`).
 // Styling comes from the sliced origin CSS plus the modal base layer in `app/studio-base.css`
 // (scoped under `.sd-root`, which is why this dialog must render inside the `.sd-root` subtree —
@@ -28,14 +28,14 @@ function ProductPanel() {
   return (
     <div className="box modal-ja_menu__sd-15">
       <div className="box modal-ja_menu__sd-16">
-        <p className="text modal-ja_menu__sd-17 theme-feb2fadc">構築</p>
+        <p className="text modal-ja_menu__sd-17 theme-feb2fadc">สร้าง</p>
         <div className="box modal-ja_menu__sd-18">
           <a className="box modal-ja_menu__sd-19" href="/ja/editor" data-current="">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-20" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_2dd3ba64-f3f1-44c3-8e22-764ab4a4e0b5.svg" />
             <div className="box modal-ja_menu__sd-21">
-              <p className="text modal-ja_menu__sd-22 theme-87bf3e6d">デザインエディタ</p>
-              <p className="text modal-ja_menu__sd-23 theme-e3b73cd0">コードを書かずにデザイン自体を自在に</p>
+              <p className="text modal-ja_menu__sd-22 theme-87bf3e6d">เครื่องมือออกแบบ</p>
+              <p className="text modal-ja_menu__sd-23 theme-e3b73cd0">ออกแบบได้อย่างอิสระโดยไม่ต้องเขียนโค้ด</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-24" href="/ja/cms">
@@ -43,15 +43,15 @@ function ProductPanel() {
             <img className="img modal-ja_menu__sd-25" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_80a11e2e-5e59-4582-9d63-ba1b1c165863.svg" />
             <div className="box modal-ja_menu__sd-26">
               <p className="text modal-ja_menu__sd-27 theme-87bf3e6d">CMS</p>
-              <p className="text modal-ja_menu__sd-28 theme-e3b73cd0">柔軟なコンテンツ管理システム</p>
+              <p className="text modal-ja_menu__sd-28 theme-e3b73cd0">ระบบจัดการเนื้อหาที่ยืดหยุ่น</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-29" href="/ja/form">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-30" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_aadbed33-84be-4643-b288-e59e96651c83.svg" />
             <div className="box modal-ja_menu__sd-31">
-              <p className="text modal-ja_menu__sd-32 theme-87bf3e6d">フォーム</p>
-              <p className="text modal-ja_menu__sd-33 theme-e3b73cd0">フォーム設置もノーコードで完結</p>
+              <p className="text modal-ja_menu__sd-32 theme-87bf3e6d">ฟอร์ม</p>
+              <p className="text modal-ja_menu__sd-33 theme-e3b73cd0">ตั้งค่าฟอร์มได้ครบโดยไม่ต้องเขียนโค้ด</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-34" href="/ja/seo">
@@ -59,49 +59,49 @@ function ProductPanel() {
             <img className="img modal-ja_menu__sd-35" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_811fb59b-498b-4bea-9963-c12d075243e6.svg" />
             <div className="box modal-ja_menu__sd-36">
               <p className="text modal-ja_menu__sd-37 theme-87bf3e6d">SEO</p>
-              <p className="text modal-ja_menu__sd-38 theme-e3b73cd0">検索エンジン向けの設定項目も充実</p>
+              <p className="text modal-ja_menu__sd-38 theme-e3b73cd0">ตัวเลือกสำหรับเครื่องมือค้นหาครบชุด</p>
             </div>
           </a>
         </div>
       </div>
       <div className="box modal-ja_menu__sd-39">
-        <p className="text modal-ja_menu__sd-40 theme-feb2fadc">運用</p>
+        <p className="text modal-ja_menu__sd-40 theme-feb2fadc">ดูแลระบบ</p>
         <div className="box modal-ja_menu__sd-41">
           <a className="box modal-ja_menu__sd-42" href="/ja/hosting">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-43" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_362adb5c-e83c-4b2d-8e60-1dade276f6ef.svg" />
             <div className="box modal-ja_menu__sd-44">
-              <p className="text modal-ja_menu__sd-45 theme-87bf3e6d">サイト運用</p>
-              <p className="text modal-ja_menu__sd-46 theme-b6b0338f">安心のバックアップや権限管理</p>
+              <p className="text modal-ja_menu__sd-45 theme-87bf3e6d">การดูแลเว็บไซต์</p>
+              <p className="text modal-ja_menu__sd-46 theme-b6b0338f">สำรองข้อมูลที่เชื่อถือได้และควบคุมสิทธิ์การเข้าถึง</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-47" href="/ja/lp/security">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-48" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_c4c5842e-2c38-41c2-ad5e-969f36c47c56.svg" />
             <div className="box modal-ja_menu__sd-49">
-              <p className="text modal-ja_menu__sd-50 theme-87bf3e6d">セキュリティ</p>
-              <p className="text modal-ja_menu__sd-51 theme-b6b0338f">サイトの安全を守る取組み</p>
+              <p className="text modal-ja_menu__sd-50 theme-87bf3e6d">ความปลอดภัย</p>
+              <p className="text modal-ja_menu__sd-51 theme-b6b0338f">เราปกป้องเว็บไซต์ของคุณอย่างไร</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-52" href="/ja/workspace">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-53" width={72} height={72} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-72x72_webp_fdacd97f-6a14-4875-9c83-3cb3300488d5.webp" loading="lazy" />
             <div className="box modal-ja_menu__sd-54">
-              <p className="text modal-ja_menu__sd-55 theme-87bf3e6d">ワークスペース</p>
-              <p className="text modal-ja_menu__sd-56 theme-b6b0338f">複数プロジェクトを一括管理</p>
+              <p className="text modal-ja_menu__sd-55 theme-87bf3e6d">พื้นที่ทำงาน</p>
+              <p className="text modal-ja_menu__sd-56 theme-b6b0338f">จัดการหลายโปรเจกต์ได้จากที่เดียว</p>
             </div>
           </a>
         </div>
       </div>
       <div className="box modal-ja_menu__sd-57">
-        <p className="text modal-ja_menu__sd-58 theme-feb2fadc">より自在に</p>
+        <p className="text modal-ja_menu__sd-58 theme-feb2fadc">ต่อยอด</p>
         <div className="box modal-ja_menu__sd-59">
           <a className="box modal-ja_menu__sd-60" href="/ja/figma-to-studio">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-61" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_9d0092c5-a24f-4750-b551-87f8244ce764.svg" />
             <div className="box modal-ja_menu__sd-62">
               <p className="text modal-ja_menu__sd-63 theme-87bf3e6d">Figma to Studio</p>
-              <p className="text modal-ja_menu__sd-64 theme-b6b0338f">デザインを一瞬でWebサイトに</p>
+              <p className="text modal-ja_menu__sd-64 theme-b6b0338f">เปลี่ยนงานออกแบบเป็นเว็บไซต์ได้ในพริบตา</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-65" href="/ja/lottie">
@@ -109,15 +109,15 @@ function ProductPanel() {
             <img className="img modal-ja_menu__sd-66" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_8c82bee6-201f-4890-a4b5-49686d9c25fa.svg" />
             <div className="box modal-ja_menu__sd-67">
               <p className="text modal-ja_menu__sd-68 theme-87bf3e6d">Lottie</p>
-              <p className="text modal-ja_menu__sd-69 theme-b6b0338f">より豊かなアニメーション表現</p>
+              <p className="text modal-ja_menu__sd-69 theme-b6b0338f">การแสดงออกด้วยแอนิเมชันที่หลากหลายขึ้น</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-70" href="/ja/accessibility">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="img modal-ja_menu__sd-71" width={20} height={20} alt="" src="/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/s-20x20_30d24730-fc13-416d-882b-23639177b88d.svg" />
             <div className="box modal-ja_menu__sd-72">
-              <p className="text modal-ja_menu__sd-73 theme-87bf3e6d">アクセシビリティ</p>
-              <p className="text modal-ja_menu__sd-74 theme-b6b0338f">Webサイトをすべての人に</p>
+              <p className="text modal-ja_menu__sd-73 theme-87bf3e6d">การเข้าถึง</p>
+              <p className="text modal-ja_menu__sd-74 theme-b6b0338f">เว็บไซต์สำหรับทุกคน</p>
             </div>
           </a>
         </div>
@@ -132,63 +132,63 @@ function SolutionsPanel() {
       <div className="box modal-ja_menu__sd-83">
         <div className="box modal-ja_menu__sd-84">
           <div className="box modal-ja_menu__sd-85">
-            <p className="text modal-ja_menu__sd-86">サイト種別から探す</p>
+            <p className="text modal-ja_menu__sd-86">ตามประเภทเว็บไซต์</p>
             <a className="box modal-ja_menu__sd-87" href="/ja/solutions/site-types/corporate">
-              <p className="text modal-ja_menu__sd-88 theme-87bf3e6d">コーポレートサイト</p>
+              <p className="text modal-ja_menu__sd-88 theme-87bf3e6d">เว็บไซต์องค์กร</p>
             </a>
             <a className="box modal-ja_menu__sd-89" href="/ja/solutions/site-types/recruit">
-              <p className="text modal-ja_menu__sd-90 theme-87bf3e6d">採用サイト</p>
+              <p className="text modal-ja_menu__sd-90 theme-87bf3e6d">เว็บไซต์รับสมัครงาน</p>
             </a>
             <a className="box modal-ja_menu__sd-91" href="/ja/solutions/site-types/service">
-              <p className="text modal-ja_menu__sd-92 theme-87bf3e6d">サービスサイト</p>
+              <p className="text modal-ja_menu__sd-92 theme-87bf3e6d">เว็บไซต์บริการ</p>
             </a>
           </div>
           <div className="box modal-ja_menu__sd-93">
-            <p className="text modal-ja_menu__sd-94">業種から探す</p>
+            <p className="text modal-ja_menu__sd-94">ตามอุตสาหกรรม</p>
             <a className="box modal-ja_menu__sd-95" href="/ja/solutions/industries/leisure">
               <p className="text modal-ja_menu__sd-96 theme-87bf3e6d">
-                宿泊・レジャー
+                โรงแรมและการท่องเที่ยว
                 <br />
               </p>
             </a>
             <a className="box modal-ja_menu__sd-97" href="/ja/solutions/industries/entertainment">
-              <p className="text modal-ja_menu__sd-98 theme-87bf3e6d">エンタメ</p>
+              <p className="text modal-ja_menu__sd-98 theme-87bf3e6d">บันเทิง</p>
             </a>
             <a className="box modal-ja_menu__sd-99" href="/ja/solutions/industries/local-government">
-              <p className="text modal-ja_menu__sd-100 theme-87bf3e6d">自治体</p>
+              <p className="text modal-ja_menu__sd-100 theme-87bf3e6d">หน่วยงานราชการ</p>
             </a>
             <a className="box modal-ja_menu__sd-101" href="/ja/lp/solution/restaurant-homepage">
-              <p className="text modal-ja_menu__sd-102 theme-87bf3e6d">飲食店</p>
+              <p className="text modal-ja_menu__sd-102 theme-87bf3e6d">ร้านอาหาร</p>
             </a>
             <a className="box modal-ja_menu__sd-103" href="/ja/lp/solution/ec-homepage">
-              <p className="text modal-ja_menu__sd-104 theme-87bf3e6d">小売・EC</p>
+              <p className="text modal-ja_menu__sd-104 theme-87bf3e6d">ค้าปลีกและอีคอมเมิร์ซ</p>
             </a>
           </div>
           <div className="box modal-ja_menu__sd-105">
-            <p className="text modal-ja_menu__sd-106">課題から探す</p>
+            <p className="text modal-ja_menu__sd-106">ตามโจทย์ที่เจอ</p>
             <a className="box modal-ja_menu__sd-107" href="/ja/solutions/usecases/landingpage">
-              <p className="text modal-ja_menu__sd-108 theme-87bf3e6d">マーケターでのLP運用</p>
+              <p className="text modal-ja_menu__sd-108 theme-87bf3e6d">แลนดิงเพจสำหรับนักการตลาด</p>
             </a>
             <a className="box modal-ja_menu__sd-109" href="/ja/solutions/usecases/wordpress-migration">
-              <p className="text modal-ja_menu__sd-110 theme-87bf3e6d">WordPressからの移行</p>
+              <p className="text modal-ja_menu__sd-110 theme-87bf3e6d">ย้ายจาก WordPress</p>
             </a>
             <a className="box modal-ja_menu__sd-111" href="/ja/solutions/usecases/site-improvement">
-              <p className="text modal-ja_menu__sd-112 theme-87bf3e6d">サイト導線の変更</p>
+              <p className="text modal-ja_menu__sd-112 theme-87bf3e6d">ปรับโครงสร้างเมนูเว็บไซต์ใหม่</p>
             </a>
           </div>
           <div className="box modal-ja_menu__sd-113">
-            <p className="text modal-ja_menu__sd-114">企業タイプから探す</p>
+            <p className="text modal-ja_menu__sd-114">ตามประเภทองค์กร</p>
             <a className="box modal-ja_menu__sd-115" href="/ja/lp/enterprise">
-              <p className="text modal-ja_menu__sd-116 theme-87bf3e6d">大企業・エンタープライズ</p>
+              <p className="text modal-ja_menu__sd-116 theme-87bf3e6d">บริษัทขนาดใหญ่และองค์กร</p>
             </a>
             <a className="box modal-ja_menu__sd-117" href="/ja/creators">
-              <p className="text modal-ja_menu__sd-118 theme-87bf3e6d">制作会社・クリエイター</p>
+              <p className="text modal-ja_menu__sd-118 theme-87bf3e6d">เอเจนซีและครีเอเตอร์</p>
             </a>
             <a className="box modal-ja_menu__sd-119" href="/ja/lp/solution/marketing-agency">
-              <p className="text modal-ja_menu__sd-120 theme-87bf3e6d">広告代理店・コンサル</p>
+              <p className="text modal-ja_menu__sd-120 theme-87bf3e6d">เอเจนซีโฆษณาและที่ปรึกษา</p>
             </a>
             <a className="box modal-ja_menu__sd-121" href="/ja/lp/startup">
-              <p className="text modal-ja_menu__sd-122 theme-87bf3e6d">スタートアップ</p>
+              <p className="text modal-ja_menu__sd-122 theme-87bf3e6d">สตาร์ตอัป</p>
             </a>
           </div>
         </div>
@@ -203,15 +203,15 @@ function CustomersPanel() {
       <div className="box modal-ja_menu__sd-131">
         <a className="box modal-ja_menu__sd-132" href="/ja/customer-story">
           <div className="box modal-ja_menu__sd-133">
-            <p className="text modal-ja_menu__sd-134 theme-87bf3e6d">事例インタビュー</p>
-            <p className="text modal-ja_menu__sd-135 theme-b6b0338f">お客様からの声をご紹介</p>
+            <p className="text modal-ja_menu__sd-134 theme-87bf3e6d">เรื่องราวจากลูกค้า</p>
+            <p className="text modal-ja_menu__sd-135 theme-b6b0338f">ฟังจากปากลูกค้าของเราเอง</p>
           </div>
         </a>
         <a className="box modal-ja_menu__sd-136" href="/ja/customer">
           <div className="box modal-ja_menu__sd-137">
             <div className="box modal-ja_menu__sd-138">
-              <p className="text modal-ja_menu__sd-139 theme-87bf3e6d">導入企業</p>
-              <p className="text modal-ja_menu__sd-140 theme-e3b73cd0">様々な規模・業種の企業が採用</p>
+              <p className="text modal-ja_menu__sd-139 theme-87bf3e6d">ลูกค้า</p>
+              <p className="text modal-ja_menu__sd-140 theme-e3b73cd0">เลือกใช้โดยองค์กรทุกขนาดและทุกวงการ</p>
             </div>
           </div>
         </a>
@@ -224,7 +224,7 @@ function ResourcesPanel() {
   return (
     <div className="box modal-ja_menu__sd-148">
       <div className="box modal-ja_menu__sd-149">
-        <p className="text modal-ja_menu__sd-150 theme-feb2fadc">つくる・依頼する</p>
+        <p className="text modal-ja_menu__sd-150 theme-feb2fadc">สร้างเองหรือจ้างทำ</p>
         <div className="box modal-ja_menu__sd-151">
           <a className="box modal-ja_menu__sd-152" href="https://studio.design/ja/store" target="_blank">
             <div className="box modal-ja_menu__sd-153">
@@ -232,10 +232,10 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-155 theme-87bf3e6d">Studio Store</p>
                 <div className="box modal-ja_menu__sd-156">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-157" />
-                  <span className="icon modal-ja_menu__sd-158 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-158 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-159 theme-e3b73cd0">テンプレートから始める</p>
+              <p className="text modal-ja_menu__sd-159 theme-e3b73cd0">เริ่มต้นจากเทมเพลต</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-160" href="https://studio.design/ja/experts/" target="_blank">
@@ -244,10 +244,10 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-163 theme-87bf3e6d">Studio Experts</p>
                 <div className="box modal-ja_menu__sd-164">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-165" />
-                  <span className="icon modal-ja_menu__sd-166 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-166 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-167 theme-e3b73cd0">制作をプロに相談する</p>
+              <p className="text modal-ja_menu__sd-167 theme-e3b73cd0">ปรึกษามืออาชีพเกี่ยวกับงานของคุณ</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-168" href="https://showcase.studio.design/ja" target="_blank">
@@ -256,16 +256,16 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-171 theme-87bf3e6d">Studio Showcase</p>
                 <div className="box modal-ja_menu__sd-172">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-173" />
-                  <span className="icon modal-ja_menu__sd-174 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-174 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-175 theme-e3b73cd0">制作事例からヒントを探す</p>
+              <p className="text modal-ja_menu__sd-175 theme-e3b73cd0">หาแรงบันดาลใจจากผลงานจริง</p>
             </div>
           </a>
         </div>
       </div>
       <div className="box modal-ja_menu__sd-176">
-        <p className="text modal-ja_menu__sd-177 theme-feb2fadc">学ぶ</p>
+        <p className="text modal-ja_menu__sd-177 theme-feb2fadc">เรียนรู้</p>
         <div className="box modal-ja_menu__sd-178">
           <a className="box modal-ja_menu__sd-179" href="https://www.youtube.com/channel/UCh4_wCvICgiHg0utNFziOoQ" target="_blank">
             <div className="box modal-ja_menu__sd-180">
@@ -273,22 +273,22 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-182 theme-87bf3e6d">Studio Academy</p>
                 <div className="box modal-ja_menu__sd-183">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-184" />
-                  <span className="icon modal-ja_menu__sd-185 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-185 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-186 theme-e3b73cd0">公式動画で使い方を学ぶ</p>
+              <p className="text modal-ja_menu__sd-186 theme-e3b73cd0">เรียนพื้นฐานจากวิดีโออย่างเป็นทางการ</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-187" href="/ja/resources" target="_blank">
             <div className="box modal-ja_menu__sd-188">
-              <p className="text modal-ja_menu__sd-189 theme-87bf3e6d">お役立ち資料</p>
-              <p className="text modal-ja_menu__sd-190 theme-e3b73cd0">導入・運用に役立つ資料</p>
+              <p className="text modal-ja_menu__sd-189 theme-87bf3e6d">คู่มือและแหล่งข้อมูล</p>
+              <p className="text modal-ja_menu__sd-190 theme-e3b73cd0">เอกสารที่ช่วยให้เริ่มใช้และดูแล Studio ได้ง่ายขึ้น</p>
             </div>
           </a>
         </div>
       </div>
       <div className="box modal-ja_menu__sd-191">
-        <p className="text modal-ja_menu__sd-192 theme-feb2fadc">つながる</p>
+        <p className="text modal-ja_menu__sd-192 theme-feb2fadc">เชื่อมต่อ</p>
         <div className="box modal-ja_menu__sd-193">
           <a className="box modal-ja_menu__sd-194" href="https://community-ja.studio.design/feed" target="_blank">
             <div className="box modal-ja_menu__sd-195">
@@ -296,39 +296,39 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-197 theme-87bf3e6d">Studio Community</p>
                 <div className="box modal-ja_menu__sd-198">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-199" />
-                  <span className="icon modal-ja_menu__sd-200 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-200 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-201 theme-e3b73cd0">ユーザー同士で知見を共有する</p>
+              <p className="text modal-ja_menu__sd-201 theme-e3b73cd0">แบ่งปันสิ่งที่คุณรู้กับผู้ใช้คนอื่น</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-202" href="/ja/lp/ambassador">
             <div className="box modal-ja_menu__sd-203">
-              <p className="text modal-ja_menu__sd-204 theme-87bf3e6d">全国ワークショップ</p>
-              <p className="text modal-ja_menu__sd-205 theme-e3b73cd0">基本操作を実践的に学ぶ</p>
+              <p className="text modal-ja_menu__sd-204 theme-87bf3e6d">เวิร์กช็อปทั่วประเทศ</p>
+              <p className="text modal-ja_menu__sd-205 theme-e3b73cd0">เรียนพื้นฐานแบบลงมือทำจริง</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-206" href="https://luma.com/studiodesign?k=c" target="_blank">
             <div className="box modal-ja_menu__sd-207">
               <div className="box modal-ja_menu__sd-208">
-                <p className="text modal-ja_menu__sd-209 theme-87bf3e6d">セミナー</p>
+                <p className="text modal-ja_menu__sd-209 theme-87bf3e6d">สัมมนา</p>
                 <div className="box modal-ja_menu__sd-210">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-211" />
-                  <span className="icon modal-ja_menu__sd-212 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-212 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-213 theme-e3b73cd0">開催中のイベントを探す</p>
+              <p className="text modal-ja_menu__sd-213 theme-e3b73cd0">ดูงานที่กำลังจัดอยู่ตอนนี้</p>
             </div>
           </a>
         </div>
       </div>
       <div className="box modal-ja_menu__sd-214">
-        <p className="text modal-ja_menu__sd-215 theme-feb2fadc">読む</p>
+        <p className="text modal-ja_menu__sd-215 theme-feb2fadc">อ่าน</p>
         <div className="box modal-ja_menu__sd-216">
           <a className="box modal-ja_menu__sd-217" href="/ja/whats-new">
             <div className="box modal-ja_menu__sd-218">
-              <p className="text modal-ja_menu__sd-219 theme-87bf3e6d">最新情報</p>
-              <p className="text modal-ja_menu__sd-220 theme-e3b73cd0">Studioのアップデートやお知らせ</p>
+              <p className="text modal-ja_menu__sd-219 theme-87bf3e6d">มีอะไรใหม่</p>
+              <p className="text modal-ja_menu__sd-220 theme-e3b73cd0">อัปเดตและประกาศจาก Studio</p>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-221" href="https://studio.design/ja/blog" target="_blank">
@@ -337,10 +337,10 @@ function ResourcesPanel() {
                 <p className="text modal-ja_menu__sd-224 theme-87bf3e6d">Studio Blog</p>
                 <div className="box modal-ja_menu__sd-225">
                   <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-226" />
-                  <span className="icon modal-ja_menu__sd-227 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                  <span className="icon modal-ja_menu__sd-227 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
                 </div>
               </div>
-              <p className="text modal-ja_menu__sd-228 theme-e3b73cd0">制作・運用に役立つ記事を読む</p>
+              <p className="text modal-ja_menu__sd-228 theme-e3b73cd0">บทความที่ช่วยให้สร้างและดูแลเว็บได้ดีขึ้น</p>
             </div>
           </a>
         </div>
@@ -356,41 +356,41 @@ function SupportPanel() {
         <a className="box modal-ja_menu__sd-238" href="/ja/support">
           <div className="box modal-ja_menu__sd-239">
             <div className="box modal-ja_menu__sd-240">
-              <p className="text modal-ja_menu__sd-241 theme-87bf3e6d">総合窓口</p>
-              <p className="text modal-ja_menu__sd-242 theme-e3b73cd0">目的に沿ったサポートコンテンツを探す</p>
+              <p className="text modal-ja_menu__sd-241 theme-87bf3e6d">สอบถามทั่วไป</p>
+              <p className="text modal-ja_menu__sd-242 theme-e3b73cd0">เลือกเนื้อหาช่วยเหลือที่ตรงกับความต้องการของคุณ</p>
             </div>
           </div>
         </a>
         <a className="box modal-ja_menu__sd-243" href="/ja/faq">
           <div className="box modal-ja_menu__sd-244">
             <div className="box modal-ja_menu__sd-245">
-              <p className="text modal-ja_menu__sd-246 theme-87bf3e6d">よくある質問</p>
-              <p className="text modal-ja_menu__sd-247 theme-e3b73cd0">導入にあたってよくある質問を探す</p>
+              <p className="text modal-ja_menu__sd-246 theme-87bf3e6d">FAQ</p>
+              <p className="text modal-ja_menu__sd-247 theme-e3b73cd0">คำถามยอดฮิตสำหรับผู้เริ่มต้น</p>
             </div>
           </div>
         </a>
         <a className="box modal-ja_menu__sd-248" href="https://help.studio.design/ja/" target="_blank">
           <div className="box modal-ja_menu__sd-249">
             <div className="box modal-ja_menu__sd-250">
-              <p className="text modal-ja_menu__sd-251 theme-87bf3e6d">ヘルプセンター</p>
+              <p className="text modal-ja_menu__sd-251 theme-87bf3e6d">ศูนย์ช่วยเหลือ</p>
               <div className="box modal-ja_menu__sd-252">
                 <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-253" />
-                <span className="icon modal-ja_menu__sd-254 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                <span className="icon modal-ja_menu__sd-254 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
               </div>
             </div>
-            <p className="text modal-ja_menu__sd-255 theme-b6b0338f">操作や機能に関するマニュアルを探す</p>
+            <p className="text modal-ja_menu__sd-255 theme-b6b0338f">คู่มือครบทุกฟีเจอร์และทุกขั้นตอน</p>
           </div>
         </a>
         <a className="box modal-ja_menu__sd-256" href="https://status.studio.design/" target="_blank">
           <div className="box modal-ja_menu__sd-257">
             <div className="box modal-ja_menu__sd-258">
-              <p className="text modal-ja_menu__sd-259 theme-87bf3e6d">システムステータス</p>
+              <p className="text modal-ja_menu__sd-259 theme-87bf3e6d">สถานะระบบ</p>
               <div className="box modal-ja_menu__sd-260">
                 <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-261" />
-                <span className="icon modal-ja_menu__sd-262 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                <span className="icon modal-ja_menu__sd-262 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
               </div>
             </div>
-            <p className="text modal-ja_menu__sd-263 theme-b6b0338f">不具合・障害情報を確認する</p>
+            <p className="text modal-ja_menu__sd-263 theme-b6b0338f">ตรวจสอบเหตุขัดข้องและการหยุดให้บริการ</p>
           </div>
         </a>
       </div>
@@ -401,11 +401,11 @@ function SupportPanel() {
 /** Panel trigger/content ids run `id` (sd-toggle), +1 trigger, +2 label, +3 ＋/− stack,
  * +4 bar, +5 bar, +6 content — identically for all five panels. */
 const PANELS: readonly { id: PanelId; label: string; Content: () => ReactElement }[] = [
-  { id: 8, label: "プロダクト", Content: ProductPanel },
-  { id: 75, label: "活用方法", Content: SolutionsPanel },
-  { id: 123, label: "導入事例", Content: CustomersPanel },
-  { id: 141, label: "リソース", Content: ResourcesPanel },
-  { id: 229, label: "サポート", Content: SupportPanel },
+  { id: 8, label: "ผลิตภัณฑ์", Content: ProductPanel },
+  { id: 75, label: "โซลูชัน", Content: SolutionsPanel },
+  { id: 123, label: "ลูกค้า", Content: CustomersPanel },
+  { id: 141, label: "แหล่งข้อมูล", Content: ResourcesPanel },
+  { id: 229, label: "ช่วยเหลือ", Content: SupportPanel },
 ];
 
 /**
@@ -620,7 +620,7 @@ export function MobileMenuDialog({ open, onClose }: MobileMenuDialogProps) {
             </a>
             <button
               className="box modal-ja_menu__sd-5 appear"
-              aria-label="Menuを閉じる"
+              aria-label="ปิดเมนู"
               data-action="modal-close"
               type="button"
               onClick={onClose}
@@ -651,40 +651,40 @@ export function MobileMenuDialog({ open, onClose }: MobileMenuDialogProps) {
           ))}
           <a className="box modal-ja_menu__sd-264 appear" href="/ja/pricing">
             <div className="box modal-ja_menu__sd-265">
-              <span className="text modal-ja_menu__sd-266 appear theme-87bf3e6d">料金プラン</span>
+              <span className="text modal-ja_menu__sd-266 appear theme-87bf3e6d">ราคา</span>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-267 appear" href="https://studio.inc/" target="_blank">
             <div className="box modal-ja_menu__sd-268">
-              <span className="text modal-ja_menu__sd-269 appear">運営会社</span>
+              <span className="text modal-ja_menu__sd-269 appear">เกี่ยวกับบริษัท</span>
               <div className="box modal-ja_menu__sd-270">
                 <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-271" />
-                <span className="icon modal-ja_menu__sd-272 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                <span className="icon modal-ja_menu__sd-272 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
               </div>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-273 appear" href="https://studio.inc/career" target="_blank">
             <div className="box modal-ja_menu__sd-274">
-              <span className="text modal-ja_menu__sd-275 appear">採用情報</span>
+              <span className="text modal-ja_menu__sd-275 appear">ร่วมงานกับเรา</span>
               <div className="box modal-ja_menu__sd-276">
                 <MaterialSymbol name="arrow_forward" className="modal-ja_menu__sd-277" />
-                <span className="icon modal-ja_menu__sd-278 material-symbols-outlined" aria-label="新規タブで開く" role="img">arrow_forward</span>
+                <span className="icon modal-ja_menu__sd-278 material-symbols-outlined" aria-label="เปิดในแท็บใหม่" role="img">arrow_forward</span>
               </div>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-279 appear" href="/ja/terms">
             <div className="box modal-ja_menu__sd-280">
-              <span className="text modal-ja_menu__sd-281 appear">利用規約・プライバシーポリシー</span>
+              <span className="text modal-ja_menu__sd-281 appear">ข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว</span>
             </div>
           </a>
           <a className="box modal-ja_menu__sd-282 appear" href="/ja/guidelines">
             <div className="box modal-ja_menu__sd-283">
-              <span className="text modal-ja_menu__sd-284 appear">ユーザーガイドライン</span>
+              <span className="text modal-ja_menu__sd-284 appear">แนวปฏิบัติสำหรับผู้ใช้</span>
             </div>
           </a>
           <div className="box modal-ja_menu__sd-285 appear">
             <div className="box modal-ja_menu__sd-286">
-              <a className="text modal-ja_menu__sd-287 appear" href="https://x.com/StudioDesign" target="_blank">X（Twitter）</a>
+              <a className="text modal-ja_menu__sd-287 appear" href="https://x.com/StudioDesign" target="_blank">X (Twitter)</a>
               <a className="text modal-ja_menu__sd-288 appear" href="https://www.youtube.com/channel/UCh4_wCvICgiHg0utNFziOoQ" target="_blank">YouTube</a>
             </div>
             <div className="box modal-ja_menu__sd-289 appear">

@@ -28,7 +28,7 @@
 .sd-root .sd-284 > * { --gap-h:0px; --gap-v:16px; }
 .sd-root .sd-285 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
 .sd-root .sd-286 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
-.sd-root .sd-287 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); }
+.sd-root .sd-287 { border-radius:4px 0px 0px; height:auto; margin:0px -40px 0px 0px; width:1288px; max-width:calc(100% + 40px); order:-1; }
 .sd-root .sd-287 { aspect-ratio:auto 1632 / 1356; }
 .sd-root .sd-288 { align-content:flex-start; align-items:flex-start; background:#0d68dbff; border-radius:4px; flex:none; flex-direction:column; flex-wrap:nowrap; gap:40px; justify-content:flex-start; overflow-x:hidden; overflow-y:hidden; padding:40px 40px 0px; width:calc(40% - (var(--gap-h) * 0.6)); max-width:calc(40% - (var(--gap-h) * 0.6)); }
 .sd-root .sd-288.appear { opacity:0; transition-delay:400ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0.2,1,1,1); translate:0px 16px; }
@@ -48,7 +48,7 @@
 .sd-root .sd-294 > * { --gap-h:0px; --gap-v:16px; }
 .sd-root .sd-295 { color:var(--s-color-99a91143); height:auto; text-align:left; width:100%; justify-content:flex-start; max-width:100%; }
 .sd-root .sd-296 { color:var(--s-color-f0be55c6); height:auto; text-align:left; width:auto; justify-content:flex-start; max-width:100%; }
-.sd-root .sd-297 { align-content:flex-start; align-items:flex-start; background:rgba(0,0,0,0.0); flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-start; margin:0px -40px -168px 0px; width:calc(100% + 40px); max-width:calc(100% + 40px); }
+.sd-root .sd-297 { align-content:flex-start; align-items:flex-start; background:rgba(0,0,0,0.0); flex-direction:row; flex-wrap:nowrap; gap:0px; height:auto; justify-content:flex-start; margin:0px -40px -168px 0px; top:-70px; width:calc(100% + 40px); max-width:calc(100% + 40px); }
 .sd-root .sd-297 > * { --gap-h:0px; --gap-v:0px; }
 .sd-root .sd-298 { height:auto; margin:72px -324px 0px 0px; scale:1 1; transition-delay:0ms; transition-duration:800ms; transition-timing-function:cubic-bezier(0, 1   , 0.56, 1   ); width:calc(20% + 324px - (var(--gap-h) * 0.8)); z-index:4; max-width:calc(20% + 324px - (var(--gap-h) * 0.8)); }
 .sd-root .sd-298.appear { opacity:0; scale:1 1; transition-delay:700ms; transition-duration:1000ms; translate:0px 32px; }
@@ -70,6 +70,7 @@
 .sd-root .sd-273 > * { --gap-h:0px; --gap-v:8px; }
 .sd-root .sd-277 { gap:16px; }
 .sd-root .sd-277 > * { --gap-h:16px; --gap-v:16px; }
+.sd-root .sd-287 { order:0; }
 }
 @media (max-width: 768px) {
 .sd-root .sd-273 { width:100%; max-width:100%; }
@@ -97,6 +98,10 @@
 .sd-root .sd-293.appear > * { --gap-h:0px; --gap-v:32px; }
 .sd-root .sd-294 { gap:12px; }
 .sd-root .sd-294 > * { --gap-h:0px; --gap-v:12px; }
+/* Mobile: the -70px lift + the deep negative bottom margin collapsed the card so far that
+   the screenshot stack overlapped the heading/body copy. Drop the lift and keep more of the
+   stack in flow so `li.sd-293` stays tall enough for the text. */
+.sd-root .sd-297 { margin:0px -24px -96px 0px; top:0px; }
 .sd-root .sd-298 { flex:none; margin:72px -256px 0px 0px; width:calc(20% + 256px - (var(--gap-h) * 0.8)); max-width:calc(20% + 256px - (var(--gap-h) * 0.8)); }
 .sd-root .sd-298:hover { scale:1 1; translate:0px 0px; --ha:1; }
 .sd-root .sd-298.appear { scale:1 1; translate:0px 32px; }
@@ -128,7 +133,7 @@
 .sd-root .sd-293 { flex:none; gap:24px; width:100%; max-width:100%; }
 .sd-root .sd-293 > * { --gap-h:0px; --gap-v:24px; }
 .sd-root .sd-293.appear > * { --gap-h:0px; --gap-v:24px; }
-.sd-root .sd-297 { margin:0px -24px -160px 0px; width:calc(100% + 24px); max-width:calc(100% + 24px); }
+.sd-root .sd-297 { margin:0px -24px -80px 0px; top:0px; width:calc(100% + 24px); max-width:calc(100% + 24px); }
 .sd-root .sd-297 > * { --gap-h:0px; --gap-v:0px; }
 .sd-root .sd-298 { flex:none; margin:32px -176px 0px 0px; width:256px; max-width:calc(100% + 176px); }
 .sd-root .sd-299 { flex:none; margin:24px -176px 0px 0px; width:256px; max-width:calc(100% + 176px); }
