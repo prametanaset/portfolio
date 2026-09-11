@@ -21,14 +21,17 @@ const MASKS = {
 // Sections whose residual is subpixel text antialiasing: the clone's page is ~5px shorter than the
 // origin's by the time you reach them, so a section lands on a different fractional offset and every
 // CJK glyph edge shifts by a fraction of a pixel. Nothing structural differs — see QA_REPORT.md.
-const MAX_PERCENT = { collaboration: { 1440: 2 }, data: { 1440: 2 }, 'next-creation': { 390: 2 } };
+const MAX_PERCENT = { 'next-creation': { 390: 2 } };
 
 const SECTIONS = ['hero', 'next-creation', 'free-layout', 'editor-ai', 'visual-design',
   'creative-assets', 'featured-creators', 'collaboration', 'data', 'start-cta', 'stock-band', 'footer'];
+// The dialog only exists at ≤1280 and is captured open, so it has one row of its own.
+const EXTRA = [['mobile-menu', 390]];
 
 const rows = [];
-for (const name of SECTIONS) {
-  for (const vp of [1440, 390]) {
+const PAIRS = SECTIONS.flatMap((name) => [[name, 1440], [name, 390]]).concat(EXTRA);
+for (const [name, vp] of PAIRS) {
+  {
     const args = [DIFF, `${QA}/${name}-${vp}-orig.png`, `${QA}/${name}-${vp}-clone.png`, `${QA}/${name}-${vp}-diff.png`];
     for (const m of MASKS[name]?.[vp] ?? []) args.push('--mask', m);
     const max = MAX_PERCENT[name]?.[vp];

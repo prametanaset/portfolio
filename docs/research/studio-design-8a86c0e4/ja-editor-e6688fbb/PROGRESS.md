@@ -20,27 +20,27 @@
 - [x] pre-flight 0: docs/ restored (git checkout), namespace dirs created, baseline `pnpm run build` PASS
 - [x] phase 1 recon — RECON.json, css/main.css (+media-wrapped), css/parsed.json, BEHAVIORS.md, PAGE_TOPOLOGY.md, network.txt, page.html, full-page shots @1440/768/390
 - [x] phase 2 foundation — fonts via origin Google link, app/studio-base.css (generated, scoped), globals block, 74 assets downloaded, shared components (icons/appear/toggle/carousel/video), placeholder route
-- [~] phase 3 loop — 1 spec PASS + builder dispatched, extractor 2 running
-- [ ] phase 4 assembly
-- [ ] phase 5 QA
+- [x] phase 3 loop — 14 specs, 14 builders, 13 reviews
+- [x] phase 4 assembly — SiteChrome wires the hamburger to the dialog; all 13 units render at `/`
+- [x] phase 5 QA — 25/25 rows pass, see QA_REPORT.md
 
 ## Sections (status: pending | extracted | validated | dispatched | merged | reviewed | qa-pass)
 | # | selector | component | status | notes |
 |---|---|---|---|---|
-| 1 | header#header.symbol-1 | SiteHeader | reviewed | merged 3901c02, review fixes 2c18215 (per-panel close timers); mounted on route |
-| 2 | main > .sd-3 | HeroDesignEditor | reviewed | merged 4eef40e, fixes 8604be2; mounted; smoke diff vs origin 0.017% @1440 first viewport |
-| 3 | .sd-13 | NextCreationSection | reviewed | merged 891230d, mounted 25f7f60. Review: 2 minor, both accepted — prev step runs as prevArmed/prevRunning (geometrically identical, avoids an empty head slot; leaves the origin's `[data-animatingPrev]` rule unused), and the three controls carry `type="button"` the origin omits (no form on the page, zero visual effect) |
-| 4 | .sd-45 | FreeLayoutSection | reviewed | merged + mounted ced736b; review: 1 minor (redundant "use client") fixed here and in HeroDesignEditor |
-| 5 | .sd-79 | EditorAiSection | reviewed | merged+mounted 9fa3f66; review fix 41916bc (U+2028 in .sd-94, spec was wrong); srcSet resolves to the origin's variant at all three widths |
-| 6 | .sd-133 | VisualDesignSection | reviewed | merged+mounted fe94596, fix ec4d5cf; 4 files (section + MOTION card + video player + slice), 173 rules, 19 reveals, 34 hover rules all pure CSS |
-| 7 | .sd-216 | CreativeAssetsSection | reviewed | merged+mounted 6373d48; review MATCH — 0 mismatches |
-| 8 | .sd-236 | FeaturedCreatorsSection | reviewed | merged+mounted 3e96a70; review MATCH — 0 mismatches. Needed a `list-1*` slice token (those rules are in no other file) |
-| 9 | .sd-271 | CollaborationSection | reviewed | merged+mounted 7d64199; review: 1 informational only — the .sd-282 srcSet picks _middle on HiDPI where the origin still serves _small (identical at the dpr-1 QA tiles) |
-| 10 | .sd-303 | DataSection | reviewed | merged+mounted ec15cee; review MATCH — 0 mismatches. Toggles refuted: the page's 15 all live in header + mobile menu + footer |
-| 11 | .symbol-2 | StartCtaSection | reviewed | merged+mounted 696ce75; review MATCH — 0 mismatches |
-| 12 | .sd-331 | StockBandSection | reviewed | merged+mounted f1ab076; review MATCH — 0 mismatches. Keeps the 17.8 MB `--img-origin` variant on disk: the container queries never select it at 1440/768/390, but the origin declares it and only a >2x display would ask for it |
-| 13 | footer.symbol-3 | SiteFooter | extracting | 37 images, 5 accordions, 10 reveals |
-| 1b | dialog.modal-ja_menu | MobileMenuDialog | pending | 5 toggles, 24 appear |
+| 1 | header#header.symbol-1 | SiteHeader | qa-pass | merged 3901c02, review fixes 2c18215 (per-panel close timers); mounted on route |
+| 2 | main > .sd-3 | HeroDesignEditor | qa-pass | merged 4eef40e, fixes 8604be2; mounted; smoke diff vs origin 0.017% @1440 first viewport |
+| 3 | .sd-13 | NextCreationSection | qa-pass | merged 891230d, mounted 25f7f60. Review: 2 minor, both accepted — prev step runs as prevArmed/prevRunning (geometrically identical, avoids an empty head slot; leaves the origin's `[data-animatingPrev]` rule unused), and the three controls carry `type="button"` the origin omits (no form on the page, zero visual effect) |
+| 4 | .sd-45 | FreeLayoutSection | qa-pass | merged + mounted ced736b; review: 1 minor (redundant "use client") fixed here and in HeroDesignEditor |
+| 5 | .sd-79 | EditorAiSection | qa-pass | merged+mounted 9fa3f66; review fix 41916bc (U+2028 in .sd-94, spec was wrong); srcSet resolves to the origin's variant at all three widths |
+| 6 | .sd-133 | VisualDesignSection | qa-pass | merged+mounted fe94596, fix ec4d5cf; 4 files (section + MOTION card + video player + slice), 173 rules, 19 reveals, 34 hover rules all pure CSS |
+| 7 | .sd-216 | CreativeAssetsSection | qa-pass | merged+mounted 6373d48; review MATCH — 0 mismatches |
+| 8 | .sd-236 | FeaturedCreatorsSection | qa-pass | merged+mounted 3e96a70; review MATCH — 0 mismatches. Needed a `list-1*` slice token (those rules are in no other file) |
+| 9 | .sd-271 | CollaborationSection | qa-pass | merged+mounted 7d64199; review: 1 informational only — the .sd-282 srcSet picks _middle on HiDPI where the origin still serves _small (identical at the dpr-1 QA tiles) |
+| 10 | .sd-303 | DataSection | qa-pass | merged+mounted ec15cee; review MATCH — 0 mismatches. Toggles refuted: the page's 15 all live in header + mobile menu + footer |
+| 11 | .symbol-2 | StartCtaSection | qa-pass | merged+mounted 696ce75; review MATCH — 0 mismatches |
+| 12 | .sd-331 | StockBandSection | qa-pass | merged+mounted f1ab076; review MATCH — 0 mismatches. Keeps the 17.8 MB `--img-origin` variant on disk: the container queries never select it at 1440/768/390, but the origin declares it and only a >2x display would ask for it |
+| 13 | footer.symbol-3 | SiteFooter | qa-pass | merged+mounted 8893f5d; review found 2 real defects (marquee measured from the wrong node, 600px thumbnails) — both fixed in 1feaccd + 8a44761 |
+| 1b | dialog.modal-ja_menu | MobileMenuDialog | qa-pass | merged 45fcc3b, wired through SiteChrome fbe6880; review found the missing @property registrations (fixed 91ece3f); open-state diff 0.000% |
 
 ## Open issues
 - net-all.txt untracked, not ours — leave alone
