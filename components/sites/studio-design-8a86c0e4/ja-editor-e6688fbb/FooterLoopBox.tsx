@@ -127,7 +127,20 @@ export function FooterLoopBox() {
     const sizer = sizerRef.current;
     const list = sizer?.firstElementChild;
     if (!sizer || !list) return;
-    const measure = () => setTrackWidth(list.getBoundingClientRect().width);
+    // The origin's runtime measures the list at its content width and then writes that width back
+    // as an inline px value (`width: 4456px` @1440, 2816 @390). Reading the rect or scrollWidth is
+    // not enough: inside the sizer the list is a flex item that shrinks its cards below their
+    // authored width, so ask for `max-content` first, then pin the result exactly as Studio does.
+    const measure = () => {
+      const el = list as HTMLElement;
+      // `.list-2` ships `max-width: 100%`, which would clamp the measurement to the viewport; the
+      // origin's runtime lifts width/max-width the same way while it measures, then pins the result.
+      el.style.maxWidth = "none";
+      el.style.width = "max-content";
+      const width = el.getBoundingClientRect().width;
+      el.style.width = `${width}px`;
+      setTrackWidth(width);
+    };
     measure();
     // Fires on viewport changes and again once the 12 thumbnails have decoded.
     const observer = new ResizeObserver(measure);
