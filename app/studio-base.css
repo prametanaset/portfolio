@@ -958,6 +958,131 @@ p > code {
 .sd-root sd-carousel :where([slot="prev"], [slot="next"], [slot="play-toggle"]) {
   cursor: pointer;
 }
+@property --g-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 180deg;
+}
+@property --g-color-0 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-0 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0.01%;
+}
+@property --g-color-1 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-1 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-2 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-2 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-3 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-3 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-4 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-4 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-5 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-5 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-6 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-6 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-7 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-7 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-8 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-8 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-9 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-9 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-10 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-10 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --g-color-11 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+@property --g-position-11 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
 .sd-root sd-loop-box {
   overflow: hidden !important;
 }

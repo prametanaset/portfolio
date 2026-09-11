@@ -31,6 +31,10 @@ for (const block of splitBlocks(css)) {
     if (/Material Icons|Font Awesome/.test(t)) kept.push(localFontFace(t));
     continue;
   }
+  // The origin registers --g-angle / --g-color-N / --g-position-N with @property. Without those
+  // registrations the properties are not animatable and every gradient transition on the page
+  // (the footer and mobile-menu curtain wipes, the header's hover fills) silently does nothing.
+  if (t.startsWith('@property')) { kept.push(t); continue; }
   const transformed = transformBlock(t, (sel) => !PER_ELEMENT.test(sel));
   if (transformed) kept.push(transformed);
 }
