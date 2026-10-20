@@ -35,8 +35,13 @@ export const metadata: Metadata = {
     apple:
       "/sites/studio-design-8a86c0e4/ja-editor-e6688fbb/images/3303d963-e1b6-467d-bfab-b0cb3913b39c.png",
   },
-
-
+  // Keep the site out of search results. Crawling stays allowed on purpose: a crawler that is
+  // blocked by robots.txt never sees this noindex, so already-indexed pages would linger.
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: { index: false, follow: false },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
