@@ -23,10 +23,10 @@ export default function Page() {
       <main className="box sd-2 overflow-hidden">
         <HeroDesignEditor />
         <NextCreationSection />
-        <FreeLayoutSection />
+        {/* <FreeLayoutSection /> */}
 
         {/* <EditorAiSection /> */}
-        <CreativeAssetsSection />
+        {/* <CreativeAssetsSection /> */}
 
         {/* <CreativeAssetsSection /> */}
         {/* <FeaturedCreatorsSection /> */}

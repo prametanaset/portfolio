@@ -53,24 +53,6 @@ const SLIDES: Slide[] = [
     },
   },
   {
-    href: "https://hlt.pref.ibaraki.jp/",
-    cover: "/logo-bg/bg-iux24.png",
-    alt: "ภาพปกของ “ย้อนเวลาไปกับเส้นทางเดินป่า Hitachi-no-kuni Long Trail | จังหวัดอิบารากิ”",
-    makerHref: "https://www.re-d.jp/",
-    maker: {
-      kind: "logo",
-      src: `${IMAGES}/s-848x320_v-fs_webp_e7f74aca-074d-4b9b-861a-f4157a59f054_small.webp`,
-      alt: "RE Design Inc.",
-    },
-  },
-  {
-    href: "https://portport.jp/",
-    cover: "/logo-bg/bg-alphola.png",
-    alt: "ภาพปกของ “PortPort Inc.”",
-    makerHref: "https://shhh.jp/",
-    maker: { kind: "text", label: "Shhh Inc." },
-  },
-  {
     href: "https://design.toyota-finance.co.jp/",
     cover: "/logo-bg/bg-nexa.png",
     alt: "ภาพปกของ “TOYOTA FINANCE Design”",
